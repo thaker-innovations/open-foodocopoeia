@@ -62,6 +62,8 @@ class PublishedDatasetTests(unittest.TestCase):
         self.assertIn('/api/v1/products/48', rice)
         self.assertNotIn("fetch(", rice)
         self.assertIn("Thaker Innovations Pvt. Ltd.", home)
+        self.assertLess(home.index("Thaker Innovations Pvt. Ltd."), home.index("<header>"))
+        self.assertIn('class="topline"', rice)
 
     def test_mcp_setup_is_published(self):
         setup = (ROOT / "public" / "mcp" / "setup" / "index.html").read_text(encoding="utf-8")

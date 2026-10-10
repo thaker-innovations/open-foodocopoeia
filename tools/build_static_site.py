@@ -74,6 +74,7 @@ def product_page(product: dict) -> str:
   <link rel="stylesheet" href="/product.css">
 </head>
 <body>
+  <div class="topline"><div><span>An open-data project maintained by <a href="https://thakerinnovations.com/">Thaker Innovations Pvt. Ltd.</a></span><a class="mcp" href="/mcp/setup/">Use with MCP</a></div></div>
   <div class="bar"><header><a class="brand" href="/">Open Food-'O'-Copoeia</a><a class="back" href="/">← Back to search</a></header></div>
   <main><article>
     <section class="hero"><div class="kicker">Product #{product_id}</div><div class="crumbs">{crumbs}</div><h1>{name}</h1></section>
@@ -81,7 +82,7 @@ def product_page(product: dict) -> str:
     <section class="provenance"><div class="prov"><label>Retrieved</label><div>{text(provenance.get("retrieved_at") or "Not recorded")}</div></div><div class="prov"><label>Source fingerprint</label><div>{text(provenance.get("source_sha256") or "Not recorded")}</div></div></section>
     <div class="actions"><a class="button" href="/api/v1/products/{product_id}">View JSON</a><a class="button secondary" href="/downloads/latest/quality-parameters.csv">Download all parameters</a></div>
   </article></main>
-  <footer class="notice"><p>{text(DISCLAIMER)}</p><p>An open-data project maintained by <a href="https://thakerinnovations.com/">Thaker Innovations Pvt. Ltd.</a> · <a href="/mcp/setup/">Use with MCP</a></p></footer>
+  <footer class="notice"><p>{text(DISCLAIMER)}</p></footer>
 </body>
 </html>
 """
@@ -97,8 +98,8 @@ def directory_page(products: list[dict]) -> str:
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Products · Open Food-'O'-Copoeia</title><meta name="description" content="Browse all Food-'O'-Copoeia product entries.">
 <link rel="canonical" href="{BASE_URL}/products/"><link rel="stylesheet" href="/product.css"></head>
-<body><div class="bar"><header><a class="brand" href="/">Open Food-'O'-Copoeia</a><a class="back" href="/">← Search</a></header></div>
-<main class="directory"><h1>Products</h1><ul>{links}</ul></main><footer class="notice"><p>{text(DISCLAIMER)}</p><p>An open-data project maintained by <a href="https://thakerinnovations.com/">Thaker Innovations Pvt. Ltd.</a> · <a href="/mcp/setup/">Use with MCP</a></p></footer></body></html>
+<body><div class="topline"><div><span>An open-data project maintained by <a href="https://thakerinnovations.com/">Thaker Innovations Pvt. Ltd.</a></span><a class="mcp" href="/mcp/setup/">Use with MCP</a></div></div><div class="bar"><header><a class="brand" href="/">Open Food-'O'-Copoeia</a><a class="back" href="/">← Search</a></header></div>
+<main class="directory"><h1>Products</h1><ul>{links}</ul></main><footer class="notice"><p>{text(DISCLAIMER)}</p></footer></body></html>
 """
 
 
