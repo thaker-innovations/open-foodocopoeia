@@ -15,8 +15,11 @@ curl 'https://open-foodocopoeia.thakerinnovations.com/api/v1/products/48'
 curl 'https://open-foodocopoeia.thakerinnovations.com/api/v1/meta'
 ```
 
-Search supports exact, prefix, substring and bounded typo matching. `q=ric`
-finds `Rice`; `q=cocnut` finds `Coconut Oil`.
+Search uses MiniSearch with weighted product and hierarchy fields, unordered
+multi-word matching, prefixes, and bounded typo tolerance. `q=ric` finds `Rice`,
+while `q=others%20oil` matches words anywhere in the product hierarchy. The
+website bundles the same index for instant search on every keystroke; the Worker
+provides the same behavior through the public API.
 
 ## Current snapshot
 

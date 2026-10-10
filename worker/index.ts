@@ -1,10 +1,11 @@
 import searchIndex from "./generated/search-index.json";
 import { SNAPSHOT } from "./generated/snapshot";
-import { search, type SearchProduct } from "./search";
+import { createSearch, type SearchProduct } from "./search";
 
 interface Env { ASSETS: { fetch(request: Request): Promise<Response> } }
 const DISCLAIMER = "Unofficial independent project. Food-'O'-Copoeia is a ready reference; original FSS regulations, Gazette publications, and FSSAI directions prevail.";
 const CORS = { "access-control-allow-origin": "*", "access-control-allow-methods": "GET, OPTIONS", "access-control-allow-headers": "content-type" };
+const searchProducts = createSearch(searchIndex as SearchProduct[]);
 
 function json(value: unknown, status = 200, cache = "public, max-age=300"): Response {
   return new Response(JSON.stringify(value), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": cache, ...CORS } });
@@ -30,7 +31,7 @@ export default {
       if (query.trim().length < 2 || query.length > 100) return json({ error: "invalid_query", message: "q must contain 2 to 100 characters" }, 400);
       const requested = Number.parseInt(url.searchParams.get("limit") ?? "20", 10);
       const limit = Number.isFinite(requested) ? Math.max(1, Math.min(50, requested)) : 20;
-      const results = search(searchIndex as SearchProduct[], query, limit);
+      const results = searchProducts(query, limit);
       return json({ unofficial: true, snapshot: SNAPSHOT, disclaimer: DISCLAIMER, query, count: results.length, results });
     }
     const product = url.pathname.match(/^\/api\/v1\/products\/(\d+)$/);

@@ -9,11 +9,14 @@ Parameters:
 - `q`: required, 2–100 characters
 - `limit`: optional, 1–50; default 20
 
-Ranking order: exact name, name prefix, word prefix, hierarchy substring, then
-bounded edit distance. Ties are deterministic by product name and identity.
+MiniSearch evaluates each query word independently across weighted product name,
+specific subcategory, subcategory, and category fields. All query words must
+match, in any order. Exact and name-prefix results rank above token-prefix,
+substring, and bounded fuzzy matches.
 
 ```http
 GET /api/v1/search?q=ric&limit=10
+GET /api/v1/search?q=others%20oil&limit=10
 ```
 
 ## `GET /api/v1/products/{identity}`

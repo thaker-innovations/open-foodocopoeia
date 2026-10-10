@@ -5,16 +5,24 @@
   "type": "module",
   "scripts": {
     "build:data": "python3 tools/build_public_dataset.py",
-    "check": "npm run check:worker && npm run test:worker && python3 -m unittest discover -s tests -p 'test_*.py'",
+    "build:web": "esbuild web/search.ts --bundle --minify --format=esm --outfile=public/search.js",
+    "check": "npm run build:web && npm run check:worker && npm run check:web && npm run test:worker && python3 -m unittest discover -s tests -p 'test_*.py'",
     "check:worker": "tsc --noEmit",
+    "check:web": "tsc --noEmit --project tsconfig.web.json",
     "test:worker": "tsx --test tests/*.test.ts",
+    "predev": "npm run build:web",
     "dev": "wrangler dev",
+    "predeploy": "npm run build:web",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "@types/node": "^22.18.12",
+    "esbuild": "^0.25.12",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
     "wrangler": "^4.45.0"
+  },
+  "dependencies": {
+    "minisearch": "^7.2.0"
   }
 }

@@ -12,18 +12,13 @@
 <body>
   <header><div class="brand">Open Food-'O'-Copoeia</div><a class="github" href="https://github.com/thaker-innovations/open-foodocopoeia">GitHub</a></header>
   <main>
-    <form class="search" id="search" role="search"><label for="q" hidden>Search products</label><input id="q" name="q" autocomplete="off" autofocus placeholder="Search a food product" minlength="2"><button>Search</button></form>
+    <form class="search" id="search" role="search"><label for="q" hidden>Search products</label><input id="q" name="q" autocomplete="off" autofocus placeholder="Search a food product"><button>Search</button></form>
     <p class="hint">Try rice, basmati, coconut oil, or a partial spelling such as ric.</p>
     <section class="results" id="results" aria-live="polite"></section>
   </main>
   <footer>
-    <p>This site makes the product quality requirements in FSSAI's public Food-'O'-Copoeia easier to search. Entries include their product category, FSSR limit, test method, and a link back to the source.</p>
+    <p>This site makes the product quality requirements in FSSAI's public Food-'O'-Copoeia easier to search. Entries include their product category, FSSR limit, test method, retrieval date, and source fingerprint.</p>
     <p>This is an unofficial independent project and is not affiliated with or endorsed by FSSAI. Food-'O'-Copoeia is a reference, not a legal document; original regulations and Gazette publications prevail. <a href="https://github.com/thaker-innovations/open-foodocopoeia">Source, downloads, and methodology</a>.</p>
   </footer>
-<script>
-const form=document.querySelector('#search'),input=document.querySelector('#q'),results=document.querySelector('#results');
-async function run(q){if(q.length<2)return;results.innerHTML='<div class="result">Searching…</div>';try{const r=await fetch('/api/v1/search?q='+encodeURIComponent(q));const data=await r.json();if(!r.ok){results.textContent=data.message||'Search failed';return}results.innerHTML=data.results.length?data.results.map(x=>`<a class="result" href="/product/?id=${encodeURIComponent(x.id)}&q=${encodeURIComponent(q)}"><span class="result-id">#${x.id}</span><span><strong>${escapeHtml(x.name)}</strong><small>${escapeHtml(x.category||'')}</small></span><span class="match">View →</span></a>`).join(''):'<div class="result">No matching products.</div>'}catch(error){results.innerHTML='<div class="result">Search is temporarily unavailable. Try again.</div>'}}
-function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-form.addEventListener('submit',e=>{e.preventDefault();const q=input.value.trim();history.replaceState(null,'','?q='+encodeURIComponent(q));run(q)});const q=new URLSearchParams(location.search).get('q');if(q){input.value=q;run(q)}
-</script>
+<script type="module" src="/search.js"></script>
 </body></html>

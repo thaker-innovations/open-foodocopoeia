@@ -53,7 +53,7 @@ class PublishedDatasetTests(unittest.TestCase):
     def test_static_interface_links_search_to_product_view(self):
         home = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
         product = (ROOT / "public" / "product" / "index.html").read_text(encoding="utf-8")
-        self.assertIn('/product/?id=${encodeURIComponent(x.id)}', home)
+        self.assertIn('<script type="module" src="/search.js"></script>', home)
         self.assertIn("/api/v1/products/", product)
         self.assertIn("General quality parameters", product)
 
