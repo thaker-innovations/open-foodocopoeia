@@ -61,6 +61,13 @@ test("MCP search and product tools return structured data", async () => {
   assert.ok(product.body.result.structuredContent, JSON.stringify(product.body));
   assert.equal(product.body.result.structuredContent.product.name, "Rice");
   assert.equal(product.body.result.structuredContent.product.quality_parameters.length, 40);
+
+  const milk = await rpc("tools/call", { name: "get_food_product", arguments: { product_id: "266" } });
+  assert.equal(milk.body.result.structuredContent.product.microbiological_requirements.length, 10);
+  assert.equal(milk.body.result.structuredContent.product.microbiological_requirements[0].parameter, "Aerobic Plate Count");
+
+  const metadata = await rpc("tools/call", { name: "get_dataset_metadata", arguments: {} });
+  assert.equal(metadata.body.result.structuredContent.counts.microbiological_requirements, 1809);
 });
 
 test("MCP standalone GET is not offered for the stateless server", async () => {

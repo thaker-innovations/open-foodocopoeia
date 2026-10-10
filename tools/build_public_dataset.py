@@ -31,6 +31,13 @@ def public_product(record: dict) -> dict:
             "serial_number", "parameter", "variant", "fssr_limit", "test_method",
             "parser_strategy", "parsing_confidence", "source_table",
         )})
+    microbiological = []
+    for row in record.get("microbiological_requirements", []):
+        microbiological.append({key: row.get(key) for key in (
+            "serial_number", "parameter_type", "parameter_code", "parameter",
+            "sampling_plan_n", "sampling_plan_c", "limit_m", "limit_M", "unit",
+            "test_method", "test_method_mapping_status", "parser_strategy", "parsing_confidence",
+        )})
     return {
         "id": str(record["identity"]),
         "name": record["product_name"],
@@ -43,6 +50,9 @@ def public_product(record: dict) -> dict:
         },
         "quality_parameter_status": "available" if parameters else "not_specified",
         "quality_parameters": parameters,
+        "microbiological_requirement_status": "available" if microbiological else "not_specified",
+        "microbiological_requirements": microbiological,
+        "microbiological_test_method_text": record.get("microbiological_test_method_text") or None,
         "test_method_reference_url": record.get("test_method_reference_url"),
         "manual_reviewed": any(row.get("parser_strategy") == "manual_override" for row in parameters),
         "provenance": {
@@ -73,6 +83,8 @@ def build(input_path: Path, public: Path, snapshot: str) -> dict:
         "specific_subcategory": p["specific_subcategory"]["name"],
         "quality_parameter_status": p["quality_parameter_status"],
         "quality_parameter_count": len(p["quality_parameters"]),
+        "microbiological_requirement_status": p["microbiological_requirement_status"],
+        "microbiological_requirement_count": len(p["microbiological_requirements"]),
     } for p in products]
     write_json(snapshot_root / "products.json", products)
 
@@ -87,14 +99,33 @@ def build(input_path: Path, public: Path, snapshot: str) -> dict:
             })
     write_json(snapshot_root / "quality-parameters.json", quality_rows)
 
+    microbiological_rows = []
+    for product in products:
+        for row in product["microbiological_requirements"]:
+            microbiological_rows.append({
+                "product_id": product["id"], "product_name": product["name"],
+                "category": product["category"]["name"],
+                "subcategory": product["subcategory"]["name"],
+                "specific_subcategory": product["specific_subcategory"]["name"],
+                **row,
+                "source_url": product["provenance"]["source_url"],
+                "retrieved_at": product["provenance"]["retrieved_at"],
+                "source_sha256": product["provenance"]["source_sha256"],
+            })
+    write_json(snapshot_root / "microbiological-requirements.json", microbiological_rows)
+
     with (snapshot_root / "products.csv").open("w", newline="", encoding="utf-8") as handle:
         columns = list(summaries[0])
-        writer = csv.DictWriter(handle, fieldnames=columns)
+        writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
         writer.writeheader(); writer.writerows(summaries)
     with (snapshot_root / "quality-parameters.csv").open("w", newline="", encoding="utf-8") as handle:
         columns = list(quality_rows[0])
-        writer = csv.DictWriter(handle, fieldnames=columns)
+        writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
         writer.writeheader(); writer.writerows(quality_rows)
+    with (snapshot_root / "microbiological-requirements.csv").open("w", newline="", encoding="utf-8") as handle:
+        columns = list(microbiological_rows[0])
+        writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
+        writer.writeheader(); writer.writerows(microbiological_rows)
 
     search_index = [{
         "id": p["id"], "name": p["name"], "category": p["category"]["name"],
@@ -106,16 +137,21 @@ def build(input_path: Path, public: Path, snapshot: str) -> dict:
         f'export const SNAPSHOT = "{snapshot}";\n', encoding="utf-8")
 
     files = [snapshot_root / name for name in (
-        "products.json", "products.csv", "quality-parameters.json", "quality-parameters.csv")]
+        "products.json", "products.csv", "quality-parameters.json", "quality-parameters.csv",
+        "microbiological-requirements.json", "microbiological-requirements.csv")]
     retrieved = sorted({p["provenance"]["retrieved_at"] for p in products if p["provenance"]["retrieved_at"]})
     manifest = {
-        "schema_version": "1.0.0", "dataset_version": snapshot, "unofficial": True,
+        "schema_version": "1.1.0", "dataset_version": snapshot, "unofficial": True,
         "disclaimer": DISCLAIMER, "source": "https://foodocopoeia.fssai.gov.in/Home.aspx",
         "retrieved_at_range": [retrieved[0], retrieved[-1]] if retrieved else [],
         "counts": {
             "products": len(products),
             "products_with_quality_parameters": sum(p["quality_parameter_status"] == "available" for p in products),
             "quality_parameters": len(quality_rows),
+            "products_with_microbiological_requirements": sum(p["microbiological_requirement_status"] == "available" for p in products),
+            "microbiological_requirements": len(microbiological_rows),
+            "microbiological_methods_mapped": sum(row["test_method_mapping_status"] == "mapped" for row in microbiological_rows),
+            "microbiological_methods_unresolved": sum(row["test_method_mapping_status"] != "mapped" for row in microbiological_rows),
             "manually_reviewed_products": sum(p["manual_reviewed"] for p in products),
         },
         "files": {path.name: {"sha256": sha256(path), "bytes": path.stat().st_size} for path in files},
@@ -134,7 +170,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", type=Path, default=Path("work/products.jsonl"))
     parser.add_argument("--public", type=Path, default=Path("public"))
-    parser.add_argument("--snapshot", default="2026-10-10")
+    parser.add_argument("--snapshot", default="2026-10-10.1")
     args = parser.parse_args()
     print(json.dumps(build(args.input, args.public, args.snapshot), indent=2))
     return 0

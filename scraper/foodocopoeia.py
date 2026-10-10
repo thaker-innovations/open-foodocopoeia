@@ -206,9 +206,9 @@ def parse_listing(raw: bytes, letter: str) -> tuple[dict[str, str], list[dict]]:
     return fields, list(unique.values())
 
 
-# Only product identity and the General Quality Parameters section are
-# normalized. General labelling/packaging instructions and unrelated safety
-# tables are intentionally outside this dataset's scope.
+# Product identity, General Quality Parameters, and the dedicated
+# microbiological requirements grid are normalized. General labelling and
+# packaging instructions remain outside this dataset's scope.
 DETAIL_FIELDS = {
     "LblFPHeader": "title",
     "LblCatRefCode": "category_reference",
@@ -224,7 +224,8 @@ DETAIL_FIELDS = {
 
 def indexed_rows(document: DocumentParser, prefix: str, columns: dict[str, str]) -> list[dict]:
     indexes = set()
-    pattern = re.compile(rf"^{re.escape(prefix)}_[^_]+_(\d+)$")
+    suffixes = "|".join(re.escape(suffix) for suffix in columns)
+    pattern = re.compile(rf"^{re.escape(prefix)}_(?:{suffixes})_(\d+)$")
     for element_id in document.by_id:
         if match := pattern.match(element_id):
             indexes.add(int(match.group(1)))
@@ -372,6 +373,65 @@ def parse_alternate_quality(document: DocumentParser) -> tuple[list[dict], list[
     return normalized, ambiguous, text
 
 
+def parse_microbiological_method_mappings(value: str) -> tuple[dict[str, str], set[str]]:
+    text = clean_text(value)
+    matches = list(re.finditer(
+        r"(?<![A-Za-z0-9])(M(?:\([A-Za-z0-9]+\))?\d+)\s*(?P<separator>[-–—:]|\()\s*",
+        text, re.IGNORECASE,
+    ))
+    mappings: dict[str, str] = {}
+    duplicates: set[str] = set()
+    for index, match in enumerate(matches):
+        code = match.group(1).upper()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        method = clean_text(text[match.end():end])
+        if match.group("separator") == "(" and method.endswith(")"):
+            method = clean_text(method[:-1])
+        if code in mappings:
+            duplicates.add(code)
+        elif method:
+            mappings[code] = method
+    for code in duplicates:
+        mappings.pop(code, None)
+    return mappings, duplicates
+
+
+def parse_microbiological_requirements(document: DocumentParser) -> tuple[list[dict], str]:
+    method_text = node_text(document, "LblmicrobioTestMeth") or ""
+    mappings, duplicates = parse_microbiological_method_mappings(method_text)
+    rows = indexed_rows(document, "GVMicroBioParam", {
+        "lblParamType": "parameter_type",
+        "lblParamCode": "parameter_code",
+        "lblParamName": "parameter",
+        "lblnVal": "sampling_plan_n",
+        "lblcVal": "sampling_plan_c",
+        "lblmVal": "limit_m",
+        "lblM_val": "limit_M",
+        "lblUnit": "unit",
+    })
+    for serial_number, row in enumerate(rows, 1):
+        code = clean_text(row.get("parameter_code") or "").upper()
+        if not code:
+            status, method = "no_code", None
+        elif code in duplicates:
+            status, method = "duplicate_mapping", None
+        elif code in mappings:
+            status, method = "mapped", mappings[code]
+        elif not clean_text(method_text):
+            status, method = "mapping_not_provided", None
+        else:
+            status, method = "unmapped_code", None
+        row.update({
+            "serial_number": serial_number,
+            "parameter_code": code or None,
+            "test_method": method,
+            "test_method_mapping_status": status,
+            "parser_strategy": "standard_microbiological_grid",
+            "parsing_confidence": "high" if status == "mapped" else "medium",
+        })
+    return rows, clean_text(method_text)
+
+
 def parse_detail(raw: bytes, listing: dict, source_sha256: str) -> dict:
     document = parse_document(raw)
     if "LblSpSubCategory" not in document.by_id:
@@ -393,6 +453,7 @@ def parse_detail(raw: bytes, listing: dict, source_sha256: str) -> dict:
     alternate_text = ""
     if not quality:
         quality, alternate_tables, alternate_text = parse_alternate_quality(document)
+    microbiological, microbiological_method_text = parse_microbiological_requirements(document)
     method_link = document.by_id.get("lnk_URL")
     test_method_reference_url = method_link.attrs.get("href") if method_link is not None else None
     if details["specific_subcategory"] and listing.get("specific_subcategory"):
@@ -410,6 +471,8 @@ def parse_detail(raw: bytes, listing: dict, source_sha256: str) -> dict:
         "listing": listing,
         **details,
         "general_quality_parameters": quality,
+        "microbiological_requirements": microbiological,
+        "microbiological_test_method_text": microbiological_method_text,
         "test_method_reference_url": test_method_reference_url,
         "ambiguous_quality_tables": alternate_tables,
         "alternate_quality_text": alternate_text if not quality else "",
@@ -595,18 +658,20 @@ def write_csv_files(root: Path, records: list[dict]) -> None:
         "identity", "product_name", "product_name_source", "category", "category_reference", "subcategory", "subcategory_reference",
         "specific_subcategory", "specific_subcategory_reference", "general_quality_parameter_note",
         "general_quality_parameter_description", "test_method_reference_url", "parameter_count",
+        "microbiological_requirement_count", "microbiological_test_method_text",
         "source_url", "source_sha256", "retrieved_at",
     ]
     ordered = sorted(records, key=lambda item: (
         item.get("category") or "", item.get("specific_subcategory") or "", item["identity"]
     ))
     with (root / "products.csv").open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=product_columns)
+        writer = csv.DictWriter(handle, fieldnames=product_columns, lineterminator="\n")
         writer.writeheader()
         for record in ordered:
             row = {key: record.get(key) for key in product_columns}
             row["product_name"], row["product_name_source"] = qualified_product(record)
             row["parameter_count"] = len(record.get("general_quality_parameters", []))
+            row["microbiological_requirement_count"] = len(record.get("microbiological_requirements", []))
             writer.writerow(row)
 
     parameter_columns = [
@@ -616,7 +681,7 @@ def write_csv_files(root: Path, records: list[dict]) -> None:
         "source_table", "test_method_reference_url", "source_url", "source_sha256", "retrieved_at",
     ]
     with (root / "quality_parameters.csv").open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=parameter_columns)
+        writer = csv.DictWriter(handle, fieldnames=parameter_columns, lineterminator="\n")
         writer.writeheader()
         for record in ordered:
             common = {key: record.get(key) for key in parameter_columns
@@ -625,6 +690,28 @@ def write_csv_files(root: Path, records: list[dict]) -> None:
             common["product_name"], common["product_name_source"] = qualified_product(record)
             for parameter in record.get("general_quality_parameters", []):
                 writer.writerow({**common, **parameter})
+
+    microbiological_columns = [
+        "identity", "product_name", "product_name_source", "category", "category_reference",
+        "subcategory", "subcategory_reference", "specific_subcategory",
+        "specific_subcategory_reference", "serial_number", "parameter_type", "parameter_code",
+        "parameter", "sampling_plan_n", "sampling_plan_c", "limit_m", "limit_M", "unit",
+        "test_method", "test_method_mapping_status", "parser_strategy", "parsing_confidence",
+        "source_url", "source_sha256", "retrieved_at",
+    ]
+    with (root / "microbiological_requirements.csv").open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=microbiological_columns, lineterminator="\n")
+        writer.writeheader()
+        excluded = {
+            "serial_number", "parameter_type", "parameter_code", "parameter", "sampling_plan_n",
+            "sampling_plan_c", "limit_m", "limit_M", "unit", "test_method",
+            "test_method_mapping_status", "parser_strategy", "parsing_confidence",
+        }
+        for record in ordered:
+            common = {key: record.get(key) for key in microbiological_columns if key not in excluded}
+            common["product_name"], common["product_name_source"] = qualified_product(record)
+            for requirement in record.get("microbiological_requirements", []):
+                writer.writerow({**common, **requirement})
 
 
 def scrape(output: Path, letters: str, *, delay: float, timeout: float, limit: int | None) -> dict:
@@ -692,6 +779,12 @@ def scrape(output: Path, letters: str, *, delay: float, timeout: float, limit: i
         "products_fetched_this_run": fetched_this_run,
         "products_in_master_data": len(records),
         "products_with_quality_parameters": sum(bool(record.get("general_quality_parameters")) for record in records),
+        "products_with_microbiological_requirements": sum(bool(record.get("microbiological_requirements")) for record in records),
+        "microbiological_requirements": sum(len(record.get("microbiological_requirements", [])) for record in records),
+        "microbiological_methods_unresolved": sum(
+            row.get("test_method_mapping_status") != "mapped" for record in records
+            for row in record.get("microbiological_requirements", [])
+        ),
         "ambiguous_quality_entries": ambiguous_count,
         "manual_overrides_applied": len(overrides),
         "complete": limit is None and letters == "ABCDEFGHIJKLMNOPQRSTUVWXYZ",

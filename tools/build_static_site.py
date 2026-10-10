@@ -46,9 +46,42 @@ def parameter_table(product: dict) -> str:
             "</tr>"
         )
     return (
-        '<div class="table-wrap"><table><thead><tr><th>#</th><th>Parameter</th>'
+        '<div class="table-wrap"><table class="quality-table"><thead><tr><th>#</th><th>Parameter</th>'
         '<th>FSSR limit</th><th>Test method</th></tr></thead><tbody>'
         + "".join(body) + "</tbody></table></div>"
+    )
+
+
+def microbiological_table(product: dict) -> str:
+    rows = product.get("microbiological_requirements", [])
+    if not rows:
+        return '<div class="empty">No structured microbiological requirements are specified for this product.</div>'
+    body = []
+    for row in rows:
+        body.append(
+            "<tr>"
+            f'<td>{text(row.get("parameter_type"))}</td>'
+            f'<td>{text(row.get("parameter_code"))}</td>'
+            f'<td>{text(row.get("parameter"))}</td>'
+            f'<td>{text(row.get("sampling_plan_n"))}</td>'
+            f'<td>{text(row.get("sampling_plan_c"))}</td>'
+            f'<td>{text(row.get("limit_m"))}</td>'
+            f'<td>{text(row.get("limit_M"))}</td>'
+            f'<td>{text(row.get("unit"))}</td>'
+            f'<td>{text(row.get("test_method") or "—")}</td>'
+            "</tr>"
+        )
+    method_text = product.get("microbiological_test_method_text")
+    note = ""
+    if method_text:
+        note = (
+            '<details class="method-note"><summary>Microbiological test methods as published</summary>'
+            f'<p>{text(method_text)}</p></details>'
+        )
+    return (
+        '<div class="table-wrap"><table class="micro-table"><thead><tr><th>Type</th><th>Code</th>'
+        '<th>Parameter</th><th>n</th><th>c</th><th>m</th><th>M</th><th>Unit</th>'
+        '<th>Test method</th></tr></thead><tbody>' + "".join(body) + "</tbody></table></div>" + note
     )
 
 
@@ -57,7 +90,7 @@ def product_page(product: dict) -> str:
     name = text(product["name"])
     crumbs = "".join(f"<span>{text(value)}</span>" for value in hierarchy(product))
     canonical = f"{BASE_URL}/products/{product_id}/"
-    description = text(f"Published quality parameters for {product['name']} from the unofficial Open Food-'O'-Copoeia dataset.")
+    description = text(f"Published quality and microbiological requirements for {product['name']} from the unofficial Open Food-'O'-Copoeia dataset.")
     provenance = product["provenance"]
     return f"""<!doctype html>
 <html lang="en">
@@ -79,8 +112,9 @@ def product_page(product: dict) -> str:
   <main><article>
     <section class="hero"><div class="kicker">Product #{product_id}</div><div class="crumbs">{crumbs}</div><h1>{name}</h1></section>
     <section><div class="section-head"><h2>General quality parameters</h2><p>Limits and methods as represented in the source reference.</p></div>{parameter_table(product)}</section>
+    <section><div class="section-head"><h2>Microbiological requirements</h2><p>Sampling plans and hygiene or safety limits.</p></div>{microbiological_table(product)}</section>
     <section class="provenance"><div class="prov"><label>Retrieved</label><div>{text(provenance.get("retrieved_at") or "Not recorded")}</div></div><div class="prov"><label>Source fingerprint</label><div>{text(provenance.get("source_sha256") or "Not recorded")}</div></div></section>
-    <div class="actions"><a class="button" href="/api/v1/products/{product_id}">View JSON</a><a class="button secondary" href="/downloads/latest/quality-parameters.csv">Download all parameters</a></div>
+    <div class="actions"><a class="button" href="/api/v1/products/{product_id}">View JSON</a><a class="button secondary" href="/downloads/latest/quality-parameters.csv">Download quality parameters</a><a class="button secondary" href="/downloads/latest/microbiological-requirements.csv">Download microbiological requirements</a></div>
   </article></main>
   <footer class="notice"><p>{text(DISCLAIMER)}</p></footer>
 </body>
@@ -111,7 +145,7 @@ def sitemap(products: list[dict], snapshot: str) -> str:
     for path in paths:
         url = ElementTree.SubElement(root, f"{{{namespace}}}url")
         ElementTree.SubElement(url, f"{{{namespace}}}loc").text = BASE_URL + path
-        ElementTree.SubElement(url, f"{{{namespace}}}lastmod").text = snapshot
+        ElementTree.SubElement(url, f"{{{namespace}}}lastmod").text = snapshot[:10]
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + ElementTree.tostring(root, encoding="unicode") + "\n"
 
 
@@ -137,7 +171,7 @@ def build(public: Path, snapshot: str) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--public", type=Path, default=Path("public"))
-    parser.add_argument("--snapshot", default="2026-10-10")
+    parser.add_argument("--snapshot", default="2026-10-10.1")
     args = parser.parse_args()
     print(f"Generated {build(args.public, args.snapshot)} product pages")
     return 0

@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   title: Open Food-'O'-Copoeia API
-  version: 1.0.0
+  version: 1.1.0
   description: Unofficial independent read-only API. Original FSSAI legal sources prevail.
 servers:
   - url: https://open-foodocopoeia.thakerinnovations.com
@@ -10,7 +10,11 @@ paths:
     get:
       summary: Dataset metadata and checksums
       responses:
-        '200': { description: Current snapshot manifest }
+        '200':
+          description: Current snapshot manifest
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Manifest' }
   /api/v1/search:
     get:
       summary: Search products by name and hierarchy
@@ -26,5 +30,97 @@ paths:
       parameters:
         - { name: identity, in: path, required: true, schema: { type: string, pattern: '^[0-9]+$' } }
       responses:
-        '200': { description: Product and quality parameters }
+        '200':
+          description: Product with separate general quality and microbiological requirements
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [unofficial, snapshot, disclaimer, product]
+                properties:
+                  unofficial: { type: boolean, const: true }
+                  snapshot: { type: string }
+                  disclaimer: { type: string }
+                  product: { $ref: '#/components/schemas/Product' }
         '404': { description: Product not found }
+components:
+  schemas:
+    GeneralQualityParameter:
+      type: object
+      required: [serial_number, parameter, fssr_limit]
+      properties:
+        serial_number: { type: integer }
+        parameter: { type: string }
+        variant: { type: [string, 'null'] }
+        fssr_limit: { type: string }
+        test_method: { type: [string, 'null'] }
+        parser_strategy: { type: string }
+        parsing_confidence: { type: string }
+        source_table: { type: [integer, 'null'] }
+    MicrobiologicalRequirement:
+      type: object
+      description: A microbiological criterion. Sampling-plan and limit fields remain strings exactly because source values may include inequalities, ranges, Absent, or NS.
+      required: [serial_number, parameter_type, parameter, sampling_plan_n, sampling_plan_c, limit_m, limit_M, unit, test_method_mapping_status]
+      properties:
+        serial_number: { type: integer }
+        parameter_type: { type: string, description: Hygiene or Safety as published }
+        parameter_code: { type: [string, 'null'] }
+        parameter: { type: string }
+        sampling_plan_n: { type: [string, 'null'] }
+        sampling_plan_c: { type: [string, 'null'] }
+        limit_m: { type: [string, 'null'] }
+        limit_M: { type: [string, 'null'] }
+        unit: { type: [string, 'null'] }
+        test_method: { type: [string, 'null'], description: Present only when the source method text has an exact code mapping }
+        test_method_mapping_status:
+          type: string
+          enum: [mapped, unmapped_code, mapping_not_provided, duplicate_mapping, no_code]
+        parser_strategy: { type: string }
+        parsing_confidence: { type: string }
+    HierarchyValue:
+      type: object
+      properties:
+        name: { type: [string, 'null'] }
+        reference: { type: [string, 'null'] }
+    Provenance:
+      type: object
+      properties:
+        source_url: { type: [string, 'null'] }
+        retrieved_at: { type: [string, 'null'], format: date-time }
+        source_sha256: { type: [string, 'null'], pattern: '^[0-9a-f]{64}$' }
+    Product:
+      type: object
+      required: [id, name, quality_parameter_status, quality_parameters, microbiological_requirement_status, microbiological_requirements, provenance]
+      properties:
+        id: { type: string }
+        name: { type: string }
+        name_source: { type: [string, 'null'] }
+        category: { $ref: '#/components/schemas/HierarchyValue' }
+        subcategory: { $ref: '#/components/schemas/HierarchyValue' }
+        specific_subcategory: { $ref: '#/components/schemas/HierarchyValue' }
+        quality_parameter_status: { type: string, enum: [available, not_specified] }
+        quality_parameters:
+          type: array
+          items: { $ref: '#/components/schemas/GeneralQualityParameter' }
+        microbiological_requirement_status: { type: string, enum: [available, not_specified] }
+        microbiological_requirements:
+          type: array
+          items: { $ref: '#/components/schemas/MicrobiologicalRequirement' }
+        microbiological_test_method_text: { type: [string, 'null'], description: Complete microbiological test-method text as published by the source }
+        test_method_reference_url: { type: [string, 'null'] }
+        manual_reviewed: { type: boolean }
+        provenance: { $ref: '#/components/schemas/Provenance' }
+    Manifest:
+      type: object
+      required: [schema_version, dataset_version, counts, files]
+      properties:
+        schema_version: { type: string }
+        dataset_version: { type: string }
+        unofficial: { type: boolean }
+        disclaimer: { type: string }
+        source: { type: string }
+        retrieved_at_range:
+          type: array
+          items: { type: string, format: date-time }
+        counts: { type: object, additionalProperties: { type: integer } }
+        files: { type: object, additionalProperties: { type: object } }

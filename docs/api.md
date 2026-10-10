@@ -21,8 +21,11 @@ GET /api/v1/search?q=others%20oil&limit=10
 
 ## `GET /api/v1/products/{identity}`
 
-Returns the full product hierarchy, quality parameters, test methods, parser
-confidence and source provenance. Product identities are stable source IDs.
+Returns the full product hierarchy, general quality parameters,
+microbiological requirements, test methods, parser confidence and source
+provenance. Product identities are stable source IDs. Microbiological sampling
+plan and limit values are strings because the source may publish inequalities,
+ranges, `Absent`, or `NS`.
 
 ## `GET /api/v1/meta`
 
@@ -35,5 +38,7 @@ checksums.
 - `/downloads/latest/products.csv`
 - `/downloads/latest/quality-parameters.json`
 - `/downloads/latest/quality-parameters.csv`
+- `/downloads/latest/microbiological-requirements.json`
+- `/downloads/latest/microbiological-requirements.csv`
 
 All API responses are public, read-only, and CORS-enabled. No API key is needed.

@@ -39,6 +39,10 @@ DETAIL = b"""
 <td><span id="GVGenQualityParams_lblParamFSSRLimitVal_1">8.5</span></td>
 <td><span id="GVGenQualityParams_lblParamTestMethodVal_1">FSSAI 03.017:2023</span></td></tr></table>
 <a id="lnk_URL" href="https://example.test/methods.pdf">Methods</a>
+<table id="GVMicroBioParam"><tr><th>Parameter Type</th><th>Parameter Code</th><th>Parameter</th><th>n</th><th>c</th><th>m</th><th>M</th><th>Unit</th></tr>
+<tr><td><span id="GVMicroBioParam_lblParamType_0">Hygiene</span></td><td><span id="GVMicroBioParam_lblParamCode_0">M01</span></td><td><span id="GVMicroBioParam_lblParamName_0">Aerobic Plate Count</span></td><td><span id="GVMicroBioParam_lblnVal_0">5</span></td><td><span id="GVMicroBioParam_lblcVal_0">3</span></td><td><span id="GVMicroBioParam_lblmVal_0">30000</span></td><td><span id="GVMicroBioParam_lblM_val_0">50000</span></td><td><span id="GVMicroBioParam_lblUnit_0">CFU/ml</span></td></tr>
+<tr><td><span id="GVMicroBioParam_lblParamType_2">Safety</span></td><td><span id="GVMicroBioParam_lblParamCode_2">M06</span></td><td><span id="GVMicroBioParam_lblParamName_2">Salmonella</span></td><td><span id="GVMicroBioParam_lblnVal_2">5</span></td><td><span id="GVMicroBioParam_lblcVal_2">0</span></td><td><span id="GVMicroBioParam_lblmVal_2">Absent</span></td><td><span id="GVMicroBioParam_lblM_val_2">NS</span></td><td><span id="GVMicroBioParam_lblUnit_2">CFU/25 ml</span></td></tr></table>
+<span id="LblmicrobioTestMeth">M01- IS:5402/ISO:4833 M06 - IS:5887 Part 3/ISO:6579</span>
 <span id="LblFss232">This unrelated safety field must not be normalized.</span>
 """
 
@@ -68,6 +72,30 @@ class FoodOCopoeiaTests(unittest.TestCase):
         self.assertEqual("standard_grid", parameters[0]["parser_strategy"])
         self.assertEqual("high", parameters[0]["parsing_confidence"])
         self.assertNotIn("antibiotic_vdr_limits", record)
+
+    def test_detail_extracts_microbiological_requirements_separately(self):
+        record = fssai.parse_detail(DETAIL, self.listing(), hashlib.sha256(DETAIL).hexdigest())
+        rows = record["microbiological_requirements"]
+        self.assertEqual(2, len(rows))
+        self.assertEqual(("M01", "Aerobic Plate Count", "30000", "50000"),
+                         (rows[0]["parameter_code"], rows[0]["parameter"],
+                          rows[0]["limit_m"], rows[0]["limit_M"]))
+        self.assertEqual("IS:5402/ISO:4833", rows[0]["test_method"])
+        self.assertEqual("mapped", rows[0]["test_method_mapping_status"])
+        self.assertEqual("M06", rows[1]["parameter_code"])
+        self.assertEqual("IS:5887 Part 3/ISO:6579", rows[1]["test_method"])
+        self.assertEqual("M01- IS:5402/ISO:4833 M06 - IS:5887 Part 3/ISO:6579",
+                         record["microbiological_test_method_text"])
+
+    def test_microbiological_method_mapping_is_conservative(self):
+        mappings, duplicates = fssai.parse_microbiological_method_mappings(
+            "M01 - Method one M010: Method ten M01 – Duplicate")
+        self.assertEqual({"M010": "Method ten"}, mappings)
+        self.assertEqual({"M01"}, duplicates)
+        mappings, duplicates = fssai.parse_microbiological_method_mappings(
+            "M01 (IS: 5402/ISO 4833) M(AL)11 (FSSAI 15.024:2023)")
+        self.assertEqual({"M01": "IS: 5402/ISO 4833", "M(AL)11": "FSSAI 15.024:2023"}, mappings)
+        self.assertFalse(duplicates)
 
     def test_alternate_variant_table_expands_limits_without_guessing(self):
         rows = [
@@ -110,6 +138,7 @@ class FoodOCopoeiaTests(unittest.TestCase):
 
     def test_manual_override_replaces_automatic_rows(self):
         record = fssai.parse_detail(DETAIL, self.listing(), hashlib.sha256(DETAIL).hexdigest())
+        microbiological_before = list(record["microbiological_requirements"])
         fssai.apply_manual_overrides([record], {"42": {
             "identity": "42",
             "review_note": "Reviewed table",
@@ -123,6 +152,7 @@ class FoodOCopoeiaTests(unittest.TestCase):
         self.assertEqual("Reviewed moisture", row["parameter"])
         self.assertEqual("manual_override", row["parser_strategy"])
         self.assertEqual("reviewed", row["parsing_confidence"])
+        self.assertEqual(microbiological_before, record["microbiological_requirements"])
 
     def test_master_csv_has_one_row_per_parameter(self):
         record = fssai.parse_detail(DETAIL, self.listing(), hashlib.sha256(DETAIL).hexdigest())
@@ -136,6 +166,11 @@ class FoodOCopoeiaTests(unittest.TestCase):
             self.assertEqual("Pulse flour", rows[0]["product_name"])
             self.assertEqual("specific_subcategory", rows[0]["product_name_source"])
             self.assertEqual("12", rows[0]["fssr_limit"])
+            with (root / "microbiological_requirements.csv").open(encoding="utf-8") as handle:
+                microbiological = list(csv.DictReader(handle))
+            self.assertEqual(2, len(microbiological))
+            self.assertEqual("Aerobic Plate Count", microbiological[0]["parameter"])
+            self.assertEqual("50000", microbiological[0]["limit_M"])
 
 
 if __name__ == "__main__":
