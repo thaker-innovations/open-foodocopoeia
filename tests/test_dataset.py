@@ -50,6 +50,13 @@ class PublishedDatasetTests(unittest.TestCase):
         self.assertEqual(40, len(rice["quality_parameters"]))
         self.assertRegex(rice["provenance"]["source_sha256"], r"^[0-9a-f]{64}$")
 
+    def test_static_interface_links_search_to_product_view(self):
+        home = (ROOT / "public" / "index.html").read_text(encoding="utf-8")
+        product = (ROOT / "public" / "product" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('/product/?id=${encodeURIComponent(x.id)}', home)
+        self.assertIn("/api/v1/products/", product)
+        self.assertIn("General quality parameters", product)
+
 
 if __name__ == "__main__":
     unittest.main()
