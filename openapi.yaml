@@ -1,0 +1,30 @@
+openapi: 3.1.0
+info:
+  title: Open Food-'O'-Copoeia API
+  version: 1.0.0
+  description: Unofficial independent read-only API. Original FSSAI legal sources prevail.
+servers:
+  - url: https://open-foodocopoeia.thakerinnovations.com
+paths:
+  /api/v1/meta:
+    get:
+      summary: Dataset metadata and checksums
+      responses:
+        '200': { description: Current snapshot manifest }
+  /api/v1/search:
+    get:
+      summary: Search products by name and hierarchy
+      parameters:
+        - { name: q, in: query, required: true, schema: { type: string, minLength: 2, maxLength: 100 } }
+        - { name: limit, in: query, schema: { type: integer, minimum: 1, maximum: 50, default: 20 } }
+      responses:
+        '200': { description: Ranked product summaries }
+        '400': { description: Invalid query }
+  /api/v1/products/{identity}:
+    get:
+      summary: Get one complete product
+      parameters:
+        - { name: identity, in: path, required: true, schema: { type: string, pattern: '^[0-9]+$' } }
+      responses:
+        '200': { description: Product and quality parameters }
+        '404': { description: Product not found }
