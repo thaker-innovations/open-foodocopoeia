@@ -1,5 +1,6 @@
 import searchIndex from "./generated/search-index.json";
 import { SNAPSHOT } from "./generated/snapshot";
+import { handleMcp } from "./mcp";
 import { createSearch, type SearchProduct } from "./search";
 
 interface Env { ASSETS: { fetch(request: Request): Promise<Response> } }
@@ -23,12 +24,9 @@ async function staticJson(env: Env, request: Request, path: string): Promise<Res
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
-    if (request.method !== "GET") return json({ error: "method_not_allowed" }, 405);
     const url = new URL(request.url);
-    if (url.pathname === "/product/") {
-      const identity = url.searchParams.get("id");
-      if (identity && /^\d+$/.test(identity)) return Response.redirect(new URL(`/products/${identity}/`, url), 301);
-    }
+    if (url.pathname === "/mcp") return handleMcp(request, env, searchProducts);
+    if (request.method !== "GET") return json({ error: "method_not_allowed" }, 405);
     if (url.pathname === "/api/v1/meta") return staticJson(env, request, "/data/manifest.json");
     if (url.pathname === "/api/v1/search") {
       const query = url.searchParams.get("q") ?? "";

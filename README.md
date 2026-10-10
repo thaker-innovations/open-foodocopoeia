@@ -21,6 +21,17 @@ while `q=others%20oil` matches words anywhere in the product hierarchy. The
 website bundles the same index for instant search on every keystroke; the Worker
 provides the same behavior through the public API.
 
+## MCP
+
+Connect an MCP client to the public, read-only Streamable HTTP endpoint:
+
+```text
+https://open-foodocopoeia.thakerinnovations.com/mcp
+```
+
+Setup instructions and available tools are documented at
+[open-foodocopoeia.thakerinnovations.com/mcp/setup/](https://open-foodocopoeia.thakerinnovations.com/mcp/setup/).
+
 ## Current snapshot
 
 - 504 products
@@ -57,5 +68,6 @@ and checksums to GitHub Releases.
 - `web/` — browser MiniSearch entrypoint
 - `public/` — immutable snapshots, static downloads, and generated site assets
 
-Software is MIT licensed. See [DATA-NOTICE.md](DATA-NOTICE.md) for the separate
-data/source notice.
+Open Food-'O'-Copoeia is an open-data project maintained by [Thaker Innovations
+Pvt. Ltd.](https://thakerinnovations.com/). Software is MIT licensed. See
+[DATA-NOTICE.md](DATA-NOTICE.md) for the separate data/source notice.

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MCP setup · Open Food-'O'-Copoeia</title>
+  <meta name="description" content="Connect an MCP client to the public Open Food-'O'-Copoeia server.">
+  <link rel="canonical" href="https://open-foodocopoeia.thakerinnovations.com/mcp/setup/">
+  <link rel="stylesheet" href="/product.css">
+</head>
+<body>
+  <div class="bar"><header><a class="brand" href="/">Open Food-'O'-Copoeia</a><a class="back" href="/">← Search</a></header></div>
+  <main class="setup">
+    <h1>Use with MCP</h1>
+    <p>Connect an MCP-compatible assistant directly to the public Food-'O'-Copoeia search and product data. The server is read-only and does not require an API key.</p>
+    <h2>Endpoint</h2>
+    <div class="endpoint"><code>https://open-foodocopoeia.thakerinnovations.com/mcp</code></div>
+    <h2>Claude Code</h2>
+    <pre><code>claude mcp add --transport http foodocopoeia https://open-foodocopoeia.thakerinnovations.com/mcp</code></pre>
+    <h2>Other MCP clients</h2>
+    <p>Add a remote server using the Streamable HTTP transport. Clients that use JSON configuration generally accept the following shape:</p>
+    <pre><code>{
+  "mcpServers": {
+    "foodocopoeia": {
+      "type": "http",
+      "url": "https://open-foodocopoeia.thakerinnovations.com/mcp"
+    }
+  }
+}</code></pre>
+    <p>Configuration names vary by client; use the endpoint above whenever a client asks for a remote MCP or Streamable HTTP URL.</p>
+    <h2>Available tools</h2>
+    <ul>
+      <li><code>search_food_products</code> — fuzzy, weighted product search</li>
+      <li><code>get_food_product</code> — full hierarchy and quality parameters for one product</li>
+      <li><code>get_dataset_metadata</code> — snapshot, counts, checksums, and disclaimer</li>
+    </ul>
+    <h2>How it works</h2>
+    <p>Your assistant chooses a tool and sends a structured request to this endpoint. The server searches the same published snapshot used by this website and returns structured JSON. It cannot modify data or perform private actions.</p>
+  </main>
+  <footer class="notice"><p>Unofficial independent project; not affiliated with or endorsed by FSSAI.</p><p>An open-data project maintained by <a href="https://thakerinnovations.com/">Thaker Innovations Pvt. Ltd.</a></p></footer>
+</body>
+</html>

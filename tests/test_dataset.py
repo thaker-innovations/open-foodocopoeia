@@ -61,13 +61,22 @@ class PublishedDatasetTests(unittest.TestCase):
         self.assertIn("General quality parameters", rice)
         self.assertIn('/api/v1/products/48', rice)
         self.assertNotIn("fetch(", rice)
+        self.assertIn("Thaker Innovations Pvt. Ltd.", home)
+
+    def test_mcp_setup_is_published(self):
+        setup = (ROOT / "public" / "mcp" / "setup" / "index.html").read_text(encoding="utf-8")
+        self.assertIn("https://open-foodocopoeia.thakerinnovations.com/mcp", setup)
+        self.assertIn("search_food_products", setup)
+        self.assertIn("get_food_product", setup)
+        self.assertIn("get_dataset_metadata", setup)
 
     def test_sitemap_uses_the_custom_subdomain(self):
         root = ElementTree.parse(ROOT / "public" / "sitemap.xml").getroot()
         namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
         locations = [element.text for element in root.findall("s:url/s:loc", namespace)]
-        self.assertEqual(506, len(locations))
+        self.assertEqual(507, len(locations))
         self.assertIn("https://open-foodocopoeia.thakerinnovations.com/products/48/", locations)
+        self.assertIn("https://open-foodocopoeia.thakerinnovations.com/mcp/setup/", locations)
         self.assertTrue(all(url.startswith("https://open-foodocopoeia.thakerinnovations.com/") for url in locations))
         robots = (ROOT / "public" / "robots.txt").read_text(encoding="utf-8")
         self.assertIn("Sitemap: https://open-foodocopoeia.thakerinnovations.com/sitemap.xml", robots)
