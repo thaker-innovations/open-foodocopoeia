@@ -10,9 +10,9 @@ Food-'O'-Copoeia reference.
 ## API
 
 ```bash
-curl 'https://open-foodocopoeia.thakerinnovations.com/api/v1/search?q=ric'
-curl 'https://open-foodocopoeia.thakerinnovations.com/api/v1/products/48'
-curl 'https://open-foodocopoeia.thakerinnovations.com/api/v1/meta'
+curl 'https://open-foodocopoeia.tapan-d-thaker.workers.dev/api/v1/search?q=ric'
+curl 'https://open-foodocopoeia.tapan-d-thaker.workers.dev/api/v1/products/48'
+curl 'https://open-foodocopoeia.tapan-d-thaker.workers.dev/api/v1/meta'
 ```
 
 Search supports exact, prefix, substring and bounded typo matching. `q=ric`

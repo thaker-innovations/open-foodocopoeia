@@ -4,7 +4,7 @@ info:
   version: 1.0.0
   description: Unofficial independent read-only API. Original FSSAI legal sources prevail.
 servers:
-  - url: https://open-foodocopoeia.thakerinnovations.com
+  - url: https://open-foodocopoeia.tapan-d-thaker.workers.dev
 paths:
   /api/v1/meta:
     get:
