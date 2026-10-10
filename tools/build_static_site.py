@@ -107,7 +107,7 @@ def coded_requirement_section(product: dict, key: str, title: str) -> str:
     source = f'<details class="method-note"><summary>Source section text</summary><p>{text(raw)}</p></details>' if raw else ""
     methods = f'<details class="method-note"><summary>Test methods as published</summary><p>{text(method)}</p></details>' if method else ""
     count = f"{len(rows)} coded requirements" if rows else "Narrative requirement"
-    return f'<details class="regulatory"><summary>{text(title)} <span>{count}</span></summary>{table}{source}{methods}</details>'
+    return f'<section><div class="section-head"><h2>{text(title)}</h2><p>{count}</p></div>{table}{source}{methods}</section>'
 
 
 def fatty_acid_section(product: dict) -> str:
@@ -119,13 +119,13 @@ def fatty_acid_section(product: dict) -> str:
         for row in rows
     )
     return (
-        f'<details class="regulatory"><summary>Fatty-acid composition <span>{len(rows)} rows</span></summary>'
+        f'<section><div class="section-head"><h2>Fatty-acid composition</h2><p>{len(rows)} rows</p></div>'
         '<div class="table-wrap"><table class="coded-table"><thead><tr><th>Fatty acid</th><th>Composition</th><th>Test method</th></tr></thead>'
-        f'<tbody>{body}</tbody></table></div></details>'
+        f'<tbody>{body}</tbody></table></div></section>'
     )
 
 
-def additional_requirements(product: dict) -> str:
+def regulatory_sections(product: dict) -> str:
     sections = [
         coded_requirement_section(product, "pesticide_residue", "Pesticide and insecticide residues"),
         coded_requirement_section(product, "heavy_metal", "Heavy metals"),
@@ -135,13 +135,10 @@ def additional_requirements(product: dict) -> str:
     ]
     if product.get("food_additive_status") == "available":
         sections.append(
-            '<details class="regulatory"><summary>Food additives <span>Source allowance text</span></summary>'
-            f'<div class="raw-section">{text(product.get("food_additive_text"))}</div></details>'
+            '<section><div class="section-head"><h2>Food additives</h2><p>Source allowance text</p></div>'
+            f'<div class="raw-section">{text(product.get("food_additive_text"))}</div></section>'
         )
-    content = "".join(sections)
-    if not content:
-        return ""
-    return f'<section><div class="section-head"><h2>Additional requirements</h2></div>{content}</section>'
+    return "".join(sections)
 
 
 def product_page(product: dict) -> str:
@@ -172,7 +169,7 @@ def product_page(product: dict) -> str:
     <section class="hero"><div class="kicker">Product #{product_id}</div><div class="crumbs">{crumbs}</div><h1>{name}</h1></section>
     <section><div class="section-head"><h2>General quality parameters</h2><p>Limits and methods as represented in the source reference.</p></div>{parameter_table(product)}</section>
     <section><div class="section-head"><h2>Microbiological requirements</h2><p>Sampling plans and hygiene or safety limits.</p></div>{microbiological_table(product)}</section>
-    {additional_requirements(product)}
+    {regulatory_sections(product)}
     <section class="provenance"><div class="prov"><label>Retrieved</label><div>{text(provenance.get("retrieved_at") or "Not recorded")}</div></div><div class="prov"><label>Source fingerprint</label><div>{text(provenance.get("source_sha256") or "Not recorded")}</div></div></section>
     <div class="actions"><a class="button" href="/api/v1/products/{product_id}">View JSON</a><a class="button secondary" href="/downloads/latest/quality-parameters.csv">Download quality parameters</a><a class="button secondary" href="/downloads/latest/microbiological-requirements.csv">Download microbiological requirements</a></div>
   </article></main>
