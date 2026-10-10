@@ -1,6 +1,6 @@
 # API
 
-Base URL: `https://open-foodocopoeia.tapan-d-thaker.workers.dev`
+Base URL: `https://open-foodocopoeia.thakerinnovations.com`
 
 ## `GET /api/v1/search`
 
