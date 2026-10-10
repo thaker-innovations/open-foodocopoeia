@@ -66,8 +66,14 @@ test("MCP search and product tools return structured data", async () => {
   assert.equal(milk.body.result.structuredContent.product.microbiological_requirements.length, 10);
   assert.equal(milk.body.result.structuredContent.product.microbiological_requirements[0].parameter, "Aerobic Plate Count");
 
+  const oil = await rpc("tools/call", { name: "get_food_product", arguments: { product_id: "72" } });
+  assert.equal(oil.body.result.structuredContent.product.pesticide_residue_requirements[0].analyte_or_requirement, "Phenthoate");
+  assert.equal(oil.body.result.structuredContent.product.heavy_metal_requirements[0].analyte_or_requirement, "Lead");
+
   const metadata = await rpc("tools/call", { name: "get_dataset_metadata", arguments: {} });
   assert.equal(metadata.body.result.structuredContent.counts.microbiological_requirements, 1809);
+  assert.equal(metadata.body.result.structuredContent.counts.pesticide_residue_requirements, 4044);
+  assert.equal(metadata.body.result.structuredContent.counts.heavy_metal_requirements, 2729);
 });
 
 test("MCP standalone GET is not offered for the stateless server", async () => {

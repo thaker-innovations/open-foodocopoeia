@@ -432,6 +432,103 @@ def parse_microbiological_requirements(document: DocumentParser) -> tuple[list[d
     return rows, clean_text(method_text)
 
 
+REGULATORY_SECTIONS = {
+    "pesticide_residue": ("LblFss231", "LblFss231TestMeth", "pesticide"),
+    "heavy_metal": ("LblFss211", "LblFss211TestMeth", "heavy_metal"),
+    "antibiotic_veterinary_drug": ("LblFss232", "LblFss232TestMeth", "antibiotic_veterinary_drug"),
+    "contaminant": ("LblFss221_25", "LblFss221_25TestMeth", "contaminant"),
+}
+CODE_PATTERNS = {
+    "pesticide": re.compile(r"(?<![A-Za-z0-9])Q(?:O\d{2}|\d{1,3})(?:\s*(?:\.\s*)?[a-z]|\s*\([a-z]\))?", re.IGNORECASE),
+    "heavy_metal": re.compile(r"(?<![A-Za-z0-9])H\d{1,2}(?!\d)", re.IGNORECASE),
+    "antibiotic_veterinary_drug": re.compile(r"(?<![A-Za-z0-9])AV\d{1,3}(?![A-Za-z0-9])", re.IGNORECASE),
+    "contaminant": re.compile(r"(?<![A-Za-z0-9])N\d{1,2}(?![A-Za-z0-9])", re.IGNORECASE),
+}
+
+
+def load_parameter_code_dictionaries() -> dict:
+    path = Path(__file__).with_name("parameter_codes.json")
+    return json.loads(path.read_text(encoding="utf-8"))["dictionaries"]
+
+
+def meaningful_section_text(value: str) -> bool:
+    return bool(value and value.casefold() not in {"ns", "n/a", "-", ".."})
+
+
+def parenthesized_value(text: str, start: int) -> tuple[str | None, int]:
+    position = start
+    while position < len(text) and text[position].isspace():
+        position += 1
+    if position >= len(text) or text[position] != "(":
+        return None, start
+    depth = 0
+    for index in range(position, len(text)):
+        if text[index] == "(":
+            depth += 1
+        elif text[index] == ")":
+            depth -= 1
+            if depth == 0:
+                return clean_text(text[position + 1:index]), index + 1
+    return None, start
+
+
+def canonical_parameter_code(raw_code: str, dictionary: dict[str, str]) -> str | None:
+    normalized = re.sub(r"\s+", "", raw_code).upper()
+    pesticide = re.match(r"^Q(\d+)(?:\.?([A-Z])|\(([A-Z])\))?$", normalized)
+    if pesticide is not None:
+        number, suffix_a, suffix_b = pesticide.groups()
+        suffix = suffix_a or suffix_b
+        if suffix:
+            candidate = f"Q{int(number):03d}({suffix})"
+            return candidate if candidate in dictionary else None
+    prefix_match = re.match(r"^(AV|Q|H|N)(\d+)", normalized)
+    if prefix_match is None:
+        return None
+    prefix, number = prefix_match.groups()
+    candidates = [code for code in dictionary if re.fullmatch(rf"{prefix}0*{int(number)}", code)]
+    return candidates[0] if len(candidates) == 1 else None
+
+
+def parse_coded_regulatory_section(value: str, method_text: str, dictionary_name: str) -> list[dict]:
+    text = clean_text(value)
+    dictionary = load_parameter_code_dictionaries()[dictionary_name]["entries"]
+    rows = []
+    for match in CODE_PATTERNS[dictionary_name].finditer(text):
+        raw_code = clean_text(match.group())
+        limit_text, end = parenthesized_value(text, match.end())
+        canonical = canonical_parameter_code(raw_code, dictionary)
+        method_available = meaningful_section_text(clean_text(method_text))
+        rows.append({
+            "serial_number": len(rows) + 1,
+            "raw_code": raw_code,
+            "canonical_code": canonical,
+            "analyte_or_requirement": dictionary.get(canonical) if canonical else None,
+            "limit_text": limit_text,
+            "unit": None,
+            "test_method": None,
+            "test_method_mapping_status": "section_level_only" if method_available else "not_specified",
+            "raw_expression": clean_text(text[match.start():end if end != match.end() else match.end()]),
+            "parser_strategy": "coded_section_token",
+            "parsing_confidence": "high" if canonical and limit_text is not None else "medium",
+        })
+    return rows
+
+
+def parse_fatty_acid_composition(document: DocumentParser) -> list[dict]:
+    rows = indexed_rows(document, "GVGenFattyAcidParams", {
+        "lblFattyAcidParamName": "fatty_acid",
+        "lblFattyAcidParamPercentComp": "composition_limit",
+        "lblFattyAcidParamTestMethodVal": "test_method",
+    })
+    for serial_number, row in enumerate(rows, 1):
+        row.update({
+            "serial_number": serial_number,
+            "parser_strategy": "standard_fatty_acid_grid",
+            "parsing_confidence": "high",
+        })
+    return rows
+
+
 def parse_detail(raw: bytes, listing: dict, source_sha256: str) -> dict:
     document = parse_document(raw)
     if "LblSpSubCategory" not in document.by_id:
@@ -454,6 +551,21 @@ def parse_detail(raw: bytes, listing: dict, source_sha256: str) -> dict:
     if not quality:
         quality, alternate_tables, alternate_text = parse_alternate_quality(document)
     microbiological, microbiological_method_text = parse_microbiological_requirements(document)
+    regulatory_sections = {}
+    for name, (value_id, method_id, dictionary_name) in REGULATORY_SECTIONS.items():
+        value = clean_text(node_text(document, value_id) or "")
+        method = clean_text(node_text(document, method_id) or "")
+        regulatory_sections[f"{name}_text"] = value
+        regulatory_sections[f"{name}_test_method_text"] = method
+        regulatory_sections[f"{name}_requirements"] = parse_coded_regulatory_section(
+            value, method, dictionary_name
+        ) if meaningful_section_text(value) else []
+        regulatory_sections[f"{name}_status"] = (
+            "available" if regulatory_sections[f"{name}_requirements"] else
+            "narrative" if meaningful_section_text(value) else "not_specified"
+        )
+    food_additive_text = clean_text(node_text(document, "LblFoodAdditives") or "")
+    fatty_acid_composition = parse_fatty_acid_composition(document)
     method_link = document.by_id.get("lnk_URL")
     test_method_reference_url = method_link.attrs.get("href") if method_link is not None else None
     if details["specific_subcategory"] and listing.get("specific_subcategory"):
@@ -473,6 +585,11 @@ def parse_detail(raw: bytes, listing: dict, source_sha256: str) -> dict:
         "general_quality_parameters": quality,
         "microbiological_requirements": microbiological,
         "microbiological_test_method_text": microbiological_method_text,
+        **regulatory_sections,
+        "food_additive_status": "available" if meaningful_section_text(food_additive_text) else "not_specified",
+        "food_additive_text": food_additive_text,
+        "fatty_acid_composition_status": "available" if fatty_acid_composition else "not_specified",
+        "fatty_acid_composition": fatty_acid_composition,
         "test_method_reference_url": test_method_reference_url,
         "ambiguous_quality_tables": alternate_tables,
         "alternate_quality_text": alternate_text if not quality else "",
@@ -784,6 +901,25 @@ def scrape(output: Path, letters: str, *, delay: float, timeout: float, limit: i
         "microbiological_methods_unresolved": sum(
             row.get("test_method_mapping_status") != "mapped" for record in records
             for row in record.get("microbiological_requirements", [])
+        ),
+        **{
+            f"products_with_{name}_requirements": sum(
+                record.get(f"{name}_status") in {"available", "narrative"} for record in records
+            ) for name in REGULATORY_SECTIONS
+        },
+        **{
+            f"{name}_requirements": sum(
+                len(record.get(f"{name}_requirements", [])) for record in records
+            ) for name in REGULATORY_SECTIONS
+        },
+        "products_with_food_additive_allowances": sum(
+            record.get("food_additive_status") == "available" for record in records
+        ),
+        "products_with_fatty_acid_composition": sum(
+            bool(record.get("fatty_acid_composition")) for record in records
+        ),
+        "fatty_acid_composition_rows": sum(
+            len(record.get("fatty_acid_composition", [])) for record in records
         ),
         "ambiguous_quality_entries": ambiguous_count,
         "manual_overrides_applied": len(overrides),

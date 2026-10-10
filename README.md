@@ -39,6 +39,12 @@ Setup instructions and available tools are documented at
 - 4,923 normalized general quality-parameter rows
 - 258 products with microbiological requirements
 - 1,809 normalized microbiological-requirement rows
+- 4,044 pesticide/insecticide residue occurrences
+- 2,729 heavy-metal requirement occurrences
+- 3,777 antibiotic and veterinary-drug residue occurrences
+- 712 toxin and other-contaminant occurrences
+- 643 fatty-acid composition rows
+- 452 products with published food-additive allowance text
 - 36 products manually reviewed after deterministic parsing
 - 47 products where the source gives no structured quality parameters
 

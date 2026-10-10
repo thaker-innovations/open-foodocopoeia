@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   title: Open Food-'O'-Copoeia API
-  version: 1.1.0
+  version: 1.2.0
   description: Unofficial independent read-only API. Original FSSAI legal sources prevail.
 servers:
   - url: https://open-foodocopoeia.thakerinnovations.com
@@ -31,7 +31,7 @@ paths:
         - { name: identity, in: path, required: true, schema: { type: string, pattern: '^[0-9]+$' } }
       responses:
         '200':
-          description: Product with separate general quality and microbiological requirements
+          description: Product with separate quality, microbiological, residue, contaminant, additive, and fatty-acid requirements
           content:
             application/json:
               schema:
@@ -77,6 +77,30 @@ components:
           enum: [mapped, unmapped_code, mapping_not_provided, duplicate_mapping, no_code]
         parser_strategy: { type: string }
         parsing_confidence: { type: string }
+    CodedRegulatoryRequirement:
+      type: object
+      description: A conservatively parsed occurrence from a coded regulatory section; source context and units are not inferred.
+      properties:
+        serial_number: { type: integer }
+        raw_code: { type: string }
+        canonical_code: { type: [string, 'null'] }
+        analyte_or_requirement: { type: [string, 'null'] }
+        limit_text: { type: [string, 'null'] }
+        unit: { type: [string, 'null'] }
+        test_method: { type: [string, 'null'] }
+        test_method_mapping_status: { type: string, enum: [section_level_only, not_specified] }
+        raw_expression: { type: string }
+        parser_strategy: { type: string }
+        parsing_confidence: { type: string }
+    FattyAcidComposition:
+      type: object
+      properties:
+        serial_number: { type: integer }
+        fatty_acid: { type: string }
+        composition_limit: { type: string }
+        test_method: { type: [string, 'null'] }
+        parser_strategy: { type: string }
+        parsing_confidence: { type: string }
     HierarchyValue:
       type: object
       properties:
@@ -107,6 +131,26 @@ components:
           type: array
           items: { $ref: '#/components/schemas/MicrobiologicalRequirement' }
         microbiological_test_method_text: { type: [string, 'null'], description: Complete microbiological test-method text as published by the source }
+        pesticide_residue_status: { type: string, enum: [available, narrative, not_specified] }
+        pesticide_residue_requirements: { type: array, items: { $ref: '#/components/schemas/CodedRegulatoryRequirement' } }
+        pesticide_residue_text: { type: [string, 'null'] }
+        pesticide_residue_test_method_text: { type: [string, 'null'] }
+        heavy_metal_status: { type: string, enum: [available, narrative, not_specified] }
+        heavy_metal_requirements: { type: array, items: { $ref: '#/components/schemas/CodedRegulatoryRequirement' } }
+        heavy_metal_text: { type: [string, 'null'] }
+        heavy_metal_test_method_text: { type: [string, 'null'] }
+        antibiotic_veterinary_drug_status: { type: string, enum: [available, narrative, not_specified] }
+        antibiotic_veterinary_drug_requirements: { type: array, items: { $ref: '#/components/schemas/CodedRegulatoryRequirement' } }
+        antibiotic_veterinary_drug_text: { type: [string, 'null'] }
+        antibiotic_veterinary_drug_test_method_text: { type: [string, 'null'] }
+        contaminant_status: { type: string, enum: [available, narrative, not_specified] }
+        contaminant_requirements: { type: array, items: { $ref: '#/components/schemas/CodedRegulatoryRequirement' } }
+        contaminant_text: { type: [string, 'null'] }
+        contaminant_test_method_text: { type: [string, 'null'] }
+        food_additive_status: { type: string, enum: [available, not_specified] }
+        food_additive_text: { type: [string, 'null'] }
+        fatty_acid_composition_status: { type: string, enum: [available, not_specified] }
+        fatty_acid_composition: { type: array, items: { $ref: '#/components/schemas/FattyAcidComposition' } }
         test_method_reference_url: { type: [string, 'null'] }
         manual_reviewed: { type: boolean }
         provenance: { $ref: '#/components/schemas/Provenance' }

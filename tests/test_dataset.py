@@ -6,7 +6,7 @@ import unittest
 from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "public" / "data" / "v2026-10-10.1"
+DATA = ROOT / "public" / "data" / "v2026-10-10.2"
 
 
 class PublishedDatasetTests(unittest.TestCase):
@@ -16,12 +16,24 @@ class PublishedDatasetTests(unittest.TestCase):
         cls.products = json.loads((DATA / "products.json").read_text())
         cls.quality = json.loads((DATA / "quality-parameters.json").read_text())
         cls.microbiological = json.loads((DATA / "microbiological-requirements.json").read_text())
+        cls.pesticides = json.loads((DATA / "pesticide-residue-requirements.json").read_text())
+        cls.heavy_metals = json.loads((DATA / "heavy-metal-requirements.json").read_text())
+        cls.antibiotics = json.loads((DATA / "antibiotic-veterinary-drug-requirements.json").read_text())
+        cls.contaminants = json.loads((DATA / "contaminant-requirements.json").read_text())
+        cls.fatty_acids = json.loads((DATA / "fatty-acid-composition.json").read_text())
+        cls.food_additives = json.loads((DATA / "food-additive-allowances.json").read_text())
 
     def test_manifest_counts_match_artifacts(self):
         counts = self.manifest["counts"]
         self.assertEqual(504, len(self.products))
         self.assertEqual(4923, len(self.quality))
         self.assertEqual(1809, len(self.microbiological))
+        self.assertEqual(4044, len(self.pesticides))
+        self.assertEqual(2729, len(self.heavy_metals))
+        self.assertEqual(3777, len(self.antibiotics))
+        self.assertEqual(712, len(self.contaminants))
+        self.assertEqual(643, len(self.fatty_acids))
+        self.assertEqual(452, len(self.food_additives))
         self.assertEqual(counts["products"], len(self.products))
         self.assertEqual(counts["quality_parameters"], len(self.quality))
         self.assertEqual(counts["microbiological_requirements"], len(self.microbiological))
@@ -67,6 +79,18 @@ class PublishedDatasetTests(unittest.TestCase):
                           aerobic["limit_m"], aerobic["limit_M"]))
         self.assertEqual("mapped", aerobic["test_method_mapping_status"])
 
+    def test_refined_oil_has_separate_residue_and_metal_requirements(self):
+        oil = next(product for product in self.products if product["id"] == "72")
+        self.assertEqual("Phenthoate", oil["pesticide_residue_requirements"][0]["analyte_or_requirement"])
+        self.assertEqual("0.01", oil["pesticide_residue_requirements"][0]["limit_text"])
+        self.assertEqual("Lead", oil["heavy_metal_requirements"][0]["analyte_or_requirement"])
+        self.assertEqual("Total Aflatoxins", oil["contaminant_requirements"][0]["analyte_or_requirement"])
+
+    def test_coconut_oil_has_fatty_acid_composition(self):
+        coconut = next(product for product in self.products if product["id"] == "34")
+        self.assertEqual(21, len(coconut["fatty_acid_composition"]))
+        self.assertEqual("C6:0", coconut["fatty_acid_composition"][0]["fatty_acid"])
+
     def test_rice_product_retains_provenance(self):
         rice = next(product for product in self.products if product["id"] == "48")
         self.assertEqual("Rice", rice["name"])
@@ -78,6 +102,7 @@ class PublishedDatasetTests(unittest.TestCase):
         pages = list((ROOT / "public" / "products").glob("*/index.html"))
         rice = (ROOT / "public" / "products" / "48" / "index.html").read_text(encoding="utf-8")
         milk = (ROOT / "public" / "products" / "266" / "index.html").read_text(encoding="utf-8")
+        oil = (ROOT / "public" / "products" / "72" / "index.html").read_text(encoding="utf-8")
         self.assertIn('<script type="module" src="/search.js"></script>', home)
         self.assertEqual(504, len(pages))
         self.assertIn("<h1>Rice</h1>", rice)
@@ -87,6 +112,9 @@ class PublishedDatasetTests(unittest.TestCase):
         self.assertIn("Microbiological requirements", milk)
         self.assertIn("Aerobic Plate Count", milk)
         self.assertIn("CFU/ml", milk)
+        self.assertIn("Pesticide and insecticide residues", oil)
+        self.assertIn("Heavy metals", oil)
+        self.assertIn("Phenthoate", oil)
         self.assertIn("Thaker Innovations Pvt. Ltd.", home)
         self.assertLess(home.index("Thaker Innovations Pvt. Ltd."), home.index("<header>"))
         self.assertIn('class="topline"', rice)

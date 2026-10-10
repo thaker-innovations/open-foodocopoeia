@@ -43,7 +43,12 @@ DETAIL = b"""
 <tr><td><span id="GVMicroBioParam_lblParamType_0">Hygiene</span></td><td><span id="GVMicroBioParam_lblParamCode_0">M01</span></td><td><span id="GVMicroBioParam_lblParamName_0">Aerobic Plate Count</span></td><td><span id="GVMicroBioParam_lblnVal_0">5</span></td><td><span id="GVMicroBioParam_lblcVal_0">3</span></td><td><span id="GVMicroBioParam_lblmVal_0">30000</span></td><td><span id="GVMicroBioParam_lblM_val_0">50000</span></td><td><span id="GVMicroBioParam_lblUnit_0">CFU/ml</span></td></tr>
 <tr><td><span id="GVMicroBioParam_lblParamType_2">Safety</span></td><td><span id="GVMicroBioParam_lblParamCode_2">M06</span></td><td><span id="GVMicroBioParam_lblParamName_2">Salmonella</span></td><td><span id="GVMicroBioParam_lblnVal_2">5</span></td><td><span id="GVMicroBioParam_lblcVal_2">0</span></td><td><span id="GVMicroBioParam_lblmVal_2">Absent</span></td><td><span id="GVMicroBioParam_lblM_val_2">NS</span></td><td><span id="GVMicroBioParam_lblUnit_2">CFU/25 ml</span></td></tr></table>
 <span id="LblmicrobioTestMeth">M01- IS:5402/ISO:4833 M06 - IS:5887 Part 3/ISO:6579</span>
-<span id="LblFss232">This unrelated safety field must not be normalized.</span>
+<span id="LblFss231">Q144(0.01), Q064.a(0.2)</span><span id="LblFss231TestMeth">FSSAI residue method</span>
+<span id="LblFss211">H01(0.1)</span><span id="LblFss211TestMeth">Metal method</span>
+<span id="LblFss232">AV01(0.01)</span><span id="LblFss232TestMeth">Veterinary method</span>
+<span id="LblFss221_25">N01(15)</span><span id="LblFss221_25TestMeth">Contaminant method</span>
+<span id="LblFoodAdditives">INS 100 is permitted under GMP.</span>
+<table id="GVGenFattyAcidParams"><tr><td><span id="GVGenFattyAcidParams_lblFattyAcidParamName_0">Lauric acid</span></td><td><span id="GVGenFattyAcidParams_lblFattyAcidParamPercentComp_0">45.1-53.2</span></td><td><span id="GVGenFattyAcidParams_lblFattyAcidParamTestMethodVal_0">FSSAI 02.007:2021</span></td></tr></table>
 """
 
 
@@ -96,6 +101,28 @@ class FoodOCopoeiaTests(unittest.TestCase):
             "M01 (IS: 5402/ISO 4833) M(AL)11 (FSSAI 15.024:2023)")
         self.assertEqual({"M01": "IS: 5402/ISO 4833", "M(AL)11": "FSSAI 15.024:2023"}, mappings)
         self.assertFalse(duplicates)
+
+    def test_detail_extracts_regulatory_sections_and_fatty_acids_separately(self):
+        record = fssai.parse_detail(DETAIL, self.listing(), hashlib.sha256(DETAIL).hexdigest())
+        pesticide = record["pesticide_residue_requirements"]
+        self.assertEqual(("Q144", "Phenthoate", "0.01"),
+                         (pesticide[0]["canonical_code"], pesticide[0]["analyte_or_requirement"], pesticide[0]["limit_text"]))
+        self.assertEqual("Q064(A)", pesticide[1]["canonical_code"])
+        self.assertEqual("Lead", record["heavy_metal_requirements"][0]["analyte_or_requirement"])
+        self.assertEqual("Acepromazine", record["antibiotic_veterinary_drug_requirements"][0]["analyte_or_requirement"])
+        self.assertEqual("Total Aflatoxins", record["contaminant_requirements"][0]["analyte_or_requirement"])
+        self.assertEqual("INS 100 is permitted under GMP.", record["food_additive_text"])
+        self.assertEqual({
+            "fatty_acid": "Lauric acid", "composition_limit": "45.1-53.2",
+            "test_method": "FSSAI 02.007:2021", "serial_number": 1,
+            "parser_strategy": "standard_fatty_acid_grid", "parsing_confidence": "high",
+        }, record["fatty_acid_composition"][0])
+
+    def test_narrative_regulatory_section_is_retained_without_inventing_rows(self):
+        rows = fssai.parse_coded_regulatory_section(
+            "Pesticides shall each be below 0.0001 mg/L", "Method X", "pesticide")
+        self.assertEqual([], rows)
+        self.assertTrue(fssai.meaningful_section_text("Pesticides shall each be below 0.0001 mg/L"))
 
     def test_alternate_variant_table_expands_limits_without_guessing(self):
         rows = [

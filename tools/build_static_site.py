@@ -85,12 +85,71 @@ def microbiological_table(product: dict) -> str:
     )
 
 
+def coded_requirement_section(product: dict, key: str, title: str) -> str:
+    status = product.get(f"{key}_status", "not_specified")
+    if status == "not_specified":
+        return ""
+    rows = product.get(f"{key}_requirements", [])
+    body = "".join(
+        "<tr>"
+        f'<td>{text(row.get("raw_code"))}</td>'
+        f'<td>{text(row.get("analyte_or_requirement") or "—")}</td>'
+        f'<td>{text(row.get("limit_text") or "—")}</td>'
+        "</tr>" for row in rows
+    )
+    table = (
+        '<div class="table-wrap"><table class="coded-table"><thead><tr><th>Source code</th>'
+        '<th>Analyte or requirement</th><th>Limit as published</th></tr></thead>'
+        f'<tbody>{body}</tbody></table></div>' if rows else ""
+    )
+    raw = product.get(f"{key}_text")
+    method = product.get(f"{key}_test_method_text")
+    source = f'<details class="method-note"><summary>Source section text</summary><p>{text(raw)}</p></details>' if raw else ""
+    methods = f'<details class="method-note"><summary>Test methods as published</summary><p>{text(method)}</p></details>' if method else ""
+    count = f"{len(rows)} coded requirements" if rows else "Narrative requirement"
+    return f'<details class="regulatory"><summary>{text(title)} <span>{count}</span></summary>{table}{source}{methods}</details>'
+
+
+def fatty_acid_section(product: dict) -> str:
+    rows = product.get("fatty_acid_composition", [])
+    if not rows:
+        return ""
+    body = "".join(
+        f'<tr><td>{text(row.get("fatty_acid"))}</td><td>{text(row.get("composition_limit"))}</td><td>{text(row.get("test_method") or "—")}</td></tr>'
+        for row in rows
+    )
+    return (
+        f'<details class="regulatory"><summary>Fatty-acid composition <span>{len(rows)} rows</span></summary>'
+        '<div class="table-wrap"><table class="coded-table"><thead><tr><th>Fatty acid</th><th>Composition</th><th>Test method</th></tr></thead>'
+        f'<tbody>{body}</tbody></table></div></details>'
+    )
+
+
+def additional_requirements(product: dict) -> str:
+    sections = [
+        coded_requirement_section(product, "pesticide_residue", "Pesticide and insecticide residues"),
+        coded_requirement_section(product, "heavy_metal", "Heavy metals"),
+        coded_requirement_section(product, "antibiotic_veterinary_drug", "Antibiotic and veterinary-drug residues"),
+        coded_requirement_section(product, "contaminant", "Toxins and other contaminants"),
+        fatty_acid_section(product),
+    ]
+    if product.get("food_additive_status") == "available":
+        sections.append(
+            '<details class="regulatory"><summary>Food additives <span>Source allowance text</span></summary>'
+            f'<div class="raw-section">{text(product.get("food_additive_text"))}</div></details>'
+        )
+    content = "".join(sections)
+    if not content:
+        return ""
+    return f'<section><div class="section-head"><h2>Additional requirements</h2></div>{content}</section>'
+
+
 def product_page(product: dict) -> str:
     product_id = text(product["id"])
     name = text(product["name"])
     crumbs = "".join(f"<span>{text(value)}</span>" for value in hierarchy(product))
     canonical = f"{BASE_URL}/products/{product_id}/"
-    description = text(f"Published quality and microbiological requirements for {product['name']} from the unofficial Open Food-'O'-Copoeia dataset.")
+    description = text(f"Published quality, microbiological, residue and contaminant requirements for {product['name']} from the unofficial Open Food-'O'-Copoeia dataset.")
     provenance = product["provenance"]
     return f"""<!doctype html>
 <html lang="en">
@@ -113,6 +172,7 @@ def product_page(product: dict) -> str:
     <section class="hero"><div class="kicker">Product #{product_id}</div><div class="crumbs">{crumbs}</div><h1>{name}</h1></section>
     <section><div class="section-head"><h2>General quality parameters</h2><p>Limits and methods as represented in the source reference.</p></div>{parameter_table(product)}</section>
     <section><div class="section-head"><h2>Microbiological requirements</h2><p>Sampling plans and hygiene or safety limits.</p></div>{microbiological_table(product)}</section>
+    {additional_requirements(product)}
     <section class="provenance"><div class="prov"><label>Retrieved</label><div>{text(provenance.get("retrieved_at") or "Not recorded")}</div></div><div class="prov"><label>Source fingerprint</label><div>{text(provenance.get("source_sha256") or "Not recorded")}</div></div></section>
     <div class="actions"><a class="button" href="/api/v1/products/{product_id}">View JSON</a><a class="button secondary" href="/downloads/latest/quality-parameters.csv">Download quality parameters</a><a class="button secondary" href="/downloads/latest/microbiological-requirements.csv">Download microbiological requirements</a></div>
   </article></main>
@@ -171,7 +231,7 @@ def build(public: Path, snapshot: str) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--public", type=Path, default=Path("public"))
-    parser.add_argument("--snapshot", default="2026-10-10.1")
+    parser.add_argument("--snapshot", default="2026-10-10.2")
     args = parser.parse_args()
     print(f"Generated {build(args.public, args.snapshot)} product pages")
     return 0

@@ -24,6 +24,19 @@ Methods are attached to rows only when the text contains an unambiguous exact
 parameter-code mapping. The complete source text is retained, and unresolved
 mappings are marked rather than inferred by row order or parameter similarity.
 
+Pesticide/insecticide residues, heavy metals, antibiotic and veterinary-drug
+residues, and toxins or other contaminants are published as compact coded text
+sections. Recognizable source tokens are split conservatively into code and
+parenthesized limit text. Analyte names come from separately captured FSSAI code
+lists whose URLs and SHA-256 hashes are committed in
+`scraper/parameter_codes.json`. Source codes, expressions, complete section
+text, and section-level test-method text are retained. Units, commodity context,
+source typos, and per-row test methods are not inferred.
+
+The dedicated fatty-acid grid is normalized independently. Food-additive
+allowances are retained as product-level source text because their dense,
+product-specific matrices cannot be split reliably without interpretation.
+
 Ambiguous labels are qualified using their hierarchy. A source value of `N/A`
 at the specific-subcategory level falls back to the subcategory or category.
 `Others` becomes a contextual name such as `Others — Lager (BEER)`.

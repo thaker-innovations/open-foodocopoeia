@@ -36,7 +36,7 @@ async function readAssetJson(env: McpEnv, request: Request, path: string): Promi
 
 function createServer(env: McpEnv, request: Request, searchProducts: SearchProducts): McpServer {
   const server = new McpServer(
-    { name: "open-foodocopoeia", title: "Open Food-'O'-Copoeia", version: "1.1.0" },
+    { name: "open-foodocopoeia", title: "Open Food-'O'-Copoeia", version: "1.2.0" },
     { jsonSchemaValidator: new CfWorkerJsonSchemaValidator() },
   );
 
@@ -55,7 +55,7 @@ function createServer(env: McpEnv, request: Request, searchProducts: SearchProdu
 
   server.registerTool("get_food_product", {
     title: "Get a food product",
-    description: "Get one product's hierarchy, general quality parameters, microbiological requirements, test methods, and source provenance by numeric identity.",
+    description: "Get one product's hierarchy, quality and microbiological requirements, residues, contaminants, additives, fatty-acid composition, test methods, and provenance by numeric identity.",
     inputSchema: {
       product_id: z.string().regex(/^\d+$/).describe("Numeric product identity, for example 48 for Rice"),
     },

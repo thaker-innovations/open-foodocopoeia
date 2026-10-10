@@ -1,505 +1,505 @@
-id,name,category,subcategory,specific_subcategory,quality_parameter_status,quality_parameter_count,microbiological_requirement_status,microbiological_requirement_count
-33,Others — Pearl Barley (Jau) (CEREALS AND CEREAL PRODUCTS),CEREALS AND CEREAL PRODUCTS,Pearl Barley (Jau),Others,available,4,not_specified,0
-34,Coconut Oil (Naryal Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Coconut Oil (Naryal Ka Tel),available,17,not_specified,0
-35,Pearl Barley (Jau),CEREALS AND CEREAL PRODUCTS,Pearl Barley (Jau),N/A,available,4,not_specified,0
-36,Food Grains,CEREALS AND CEREAL PRODUCTS,Food Grains,Food Grains,not_specified,0,not_specified,0
-37,Wheat,CEREALS AND CEREAL PRODUCTS,Food Grains,Wheat,available,8,not_specified,0
-38,Maize,CEREALS AND CEREAL PRODUCTS,Food Grains,Maize,available,7,not_specified,0
-40,Any Other Foodgrains Not Specified,CEREALS AND CEREAL PRODUCTS,Food Grains,Any Other Foodgrains Not Specified,available,15,not_specified,0
-41,Honey,SWEETENING AGENTS INCLUDING HONEY,Honey And It’S By Products:,Honey,available,25,not_specified,0
-42,Groundnut Oil (Moongh-Phali-Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Groundnut Oil (Moongh-Phali-Ka Tel),available,19,not_specified,0
-43,Flaxseed Or Linseed Oil (Tisi Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Flaxseed Or Linseed Oil (Tisi Ka Tel),available,18,not_specified,0
-44,Mahua Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Mahua Oil,available,18,not_specified,0
-45,Taramira Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Taramira Oil,available,18,not_specified,0
-46,Soybean,CEREALS AND CEREAL PRODUCTS,Soybean,N/A,available,9,not_specified,0
-47,Rapeseed Or Mustard Oil-Low Erucic Acid,"FATS, OILS AND FAT EMULSIONS",Oils,Rapeseed Or Mustard Oil-Low Erucic Acid,available,21,not_specified,0
-48,Rice,CEREALS AND CEREAL PRODUCTS,Food Grains,Rice,available,40,not_specified,0
-49,Soy Protein Products,CEREALS AND CEREAL PRODUCTS,Soy Protein Products,N/A,available,12,not_specified,0
-50,Rapeseed Oil (Toria Oil) Or Mustard Oil (Sarson Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Rapeseed Oil (Toria Oil) Or Mustard Oil (Sarson Ka Tel),available,20,not_specified,0
-51,Olive Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil,available,25,not_specified,0
-52,Poppy Seed Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Poppy Seed Oil,available,18,not_specified,0
-53,Til Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Til Oil,available,24,not_specified,0
-54,Safflower Seed Oil (Barrey Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Safflower Seed Oil (Barrey Ka Tel),available,18,not_specified,0
-55,Chia Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Chia Oil,available,14,not_specified,0
-56,Atta,CEREALS AND CEREAL PRODUCTS,Wheat Flour (Atta) And Resultant Wheat Flour (Resultant Atta),Atta,available,8,not_specified,0
-57,Palm Kernel Olein,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Kernel Olein,available,18,not_specified,0
-58,Plantation White Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Plantation White Sugar,available,2,not_specified,0
-59,Palm Kernel Stearin,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Kernel Stearin,available,18,not_specified,0
-60,Palm Stearin,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Stearin,available,18,not_specified,0
-61,Palm Kernel Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Kernel Oil,available,18,not_specified,0
-62,Refined Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Refined Sugar,available,2,not_specified,0
-63,Sun Flower Seed Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Sun Flower Seed Oil,available,19,not_specified,0
-64,Sunflower Seed Oil-High Oleic Acid,"FATS, OILS AND FAT EMULSIONS",Oils,Sunflower Seed Oil-High Oleic Acid,available,18,not_specified,0
-65,Niger Seed Oil (Sargiya Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Niger Seed Oil (Sargiya Ka Tel),available,19,not_specified,0
-66,Soyabean Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Soyabean Oil,available,19,not_specified,0
-67,Protein Rich Wheat Flour (Protein Prachur Atta),CEREALS AND CEREAL PRODUCTS,Wheat Flour (Atta) And Resultant Wheat Flour (Resultant Atta),Protein Rich Wheat Flour (Protein Prachur Atta),available,8,not_specified,0
-68,Maida (Refined Wheat Flour),CEREALS AND CEREAL PRODUCTS,Maida,Maida (Refined Wheat Flour),available,7,not_specified,0
-69,Protein Rich Refined Wheat Flour (Protein Prachur Maida),CEREALS AND CEREAL PRODUCTS,Maida,Protein Rich Refined Wheat Flour (Protein Prachur Maida),available,8,not_specified,0
-70,Durum Wheat Maida,CEREALS AND CEREAL PRODUCTS,Maida,Durum Wheat Maida,available,6,not_specified,0
-71,Maize (Corn) Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Maize (Corn) Oil,available,17,not_specified,0
-72,Refined Vegetable Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Refined Vegetable Oil,available,16,not_specified,0
-73,Almond Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Almond Oil,available,15,not_specified,0
-74,Water-Melon Seed Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Water-Melon Seed Oil,available,22,not_specified,0
-75,Palm Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Oil,available,20,not_specified,0
-76,Palmolein,"FATS, OILS AND FAT EMULSIONS",Oils,Palmolein,available,19,not_specified,0
-77,Rice Bran Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Rice Bran Oil,available,23,not_specified,0
-78,Multi-Source Edible Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Multi-Source Edible Oil,available,27,not_specified,0
-79,Interesterified Vegetable Fat/Oil (2.2.2),"FATS, OILS AND FAT EMULSIONS",Interesterified Vegetable Fat/Oil (2.2.2),N/A,available,21,not_specified,0
-80,Bura Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Bura Sugar,available,2,not_specified,0
-81,Cube Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Cube Sugar,available,3,not_specified,0
-82,Icing Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Icing Sugar,available,3,not_specified,0
-83,Misri,SWEETENING AGENTS INCLUDING HONEY,Misri,N/A,available,2,not_specified,0
-84,Gur Or Jaggery,SWEETENING AGENTS INCLUDING HONEY,Gur Or Jaggery,Gur Or Jaggery,available,6,not_specified,0
-85,Tea,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Tea,Tea,available,7,available,3
-86,Chicory,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Chicory,N/A,available,3,available,3
-87,Bees Wax,SWEETENING AGENTS INCLUDING HONEY,Honey And It’S By Products:,Bees Wax,available,12,not_specified,0
-94,Soluble Coffee Powder,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee,Soluble Coffee Powder,available,5,available,3
-95,Decaffeinated Soluble Coffee Powder,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee,Decaffeinated Soluble Coffee Powder,available,5,available,3
-96,Coffee - Chicory Mixture,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee - Chicory Mixture,Coffee - Chicory Mixture,available,5,available,3
-97,Decaffeinated Roasted And Ground Coffee,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee,Decaffeinated Roasted And Ground Coffee,available,7,available,3
-98,Coffee (Green Raw Or Unroasted),"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee,Coffee (Green Raw Or Unroasted),not_specified,0,available,3
-99,Kangra Tea,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Tea,Kangra Tea,available,7,available,3
-100,Green Tea,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Tea,Green Tea,available,7,available,3
-101,"Others — Mineral Water (BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED))","BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Mineral Water,Others,available,27,available,9
-102,Royal Jelly,SWEETENING AGENTS INCLUDING HONEY,Honey And It’S By Products:,Royal Jelly,available,14,not_specified,0
-103,Instant Coffee - Chicory Mixture,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee - Chicory Mixture,Instant Coffee - Chicory Mixture,available,6,available,3
-105,Carbonated Water,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Beverages Non-Alcoholic,Carbonated Water,available,9,available,3
-106,Others — Lager (BEER),BEER,Lager,Others,available,5,not_specified,0
-107,Caffeinated Beverage,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Beverages Non-Alcoholic,Caffeinated Beverage,available,1,not_specified,0
-109,Wheat Beer,BEER,Ale,Wheat Beer,available,5,available,4
-110,Single Malt Or Single Grain Whisky,WHISKY OR WHISKEY,Malt Or Grain Whisky,Single Malt Or Single Grain Whisky,available,8,not_specified,0
-111,"Others — Packaged Drinking Water (Other Than Mineral Water) (BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED))","BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Packaged Drinking Water (Other Than Mineral Water),Others,available,27,available,9
-112,Blended Malt Whisky Or Blended Grain Whisky,WHISKY OR WHISKEY,Malt Or Grain Whisky,Blended Malt Whisky Or Blended Grain Whisky,available,8,not_specified,0
-113,Plain Country Liquor,COUNTRY LIQUORS,Plain Country Liquor,N/A,available,8,not_specified,0
-114,Blended Country Liquor,COUNTRY LIQUORS,Blended Country Liquor,N/A,available,8,not_specified,0
-115,LIQUEUR OR CORDIAL OR APERTIFS,LIQUEUR OR CORDIAL OR APERTIFS,N/A,N/A,available,8,not_specified,0
-116,GIN,GIN,N/A,N/A,available,8,not_specified,0
-117,RUM,RUM,N/A,N/A,available,8,not_specified,0
-119,Grape Brandy,BRANDY,Grape Brandy,N/A,available,8,not_specified,0
-120,Blended Brandy,BRANDY,Blended Brandy,N/A,available,8,available,4
-121,Indian Brandy,BRANDY,Indian Brandy,N/A,available,8,not_specified,0
-122,Craft Beer,DRAUGHT BEER,Craft Beer,N/A,available,6,not_specified,0
-123,VODKA,VODKA,N/A,N/A,available,8,not_specified,0
-124,POT-STILL DISTILLED SPIRIT,POT-STILL DISTILLED SPIRIT,N/A,N/A,available,8,not_specified,0
-133,Thermally Processed Fruits,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruits,Thermally Processed Fruits,available,2,available,10
-134,Whole Maize (Corn) Flour,CEREALS AND CEREAL PRODUCTS,Whole Maize (Corn) Flour,N/A,available,5,not_specified,0
-135,Cider,WINE,Wine From Fruits Other Than Grapes,Cider,available,8,not_specified,0
-136,Perry,WINE,Wine From Fruits Other Than Grapes,Perry,available,9,not_specified,0
-137,Sherry,WINE,Fortified Wine,Sherry,available,8,not_specified,0
-138,Aromatized Wine,WINE,Fortified Wine,Aromatized Wine,available,9,not_specified,0
-139,Red Wine,WINE,Table Wine,Red Wine,available,9,not_specified,0
-140,Cane Jaggery Or Cane Gur,SWEETENING AGENTS INCLUDING HONEY,Gur Or Jaggery,Cane Jaggery Or Cane Gur,available,8,not_specified,0
-141,White Wine,WINE,Table Wine,White Wine,available,9,not_specified,0
-144,Dextrose,SWEETENING AGENTS INCLUDING HONEY,Dextrose,N/A,available,3,not_specified,0
-146,Golden Syrup,SWEETENING AGENTS INCLUDING HONEY,Golden Syrup,N/A,available,3,not_specified,0
-149,Dried Glucose Syrup,SWEETENING AGENTS INCLUDING HONEY,Dried Glucose Syrup,N/A,available,3,not_specified,0
-153,Others — BEER,BEER,N/A,Others,available,6,not_specified,0
-154,Sodium Saccharin (Food Grade),SWEETENING AGENTS INCLUDING HONEY,Sodium Saccharin (Food Grade),N/A,available,6,not_specified,0
-155,Frozen Shrimp,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Shrimp,not_specified,0,available,4
-156,Aspartyl Phenyl Alanine Methyl Ester (Aspertame),SWEETENING AGENTS INCLUDING HONEY,Aspartyl Phenyl Alanine Methyl Ester (Aspertame),N/A,available,4,not_specified,0
-157,Acesulfame Potassium,SWEETENING AGENTS INCLUDING HONEY,Acesulfame Potassium,N/A,available,4,not_specified,0
-158,Wine Based Beverages,WINE,Wine Based Beverages,N/A,available,1,not_specified,0
-159,Sucralose,SWEETENING AGENTS INCLUDING HONEY,Sucralose,N/A,available,4,not_specified,0
-160,Palm Wine/Toddy,WINE,Wine From Other Agricultural And Plant Sources,Palm Wine/Toddy,available,8,not_specified,0
-161,Calcium Saccharin (Food Grade),SWEETENING AGENTS INCLUDING HONEY,Calcium Saccharin (Food Grade),N/A,available,5,not_specified,0
-162,Bamboo Wine,WINE,Wine From Other Agricultural And Plant Sources,Bamboo Wine,available,8,not_specified,0
-163,Wheat Protein Products Including Wheat Gluten,CEREALS AND CEREAL PRODUCTS,Wheat Protein Products Including Wheat Gluten,N/A,available,3,not_specified,0
-164,Frozen Lobsters,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Lobsters,not_specified,0,available,8
-166,Thermally Processed Fruit Salad/Cocktail/Mix,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Salad/Cocktail/Mix,N/A,available,8,available,10
-167,Edible Common Salt,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Edible Common Salt,Edible Common Salt,available,2,not_specified,0
-168,Iron Fortified Iodized Salt (Double Fortified Salt),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Edible Common Salt,Iron Fortified Iodized Salt (Double Fortified Salt),available,8,not_specified,0
-169,Frozen Squid And Parts Of Squid,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Squid And Parts Of Squid,not_specified,0,available,4
-170,Frozen Finfish,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Finfish,not_specified,0,available,4
-171,Cinnamon (Dalchini) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cinnamon (Dalchini),Cinnamon (Dalchini) Whole,available,7,available,7
-172,Cinnamon (Dalchini) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cinnamon (Dalchini),Cinnamon (Dalchini) Powder,available,5,available,7
-173,Frozen Fish Fillets,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Fish Fillets,not_specified,0,available,4
-174,Salt Substitutes,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Edible Common Salt,Salt Substitutes,available,4,not_specified,0
-175,Cassia (Taj) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cassia (Taj),Cassia (Taj) Whole,available,5,not_specified,0
-176,Cassia (Taj) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cassia (Taj),Cassia (Taj) Powder,available,4,available,7
-177,Cloves (Laung) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cloves (Laung),Cloves (Laung) Whole,available,7,available,7
-178,Coriander (Dhania) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Coriander (Dhania),Coriander (Dhania) Whole,available,8,available,7
-179,Coriander (Dhania) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Coriander (Dhania),Coriander (Dhania) Powder,available,4,available,7
-180,Cumin (Safed Zeera) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Cumin (Zeera, Kalonji)",Cumin (Safed Zeera) Whole,available,13,available,7
-181,Cumin (Safed Zeera) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Cumin (Zeera, Kalonji)",Cumin (Safed Zeera) Powder,available,5,available,7
-182,Cumin Black (Kalonji) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Cumin (Zeera, Kalonji)",Cumin Black (Kalonji) Whole,available,9,available,7
-183,Cumin Black (Kalonji) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Cumin (Zeera, Kalonji)",Cumin Black (Kalonji) Powder,available,5,available,7
-184,Cloves (Laung) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cloves (Laung),Cloves (Laung) Powder,available,5,available,7
-186,Avocado Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Avocado Oil,available,17,not_specified,0
-187,Potassium Iodate,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Edible Common Salt,Potassium Iodate,available,11,not_specified,0
-188,Dried Thyme,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Thyme,N/A,available,11,available,7
-189,Fennel (Saunf) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Fennel (Saunf),Fennel (Saunf) Whole,available,8,available,7
-190,Fennel (Saunf) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Fennel (Saunf),Fennel (Saunf) Powder,available,4,available,7
-191,Fenugreek (Methi) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Fenugreek (Methi),Fenugreek (Methi) Whole,available,7,available,7
-192,Fenugreek (Methi) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Fenugreek (Methi),Fenugreek (Methi) Powder,available,4,available,7
-193,Palm Superolein,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Superolein,available,17,not_specified,0
-194,Dried Rosemary,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Rosemary,N/A,available,7,available,7
-195,Dried Mint,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Mint,N/A,available,6,available,7
-196,"Dried Ginger (Sonth, Dried Adrak)] Whole","SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Dried Ginger (Sonth, Dried Adrak)","Dried Ginger (Sonth, Dried Adrak)] Whole",available,8,not_specified,0
-197,Dried Laurel Or Dried Bay Leaf Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Laurel Or Dried Bay Leaf,Dried Laurel Or Dried Bay Leaf Whole,available,5,available,7
-198,Dried Laurel Or Dried Bay Leaf Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Laurel Or Dried Bay Leaf,Dried Laurel Or Dried Bay Leaf Powder,available,4,available,7
-199,Pimento Or Allspice Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pimento Or All Spice,Pimento Or Allspice Whole,available,6,available,7
-200,Pimento Or Allspice Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pimento Or All Spice,Pimento Or Allspice Powder,available,5,available,7
-201,Dried Oregano Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Oregano,Dried Oregano Whole,available,5,available,7
-202,"Dried Ginger (Sonth, Dried Adrak)] Powder","SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Dried Ginger (Sonth, Dried Adrak)","Dried Ginger (Sonth, Dried Adrak)] Powder",available,8,available,7
-203,Dried Oregano Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Oregano,Dried Oregano Powder,available,3,available,7
-204,Star Anise,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Star Anise,N/A,available,6,available,7
-205,Tejpat,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Tejpat,N/A,available,8,available,7
-206,Spice Oleoresins,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Spice Oleoresins,N/A,not_specified,0,not_specified,0
-207,Salted Fish/Dried Salted Fish,FISH AND FISH PRODUCTS,Fish And Fish Products,Salted Fish/Dried Salted Fish,available,3,available,4
-208,Durum Wheat Semolina And Whole Durum Wheat Semolina,CEREALS AND CEREAL PRODUCTS,Durum Wheat Semolina And Whole Durum Wheat Semolina,N/A,available,14,not_specified,0
-209,Seasoning,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Seasoning,N/A,available,2,available,7
-210,Canned Fishery Products,FISH AND FISH PRODUCTS,Fish And Fish Products,Canned Fishery Products,available,7,available,2
-211,Degermed Maize (Corn) Meal And Maize (Corn) Grits,CEREALS AND CEREAL PRODUCTS,Degermed Maize (Corn) Meal And Maize (Corn) Grits,N/A,available,6,not_specified,0
-212,Frozen Cephalopods,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Cephalopods,not_specified,0,available,4
-213,Asafoetida (Hing Or Hingra),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Asafoetida (Hing Or Hingra),N/A,available,5,available,7
-214,Mace (Jaipatri) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Mace (Jaipatri),Mace (Jaipatri) Whole,available,7,available,7
-215,Mace (Jaipatri) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Mace (Jaipatri),Mace (Jaipatri) Powder,available,6,available,7
-216,"Mustard (Rai, Sarson) Whole","SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Mustard (Rai, Sarson)","Mustard (Rai, Sarson) Whole",available,11,available,7
-217,"Mustard (Rai, Sarson) Powder","SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Mustard (Rai, Sarson)","Mustard (Rai, Sarson) Powder",available,8,available,7
-218,Dehydrated Onion (Sukha Pyaj),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dehydrated Onion (Sukha Pyaj),N/A,available,5,available,7
-219,Nutmeg (Jaiphal) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Nutmeg (Jaiphal),Nutmeg (Jaiphal) Whole,available,7,available,7
-220,Celery,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Celery,N/A,available,2,available,7
-221,Dried (Dehydrated) Garlic (Lahsun),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Garlic (Lahsun),Dried (Dehydrated) Garlic (Lahsun),available,7,available,7
-222,Pepper White Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper White,Pepper White Whole,available,15,available,7
-223,Pepper White Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper White,Pepper White Powder,available,7,available,7
-224,Pepper Black (Kalimirch) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper Black (Kalimirch),Pepper Black (Kalimirch) Whole,available,14,available,7
-225,Nutmeg (Jaiphal) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Nutmeg (Jaiphal),Nutmeg (Jaiphal) Powder,available,7,available,7
-226,Pepper Black (Kali Mirch) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper Black (Kalimirch),Pepper Black (Kali Mirch) Powder,available,7,available,7
-227,Light Black Pepper,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper Black (Kalimirch),Light Black Pepper,available,2,available,7
-228,Pinheads,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper Black (Kalimirch),Pinheads,not_specified,0,not_specified,0
-229,Poppy (Khas Khas) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Poppy (Khas Khas),Poppy (Khas Khas) Whole,available,3,available,7
-230,Curry Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Curry Powder,N/A,available,7,available,7
-231,Saffron (Kesar),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Saffron (Kesar),Saffron (Kesar),available,11,available,7
-232,Saffron (Kesar) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Saffron (Kesar),Saffron (Kesar) Powder,available,9,available,7
-233,Turmeric (Haldi) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Turmeric (Haldi),Turmeric (Haldi) Whole,available,5,available,7
-234,Turmeric (Haldi) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Turmeric (Haldi),Turmeric (Haldi) Powder,available,6,available,7
-235,Aniseed (Saunf) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Aniseed (Saunf),Aniseed (Saunf) Whole,available,8,available,7
-236,Ajowan (Bishops Seed),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Ajowan (Bishops Seed),N/A,available,4,available,7
-237,Dried Mango Slices,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Mango Slices,N/A,available,3,available,7
-238,Dried Mango Powder (Amchur),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Mango Powder (Amchur),N/A,available,5,available,7
-239,Mixed Masala (Whole),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Mixed Masala,Mixed Masala (Whole),not_specified,0,available,7
-240,Mixed Masala Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Mixed Masala,Mixed Masala Powder,available,4,available,7
-241,Cardamom (Chhoti Elaichi) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Cardamom (Chhoti Elaichi) Whole,available,7,available,7
-242,Cardamom (Chhoti Elaichi) Seeds,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Cardamom (Chhoti Elaichi) Seeds,available,6,available,7
-243,Cardamom (Chhoti Elaichi) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Cardamom (Chhoti Elaichi) Powder,available,4,available,7
-244,Large Cardamom (Badi Elaichi) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Large Cardamom (Badi Elaichi) Whole,available,8,available,7
-245,Large Cardamom (Badi Elaichi) Seeds,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Large Cardamom (Badi Elaichi) Seeds,available,7,not_specified,0
-246,Large Cardamom (Badi Elaichi) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Large Cardamom (Badi Elaichi) Powder,available,4,available,7
-247,(Siahjira) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Caraway (Siahjira),(Siahjira) Whole,available,6,not_specified,0
-248,Caraway Black (Siahjira) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Caraway (Siahjira),Caraway Black (Siahjira) Whole,available,6,available,7
-249,Caraway (Siahjira) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Caraway (Siahjira),Caraway (Siahjira) Powder,available,4,available,7
-250,Smoked Fishery Products,FISH AND FISH PRODUCTS,Fish And Fish Products,Smoked Fishery Products,available,2,available,6
-251,Chillies And Capsicum (Lal Mirchi) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Chillies And Capsicum (Lal Mirchi),Chillies And Capsicum (Lal Mirchi) Whole,available,7,available,7
-252,Chillies And Capsicum (Lal Mirchi) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Chillies And Capsicum (Lal Mirchi),Chillies And Capsicum (Lal Mirchi) Powder,available,5,available,7
-253,Ready –To-Eat Finfish Or Shell Fish Curry In Retortable Pouches,FISH AND FISH PRODUCTS,Fish And Fish Products,Ready –To-Eat Finfish Or Shell Fish Curry In Retortable Pouches,available,10,available,2
-254,Thermally Processed Vegetables,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Vegetables,N/A,available,5,available,10
-255,Canned Tomatoes,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Vegetables,Canned Tomatoes,available,11,available,8
-256,Couscous,CEREALS AND CEREAL PRODUCTS,Couscous,N/A,available,3,not_specified,0
-257,Edible Fish Powder,FISH AND FISH PRODUCTS,Fish And Fish Products,Edible Fish Powder,available,7,available,4
-258,Thermally Processed Curried Vegetables / Ready To Eat Vegetables,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Curried Vegetables / Ready To Eat Vegetables,N/A,not_specified,0,available,8
-259,Thermally Processed Vegetable Soups,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Vegetable Soups,N/A,available,1,available,10
-260,Fish Pickles,FISH AND FISH PRODUCTS,Fish And Fish Products,Fish Pickles,available,4,available,5
-261,Fruit Juices,FRUIT & VEGETABLE PRODUCTS,Fruit Juices,N/A,available,144,available,8
-262,Frozen Minced Fish Meat,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Minced Fish Meat,available,5,available,6
-263,Tempe,CEREALS AND CEREAL PRODUCTS,Tempe,N/A,available,5,not_specified,0
-264,Freeze Dried Prawns (Shrimps):,FISH AND FISH PRODUCTS,Fish And Fish Products,Freeze Dried Prawns (Shrimps):,available,8,available,6
-265,Sardine Oil,FISH AND FISH PRODUCTS,Fish And Fish Products,Sardine Oil,available,6,not_specified,0
-266,Milk,DAIRY PRODUCTS AND ANALOGUES,Milk,N/A,available,23,available,10
-267,Flavoured Milk,DAIRY PRODUCTS AND ANALOGUES,Flavoured Milk,N/A,available,2,available,10
-268,Colouring Foods,FRUIT & VEGETABLE PRODUCTS,Colouring Foods,N/A,available,5,not_specified,0
-269,Water Chestnut Flour (Singhare Ka Atta),FRUIT & VEGETABLE PRODUCTS,Water Chestnut Flour (Singhare Ka Atta),N/A,available,5,not_specified,0
-270,Coconut Milk Powder,FRUIT & VEGETABLE PRODUCTS,Coconut Milk Powder,N/A,available,4,available,8
-271,Edible Fungi Products,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,N/A,not_specified,0,not_specified,0
-272,Evaporated Or Concentrated Milk,DAIRY PRODUCTS AND ANALOGUES,Evaporated Or Concentrated Milk,N/A,available,12,available,10
-273,Dried Fungi,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Dried Fungi,available,10,available,8
-274,Fungi Grits & Fungi Powder,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Fungi Grits & Fungi Powder,available,3,available,8
-275,Pickled Fungi,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Pickled Fungi,available,6,available,7
-276,Fermented Fungi,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Fermented Fungi,available,5,available,7
-277,Fungi In Olive Oil And Other Vegetable Oils,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Fungi In Olive Oil And Other Vegetable Oils,available,4,available,7
-278,Quick Frozen Fungi,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Quick Frozen Fungi,available,3,available,8
-279,Sterilized Fungi,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Sterilized Fungi,available,4,available,7
-280,Fungi Extract And Fungi Concentrate,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Fungi Extract And Fungi Concentrate,available,3,not_specified,0
-281,Dried Fungi Concentrate,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Dried Fungi Concentrate,available,4,not_specified,0
-282,Salted Fungi (Semi-Processed Product),FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Salted Fungi (Semi-Processed Product),available,4,available,7
-283,Sweetened Condensed Milk,DAIRY PRODUCTS AND ANALOGUES,Sweetened Condensed Milk,N/A,available,16,available,10
-284,Gelatin From Fish Processing Waste,FISH AND FISH PRODUCTS,Fish And Fish Products,Gelatin From Fish Processing Waste,available,6,not_specified,0
-285,Khoa,DAIRY PRODUCTS AND ANALOGUES,Khoa,N/A,available,4,available,10
-286,Cream And Malai,DAIRY PRODUCTS AND ANALOGUES,Cream And Malai,N/A,available,2,available,17
-287,Milk Fat Products,DAIRY PRODUCTS AND ANALOGUES,Milk Fat Products,N/A,available,11,available,2
-288,Butter,DAIRY PRODUCTS AND ANALOGUES,Butter,N/A,available,16,available,20
-289,Others — Vegetable Juices (FRUIT & VEGETABLE PRODUCTS),FRUIT & VEGETABLE PRODUCTS,Vegetable Juices,Others,available,1,available,8
-290,Milk Powders And Cream Powder,DAIRY PRODUCTS AND ANALOGUES,Milk Powders And Cream Powder,N/A,available,7,available,10
-291,Dairy Whitener,DAIRY PRODUCTS AND ANALOGUES,Dairy Whitener,N/A,available,9,available,10
-292,Semolina (Suji Or Rawa),CEREALS AND CEREAL PRODUCTS,Semolina (Suji Or Rawa),N/A,available,6,not_specified,0
-293,Besan,CEREALS AND CEREAL PRODUCTS,Besan,N/A,available,5,not_specified,0
-294,Unprocessed Whole Raw Pulses,CEREALS AND CEREAL PRODUCTS,Food Grains,Unprocessed Whole Raw Pulses,not_specified,0,not_specified,0
-295,Whey Powder,DAIRY PRODUCTS AND ANALOGUES,Whey Powder,N/A,available,6,available,10
-296,Fermented Milk Products,DAIRY PRODUCTS AND ANALOGUES,Fermented Milk Products,N/A,available,47,available,10
-297,Pasteurised Crab Meat,FISH AND FISH PRODUCTS,Fish And Fish Products,Pasteurised Crab Meat,available,7,available,6
-298,Pasteurized Fish Sausage,FISH AND FISH PRODUCTS,Fish And Fish Products,Pasteurized Fish Sausage,available,4,available,6
-299,Fresh And Quick Frozen Raw Scallop Products,FISH AND FISH PRODUCTS,Fish And Fish Products,Fresh And Quick Frozen Raw Scallop Products,not_specified,0,available,4
-300,Oats,CEREALS AND CEREAL PRODUCTS,Food Grains,Oats,available,9,not_specified,0
-301,"Quick Frozen Fish Sticks (Fish Fingers), Fish Portions And Fish Fillets - Breaded Or Battered",FISH AND FISH PRODUCTS,Fish And Fish Products,"Quick Frozen Fish Sticks (Fish Fingers), Fish Portions And Fish Fillets - Breaded Or Battered",available,8,available,7
-302,Quinoa,CEREALS AND CEREAL PRODUCTS,Food Grains,Quinoa,available,6,not_specified,0
-303,Cotton Seed Oil (Binola Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Cotton Seed Oil (Binola Ka Tel),available,18,not_specified,0
-304,Fish Sauce,FISH AND FISH PRODUCTS,Fish And Fish Products,Fish Sauce,available,8,available,5
-305,Quick Frozen Fried Potatoes,FRUIT & VEGETABLE PRODUCTS,Quick Frozen Fried Potatoes,N/A,available,3,available,8
-306,Sturgeon Caviar,FISH AND FISH PRODUCTS,Fish And Fish Products,Sturgeon Caviar,available,5,not_specified,0
-307,Vegetable Protein Products,FRUIT & VEGETABLE PRODUCTS,Vegetable Protein Products,N/A,available,5,not_specified,0
-308,Harrisa (Red Hot Pepper Paste),FRUIT & VEGETABLE PRODUCTS,Harrisa (Red Hot Pepper Paste),N/A,available,4,available,7
-309,Fermented Soybean Paste,FRUIT & VEGETABLE PRODUCTS,Fermented Soybean Paste,N/A,available,5,available,7
-310,Date Paste,FRUIT & VEGETABLE PRODUCTS,Date Paste,N/A,available,3,not_specified,0
-311,Arecanuts Or Betelnuts Or Supari,FRUIT & VEGETABLE PRODUCTS,Arecanuts Or Betelnuts Or Supari,N/A,available,4,not_specified,0
-312,Cocoa Beans,FRUIT & VEGETABLE PRODUCTS,Cocoa Beans,N/A,available,5,not_specified,0
-313,Dried Apricots,FRUIT & VEGETABLE PRODUCTS,Dried Apricots,N/A,available,10,available,8
-314,Coconut Cream (Non-Dairy),FRUIT & VEGETABLE PRODUCTS,Coconut Cream (Non-Dairy),N/A,available,10,not_specified,0
-315,Coconut Milk (Non-Dairy),FRUIT & VEGETABLE PRODUCTS,Coconut Milk (Non-Dairy),N/A,available,10,not_specified,0
-316,Frozen Clam Meat,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Clam Meat,not_specified,0,available,4
-317,Live And Raw Bivalve Molluscs,FISH AND FISH PRODUCTS,Fish And Fish Products,Live And Raw Bivalve Molluscs,not_specified,0,available,5
-318,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Chilled Beef(c),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Chilled Beef(c),available,4,available,5
-319,Others — Thermally Processed Tomato Juice (FRUIT & VEGETABLE PRODUCTS),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Tomato Juice,Others,available,9,available,8
-320,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Frozen Beef(d),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Frozen Beef(d),available,4,available,5
-321,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Chilled Chevon(c),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Chilled Chevon(c),available,3,available,5
-323,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Frozwn Chevon(d),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Frozwn Chevon(d),available,3,available,5
-324,Others — Lozenges (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Lozenges,Others,available,3,not_specified,0
-325,Others — Chewing Gum And Bubble Gum (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Chewing Gum And Bubble Gum,Others,available,12,not_specified,0
-326,Others — Chocolate (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Chocolate,Others,available,30,not_specified,0
-327,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Fresh Mutton(b),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Fresh Mutton(b),available,3,available,5
-328,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Fresh Beef(b),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Fresh Beef(b),available,4,available,5
-329,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Fresh Chevon(b),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Fresh Chevon(b),available,3,available,5
-330,Khandsari Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Khandsari Sugar,available,11,not_specified,0
-331,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Chilled Mutton(c),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Chilled Mutton(c),available,3,available,5
-332,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Frozen Mutton(d),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Frozen Mutton(d),available,3,available,5
-333,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Fresh Pork(b),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Fresh Pork(b),available,3,available,5
-334,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Chilled Pork(c),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Chilled Pork(c),available,3,available,5
-335,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Frozen Pork(d),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Frozen Pork(d),available,3,available,5
-336,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Fresh Poultry(b),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Fresh Poultry(b),available,3,available,5
-337,Others — Ice Lollies Or Edible Ices (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Ice Lollies Or Edible Ices,Others,available,1,available,8
-338,Others — Dry Mixtures Of Cocoa And Sugars (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Dry Mixtures Of Cocoa And Sugars,Others,available,20,not_specified,0
-339,Others — Cocoa Powder (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Cocoa Powder,Others,available,15,not_specified,0
-340,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Chilled Poultry(c),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Chilled Poultry(c),available,3,available,5
-341,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Frozen Poultry(d),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Frozen Poultry(d),available,3,available,5
-342,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Fresh Rabbit(3),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Fresh Rabbit(3),available,3,available,5
-343,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Chilled Rabbit(4),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Chilled Rabbit(4),available,3,available,5
-344,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Frozen Rabbit(5),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Frozen Rabbit(5),available,3,available,5
-345,Fresh Eggs (2.5.3.1) / Fresh Chicken Egg(a),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Chicken Egg(a),available,5,not_specified,0
-346,Fresh Eggs (2.5.3.1) / Fresh Turkey Egg(b),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Turkey Egg(b),available,5,not_specified,0
-347,Fresh Eggs (2.5.3.1) / Fresh Guinea Fowl Egg(c),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Guinea Fowl Egg(c),available,5,not_specified,0
-348,Fresh Eggs (2.5.3.1) / Fresh Quail Egg(d),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Quail Egg(d),available,5,not_specified,0
-349,Fresh Eggs (2.5.3.1) / Fresh Duck Egg(e),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Duck Egg(e),available,5,not_specified,0
-350,Fresh Eggs (2.5.3.1) / Fresh Goose Egg(f),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Goose Egg(f),available,5,not_specified,0
-351,Egg Powder (2.5.3.3) / Whole Egg Powder(a),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Egg Powder (2.5.3.3) / Whole Egg Powder(a),available,4,available,4
-352,Egg Powder (2.5.3.3) / Egg Yolk Powder(b),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Egg Powder (2.5.3.3) / Egg Yolk Powder(b),available,4,available,4
-353,Egg Powder (2.5.3.3) / Egg White Powder(c),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Egg Powder (2.5.3.3) / Egg White Powder(c),available,4,available,4
-354,Frozen Egg Products (2.5.3.2) / Frozen Egg Albumen(d),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Frozen Egg Products (2.5.3.2) / Frozen Egg Albumen(d),available,8,available,4
-355,Frozen Egg Products (2.5.3.2) / Frozen Egg Yolk(c),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Frozen Egg Products (2.5.3.2) / Frozen Egg Yolk(c),available,8,available,4
-356,Others — Cocoa Mass Or Cocoa/Chocolate Liquor And Cocoa Cake (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Cocoa Mass Or Cocoa/Chocolate Liquor And Cocoa Cake,Others,available,14,not_specified,0
-357,"Ice Cream, Kulfi, Chocolate Ice Cream, Softy Ice-Cream, Lolly And Dried Ice Cream Mix",DAIRY PRODUCTS AND ANALOGUES,"Ice Cream, Kulfi, Chocolate Ice Cream, Softy Ice-Cream, Lolly And Dried Ice Cream Mix",N/A,available,8,available,10
-358,Partially Hydrogenated And Winterised Soyabean Oil,"FATS, OILS AND FAT EMULSIONS",Partially Hydrogenated Soyabean Oil,Partially Hydrogenated And Winterised Soyabean Oil,available,24,not_specified,0
-359,"Frozen Desserts Or Confections With Added Vegetable Oil/ Fat Or Vegetable Protein, Or Both",DAIRY PRODUCTS AND ANALOGUES,"Frozen Desserts Or Confections With Added Vegetable Oil/ Fat Or Vegetable Protein, Or Both",N/A,available,5,available,10
-360,Frozen Egg Products (2.5.3.2) / Frozen Whole Egg(b),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Frozen Egg Products (2.5.3.2) / Frozen Whole Egg(b),available,8,available,4
-361,Bajra Flour (Pearl Millet Flour),CEREALS AND CEREAL PRODUCTS,Bajra Flour (Pearl Millet Flour),N/A,available,8,not_specified,0
-362,Jowar Flour (Sorghum Flour).,CEREALS AND CEREAL PRODUCTS,Jowar Flour (Sorghum Flour).,N/A,available,7,not_specified,0
-363,Textured Soy Protein (Soy Bari Or Soy Chunks Or Soy Granules),CEREALS AND CEREAL PRODUCTS,Textured Soy Protein (Soy Bari Or Soy Chunks Or Soy Granules),N/A,available,8,not_specified,0
-365,Sago Flour,CEREALS AND CEREAL PRODUCTS,Sago Flour,N/A,available,6,not_specified,0
-366,Chhana And Paneer,DAIRY PRODUCTS AND ANALOGUES,Chhana And Paneer,N/A,available,6,available,10
-367,FOOD FOR SPECIAL MEDICAL PURPOSE,FOOD FOR SPECIAL MEDICAL PURPOSE,N/A,N/A,available,1,not_specified,0
-368,HEALTH SUPPLEMENTS,HEALTH SUPPLEMENTS,N/A,N/A,not_specified,0,not_specified,0
-369,NUTRACEUTICALS,NUTRACEUTICALS,N/A,N/A,not_specified,0,not_specified,0
-372,Liquid Egg Products (2.5.3.4) / Liquid Whole Egg(b),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Liquid Egg Products (2.5.3.4) / Liquid Whole Egg(b),available,8,available,4
-375,Liquid Egg Products (2.5.3.4) / Liquid Egg Albumen(d),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Liquid Egg Products (2.5.3.4) / Liquid Egg Albumen(d),available,8,available,4
-376,Liquid Egg Products (2.5.3.4) / Liquid Egg Yolk(c),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Liquid Egg Products (2.5.3.4) / Liquid Egg Yolk(c),available,8,available,4
-377,Edible Casein Products,DAIRY PRODUCTS AND ANALOGUES,Edible Casein Products,N/A,available,8,available,10
-378,Vanilla,FRUIT & VEGETABLE PRODUCTS,Vanilla,N/A,available,15,not_specified,0
-379,Pickled Eggs,MEAT AND MEAT PRODUCTS,Egg And Egg Products,Pickled Eggs,available,3,available,4
-380,Seedless Tamarind,FRUIT & VEGETABLE PRODUCTS,Seedless Tamarind,N/A,available,6,not_specified,0
-381,Bean,FRUIT & VEGETABLE PRODUCTS,Bean,N/A,not_specified,0,not_specified,0
-382,Groundnut Kernel,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Groundnut Kernel,available,2,not_specified,0
-383,Raisins,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Raisins,available,3,available,8
-384,Pistachio Nuts,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Pistachio Nuts,available,3,not_specified,0
-386,Dates,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Dates,available,4,available,8
-387,Dry Fruits And Nuts,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Dry Fruits And Nuts,available,3,available,8
-388,Almond Kernels,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Almond Kernels,available,13,not_specified,0
-389,Edible Lactose,DAIRY PRODUCTS AND ANALOGUES,Edible Lactose,N/A,available,5,available,10
-390,Cashew Kernels,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Cashew Kernels,available,12,not_specified,0
-391,Vinegar,FRUIT & VEGETABLE PRODUCTS,Vinegar,N/A,available,3,not_specified,0
-392,Grated Desiccated Coconut,FRUIT & VEGETABLE PRODUCTS,Grated Desiccated Coconut,N/A,available,7,not_specified,0
-393,Table Olives,FRUIT & VEGETABLE PRODUCTS,Table Olives,N/A,available,2,available,7
-394,Milk Protein Concentrate,DAIRY PRODUCTS AND ANALOGUES,Milk Protein Concentrate,N/A,available,5,available,10
-395,Whey Protein Concentrate,DAIRY PRODUCTS AND ANALOGUES,Whey Protein Concentrate,N/A,available,4,available,10
-396,Pickles,FRUIT & VEGETABLE PRODUCTS,Pickles,N/A,available,7,available,8
-397,Mango Chutney,FRUIT & VEGETABLE PRODUCTS,Mango Chutney,N/A,available,5,available,8
-398,Fruits And Vegetable Chutney,FRUIT & VEGETABLE PRODUCTS,Fruits And Vegetable Chutney,N/A,available,7,available,8
-399,Fruit Based Beverage Mix/Powdered Fruit Based Beverage,FRUIT & VEGETABLE PRODUCTS,Fruit Based Beverage Mix/Powdered Fruit Based Beverage,N/A,available,2,available,8
-400,Frozen Curried Vegetables/Ready-To-Eat Vegetables,FRUIT & VEGETABLE PRODUCTS,Frozen Curried Vegetables/Ready-To-Eat Vegetables,N/A,not_specified,0,available,8
-401,Cow Or Buffalo Colostrum And Colostrum Products,DAIRY PRODUCTS AND ANALOGUES,Cow Or Buffalo Colostrum And Colostrum Products,N/A,available,18,not_specified,0
-402,Cheese And Cheese Products,DAIRY PRODUCTS AND ANALOGUES,Cheese And Cheese Products,N/A,available,10,available,20
-403,Partially Hydrogenated Soyabean Oil,"FATS, OILS AND FAT EMULSIONS",Partially Hydrogenated Soyabean Oil,Partially Hydrogenated Soyabean Oil,available,24,not_specified,0
-404,Beef Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Beef Fat,available,2,not_specified,0
-405,Mutton Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Mutton Fat,available,2,not_specified,0
-406,Goat Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Goat Fat,available,2,not_specified,0
-407,Lard,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Lard,available,2,not_specified,0
-408,Table Margarine,"FATS, OILS AND FAT EMULSIONS",Margarine And Fat Spreads,Table Margarine,available,16,not_specified,0
-409,Frozen Fruits/Fruit Products,FRUIT & VEGETABLE PRODUCTS,Frozen Fruits/Fruit Products,N/A,not_specified,0,available,8
-410,Dehydrated Fruits,FRUIT & VEGETABLE PRODUCTS,Dehydrated Fruits,N/A,available,1,available,8
-411,Fruit Cheese,FRUIT & VEGETABLE PRODUCTS,Fruit Cheese,N/A,available,1,not_specified,0
-412,"Jams, Fruit Jellies And Marmalades",FRUIT & VEGETABLE PRODUCTS,"Jams, Fruit Jellies And Marmalades",N/A,available,2,available,8
-413,Carbonated Fruit Beverages Or Fruit Drinks,FRUIT & VEGETABLE PRODUCTS,Carbonated Fruit Beverages Or Fruit Drinks,N/A,available,2,available,8
-414,Soyabean Sauce,FRUIT & VEGETABLE PRODUCTS,Soyabean Sauce,N/A,available,3,available,7
-415,Culinary Pastes / Fruits And Vegetable Sauces Other Than Tomato Sauce And Soya Sauce,FRUIT & VEGETABLE PRODUCTS,Culinary Pastes / Fruits And Vegetable Sauces Other Than Tomato Sauce And Soya Sauce,N/A,available,8,not_specified,0
-416,Tomato Ketchup And Tomato Sauce,FRUIT & VEGETABLE PRODUCTS,Tomato Ketchup And Tomato Sauce,N/A,available,2,available,8
-417,"Candied, Crystallised And Glazed Fruit / Vegetable / Rhizome / Fruit Peel",FRUIT & VEGETABLE PRODUCTS,"Candied, Crystallised And Glazed Fruit / Vegetable / Rhizome / Fruit Peel",N/A,available,2,not_specified,0
-418,Murabba,FRUIT & VEGETABLE PRODUCTS,Murabba,N/A,available,2,available,8
-419,Cocoa Butter,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Cocoa Butter,available,13,not_specified,0
-420,Refined Salseed Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Refined Salseed Fat,available,18,not_specified,0
-421,Kokum Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Kokum Fat,available,19,not_specified,0
-422,Mango Kernel Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Mango Kernel Fat,available,18,not_specified,0
-423,Dhupa Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Dhupa Fat,available,19,not_specified,0
-424,Phulwara Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Phulwara Fat,available,19,not_specified,0
-425,Arrowroot,CEREALS AND CEREAL PRODUCTS,Starchy Foods,Arrowroot,available,10,not_specified,0
-426,Expeller Pressed Edible Groundnut Flour,CEREALS AND CEREAL PRODUCTS,Expeller Pressed Flour,Expeller Pressed Edible Groundnut Flour,available,7,not_specified,0
-427,Vanaspati,"FATS, OILS AND FAT EMULSIONS",Hydrogenated Vegetable Oils,Vanaspati,available,15,not_specified,0
-428,Bakery Shortening,"FATS, OILS AND FAT EMULSIONS",Hydrogenated Vegetable Oils,Bakery Shortening,available,3,not_specified,0
-429,Wheat Bran,CEREALS AND CEREAL PRODUCTS,Wheat Bran,N/A,available,5,not_specified,0
-430,Non- Fermented Soybean Products,CEREALS AND CEREAL PRODUCTS,Non- Fermented Soybean Products,N/A,available,25,not_specified,0
-431,Cassava Or Tapioca Product (Gari),CEREALS AND CEREAL PRODUCTS,Cassava Or Tapioca Product (Gari),N/A,available,10,not_specified,0
-432,Bakery And Industrial Margarine,"FATS, OILS AND FAT EMULSIONS",Margarine And Fat Spreads,Bakery And Industrial Margarine,available,17,not_specified,0
-433,Edible Cassava Or Tapioca Flour,CEREALS AND CEREAL PRODUCTS,Edible Cassava Or Tapioca Flour,N/A,available,5,not_specified,0
-434,Roasted Bengal Gram Flour ( Chana Sattu),CEREALS AND CEREAL PRODUCTS,Roasted Bengal Gram Flour ( Chana Sattu),N/A,available,7,not_specified,0
-435,Ragi Flour,CEREALS AND CEREAL PRODUCTS,Ragi Flour,N/A,available,6,not_specified,0
-436,Breakfast Cereal,CEREALS AND CEREAL PRODUCTS,Breakfast Cereal,N/A,available,2,not_specified,0
-437,Fat Spread,"FATS, OILS AND FAT EMULSIONS",Margarine And Fat Spreads,Fat Spread,available,16,not_specified,0
-438,Peanut Butter,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Peanut Butter,available,7,not_specified,0
-439,Shea Butter,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Shea Butter,available,18,not_specified,0
-440,Borneo Tallow/ Illipe Butter,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Borneo Tallow/ Illipe Butter,available,18,not_specified,0
-441,Malted Milk Food,CEREALS AND CEREAL PRODUCTS,Malted And Malt Based Foods,Malted Milk Food,available,30,not_specified,0
-442,Pasta Products,CEREALS AND CEREAL PRODUCTS,Macaroni Products,Pasta Products,available,2,not_specified,0
-443,Durum Wheat,CEREALS AND CEREAL PRODUCTS,Food Grains,Durum Wheat,available,11,not_specified,0
-446,Pulses,CEREALS AND CEREAL PRODUCTS,Food Grains,Pulses,available,6,not_specified,0
-448,Chia Seeds,CEREALS AND CEREAL PRODUCTS,Food Grains,Chia Seeds,available,7,not_specified,0
-449,Maize Starch,CEREALS AND CEREAL PRODUCTS,Maize Starch,N/A,available,8,not_specified,0
-450,Corn Flakes,CEREALS AND CEREAL PRODUCTS,Corn Flakes,N/A,available,4,not_specified,0
-451,Custard Powder,CEREALS AND CEREAL PRODUCTS,Custard Powder,N/A,available,3,not_specified,0
-452,Malt Based Foods (Malt Food),CEREALS AND CEREAL PRODUCTS,Malted And Malt Based Foods,Malt Based Foods (Malt Food),available,12,not_specified,0
-453,Malt Extract,CEREALS AND CEREAL PRODUCTS,Malted And Malt Based Foods,Malt Extract,available,18,not_specified,0
-454,Oat Products,CEREALS AND CEREAL PRODUCTS,Oat Products,N/A,available,12,not_specified,0
-455,Solvent Extract Soya Flour,CEREALS AND CEREAL PRODUCTS,Solvent Extracted Flours,Solvent Extract Soya Flour,available,10,not_specified,0
-456,Solvent Extracted Groundnut Flour,CEREALS AND CEREAL PRODUCTS,Solvent Extracted Flours,Solvent Extracted Groundnut Flour,available,10,not_specified,0
-457,Solvent Extracted Sesame Flour,CEREALS AND CEREAL PRODUCTS,Solvent Extracted Flours,Solvent Extracted Sesame Flour,available,11,not_specified,0
-458,Solvent Extracted Coconut Flour,CEREALS AND CEREAL PRODUCTS,Solvent Extracted Flours,Solvent Extracted Coconut Flour,available,10,not_specified,0
-459,Solvent Extracted Cotton Seed Flour,CEREALS AND CEREAL PRODUCTS,Solvent Extracted Flours,Solvent Extracted Cotton Seed Flour,available,13,not_specified,0
-460,Synthetic Syrup Or Sharbat,FRUIT & VEGETABLE PRODUCTS,Synthetic Syrup Or Sharbat,N/A,available,1,not_specified,0
-461,Synthetic Syrup For Use In Dispensers For Carbonated Water,FRUIT & VEGETABLE PRODUCTS,Synthetic Syrup For Use In Dispensers For Carbonated Water,N/A,available,1,not_specified,0
-462,Ginger Cocktail,FRUIT & VEGETABLE PRODUCTS,Ginger Cocktail,N/A,available,1,not_specified,0
-463,"Squashes, Crushes, Fruit Syrups/Fruit Sharbats And Barley Water",FRUIT & VEGETABLE PRODUCTS,"Squashes, Crushes, Fruit Syrups/Fruit Sharbats And Barley Water",N/A,available,15,not_specified,0
-464,"Fruit/Vegetable, Cereal Flakes",FRUIT & VEGETABLE PRODUCTS,"Fruit/Vegetable, Cereal Flakes",N/A,available,3,available,8
-465,Fruit Bar/ Toffee,FRUIT & VEGETABLE PRODUCTS,Fruit Bar/ Toffee,N/A,available,3,available,8
-466,Tamarind Pulp/Puree And Concentrate,FRUIT & VEGETABLE PRODUCTS,Tamarind Pulp/Puree And Concentrate,N/A,available,6,not_specified,0
-467,Concentrated Fruit Vegetable Juice /Pulp / Puree With Preservatives For Industrial Use Only,FRUIT & VEGETABLE PRODUCTS,Concentrated Fruit Vegetable Juice /Pulp / Puree With Preservatives For Industrial Use Only,N/A,available,72,not_specified,0
-468,Fruit/Vegetable Juice / Pulp/ Puree With Preservatives For Industrial Use Only,FRUIT & VEGETABLE PRODUCTS,Fruit/Vegetable Juice / Pulp/ Puree With Preservatives For Industrial Use Only,N/A,not_specified,0,available,8
-469,Soup Powders,FRUIT & VEGETABLE PRODUCTS,Soup Powders,N/A,available,2,available,8
-470,FENNY OR FENI,FENNY OR FENI,N/A,N/A,available,16,not_specified,0
-471,Instant Noodle (Not Applied To Noodle Seasoning),CEREALS AND CEREAL PRODUCTS,Macaroni Products,Instant Noodle (Not Applied To Noodle Seasoning),available,6,not_specified,0
-474,Thermally Processed Tomato Puree And Paste,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Tomato Puree And Paste,N/A,available,2,available,10
-475,Thermally Processed Concentrated Fruit / Vegetable Juice Pulp/ Puree,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Concentrated Fruit / Vegetable Juice Pulp/ Puree,N/A,available,72,available,10
-476,Thermally Processed Fruit Pulp / Puree And Sweetened Fruit Pulp / Puree Other Than Mango,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Pulp / Puree And Sweetened Fruit Pulp / Puree Other Than Mango,N/A,available,2,available,10
-477,Thermally Processed Mango Pulp / Puree And Sweetened Mango Pulp / Puree,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Mango Pulp / Puree And Sweetened Mango Pulp / Puree,N/A,available,3,available,10
-478,Thermally Processed Fruit Beverages / Fruit Drink/ Ready To Serve Fruit Beverages,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Beverages / Fruit Drink/ Ready To Serve Fruit Beverages,N/A,available,2,available,10
-479,Frozen Vegetables,FRUIT & VEGETABLE PRODUCTS,Frozen Vegetables,N/A,not_specified,0,available,8
-480,Dehydrated Vegetables,FRUIT & VEGETABLE PRODUCTS,Dehydrated Vegetables,N/A,available,60,available,8
-481,Semi Sparkling Or Crackling,WINE,Wine Based On Carbon Dioxide Content,Semi Sparkling Or Crackling,available,10,not_specified,0
-482,Sparkling,WINE,Wine Based On Carbon Dioxide Content,Sparkling,available,9,not_specified,0
-483,Carbonated Wine,WINE,Wine Based On Carbon Dioxide Content,Carbonated Wine,available,9,not_specified,0
-484,Formulated Supplements For Children,CEREALS AND CEREAL PRODUCTS,Malted And Malt Based Foods,Formulated Supplements For Children,available,5,available,10
-485,Frozen Beans,FRUIT & VEGETABLE PRODUCTS,Frozen Vegetables,Frozen Beans,available,17,available,10
-486,Frozen Cauliflower,FRUIT & VEGETABLE PRODUCTS,Frozen Vegetables,Frozen Cauliflower,available,50,available,8
-487,Frozen Peas,FRUIT & VEGETABLE PRODUCTS,Frozen Vegetables,Frozen Peas,available,5,available,8
-488,Frozen Spinach,FRUIT & VEGETABLE PRODUCTS,Frozen Vegetables,Frozen Spinach,available,37,available,8
-489,Walnut Kernels,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Walnut Kernels,available,6,not_specified,0
-490,Thermally Processed Tomato Juice,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Tomato Juice,N/A,available,8,available,10
-491,Vegetable Juices,FRUIT & VEGETABLE PRODUCTS,Vegetable Juices,N/A,not_specified,0,available,8
-492,Canned Chestnuts And Canned Chestnut Puree,FRUIT & VEGETABLE PRODUCTS,Canned Chestnuts And Canned Chestnut Puree,N/A,available,17,available,8
-493,Thermally Processed Fruit Nectars,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Nectars,N/A,available,24,available,10
-494,Canned Or Retort Pouch Meat Products,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Canned Or Retort Pouch Meat Products,not_specified,0,available,7
-495,Yellow Pea Powder,CEREALS AND CEREAL PRODUCTS,Yellow Pea Powder,N/A,available,5,not_specified,0
-496,Comminuted Or Restructured Meat Products,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Comminuted Or Restructured Meat Products,available,14,available,10
-497,"Cured Or Pickled And Cooked Or Smoked Meat Products, Or Both",MEAT AND MEAT PRODUCTS,Meat And Meat Products,"Cured Or Pickled And Cooked Or Smoked Meat Products, Or Both",not_specified,0,available,15
-498,Animal Casings,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Animal Casings,not_specified,0,not_specified,0
-499,Dried Or Dehydrated Meat Products,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Dried Or Dehydrated Meat Products,not_specified,0,available,14
-500,Cooked Or Semi-Cooked Meat Products.,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Cooked Or Semi-Cooked Meat Products.,not_specified,0,available,11
-501,Marinated Meat Products,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Marinated Meat Products,not_specified,0,available,5
-502,Fermented Meat Products,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fermented Meat Products,not_specified,0,available,5
-503,Virgin Coconut Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Virgin Coconut Oil,available,17,not_specified,0
-504,Olive Oil (2.2.1.8) / Refined Olive Oil(i),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Refined Olive Oil(i),available,25,not_specified,0
-505,Olive Oil (2.2.1.8) / Extra Virgin Olive Oil(Iii),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Extra Virgin Olive Oil(Iii),available,25,not_specified,0
-506,Canned Fishery Products (2.6.1.8) / Canned Finfish(i),FISH AND FISH PRODUCTS,Fish And Fish Products,Canned Fishery Products (2.6.1.8) / Canned Finfish(i),available,36,available,2
-507,Canned Fishery Products (2.6.1.8) / Canned Crustaceans(Ii),FISH AND FISH PRODUCTS,Fish And Fish Products,Canned Fishery Products (2.6.1.8) / Canned Crustaceans(Ii),available,12,available,2
-508,Olive Oil (2.2.1.8) / Virgin Olive Oil(Iv),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Virgin Olive Oil(Iv),available,25,not_specified,0
-509,Canned Fishery Products (2.6.1.8) / Canned Molluscs(Iii),FISH AND FISH PRODUCTS,Fish And Fish Products,Canned Fishery Products (2.6.1.8) / Canned Molluscs(Iii),available,14,available,2
-510,Frozen Shrimp (2.6.1.1) / Raw Frozen Shrimp(i),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Shrimp (2.6.1.1) / Raw Frozen Shrimp(i),not_specified,0,available,4
-511,Frozen Shrimp (2.6.1.1) / Cooked Frozen Shrimp(Ii),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Shrimp (2.6.1.1) / Cooked Frozen Shrimp(Ii),not_specified,0,available,6
-512,Frozen Lobsters (2.6.1.2) / Raw Frozen Lobster(i),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Lobsters (2.6.1.2) / Raw Frozen Lobster(i),not_specified,0,available,4
-513,Frozen Lobsters (2.6.1.2) / Cooked Frozen Lobster(Ii),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Lobsters (2.6.1.2) / Cooked Frozen Lobster(Ii),not_specified,0,available,6
-514,Frozen Clam Meat (2.6.1.17) / Raw Frozen Clam Meat (Rfcm)(I),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Clam Meat (2.6.1.17) / Raw Frozen Clam Meat (Rfcm)(I),available,4,available,4
-515,Frozen Clam Meat (2.6.1.17) / Cooked Frozen Clam Meat (Cfcm)(Ii),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Clam Meat (2.6.1.17) / Cooked Frozen Clam Meat (Cfcm)(Ii),available,4,available,6
-516,Live And Raw Bivalve Molluscs (2.6.1.18) / Live Bivalve Molluscs(1),FISH AND FISH PRODUCTS,Fish And Fish Products,Live And Raw Bivalve Molluscs (2.6.1.18) / Live Bivalve Molluscs(1),available,2,available,1
-517,Live And Raw Bivalve Molluscs (2.6.1.18) / Raw Bivalve Molluscs(2),FISH AND FISH PRODUCTS,Fish And Fish Products,Live And Raw Bivalve Molluscs (2.6.1.18) / Raw Bivalve Molluscs(2),available,4,available,4
-518,Olive Oil (2.2.1.8) / Ordinary Virgin Olive Oil(v),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Ordinary Virgin Olive Oil(v),available,25,not_specified,0
-519,Olive Oil (2.2.1.8) / Refined Olive-Pomace Oil(Vi),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Refined Olive-Pomace Oil(Vi),available,25,not_specified,0
-520,Olive Oil (2.2.1.8) / Olive-Pomace Oil(Vii),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Olive-Pomace Oil(Vii),available,25,not_specified,0
-521,Grapeseed Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Grapeseed Oil,available,16,not_specified,0
-522,Stout And Porter,BEER,Ale,Stout And Porter,available,5,available,4
-524,"Processed Nuts, Including Coated Nuts And Nut Mixtures",READY-TO-EAT SAVORIES,"Processed Nuts, Including Coated Nuts And Nut Mixtures",N/A,not_specified,0,not_specified,0
-525,"Snacks - Potato, Cereal, Flour Or Starch Based (From Roots And Tubers, Pulses And Legumes)",READY-TO-EAT SAVORIES,"Snacks - Potato, Cereal, Flour Or Starch Based (From Roots And Tubers, Pulses And Legumes)",N/A,not_specified,0,not_specified,0
-526,Snacks - Fish Based,READY-TO-EAT SAVORIES,Snacks - Fish Based,N/A,not_specified,0,available,6
-528,Others — Fruit Juices - Thermally Processed Fruit Juices (FRUIT & VEGETABLE PRODUCTS),FRUIT & VEGETABLE PRODUCTS,Fruit Juices - Thermally Processed Fruit Juices,Others,available,144,available,8
-529,Fruit Juices - Thermally Processed Fruit Juices (Retort Processed),FRUIT & VEGETABLE PRODUCTS,Fruit Juices - Thermally Processed Fruit Juices (Retort Processed),N/A,available,144,available,8
-530,Thermally Processed Concentrated Fruit / Vegetable Juice Pulp/ Puree (Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Concentrated Fruit / Vegetable Juice Pulp/ Puree (Retort Processed),N/A,available,144,available,8
-531,Thermally Processed Fruit Beverages / Fruit Drink/ Ready To Serve Fruit Beverages (Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Beverages / Fruit Drink/ Ready To Serve Fruit Beverages (Retort Processed),N/A,available,2,available,8
-532,Thermally Processed Fruit Nectars(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Nectars(Retort Processed),N/A,available,24,available,8
-533,Thermally Processed Fruit Pulp / Puree And Sweetened Fruit Pulp / Puree Other Than Mango(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Pulp / Puree And Sweetened Fruit Pulp / Puree Other Than Mango(Retort Processed),N/A,available,2,available,7
-534,Thermally Processed Fruits(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruits(Retort Processed),N/A,available,2,available,8
-535,Thermally Processed Mango Pulp / Puree And Sweetened Mango Pulp / Puree(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Mango Pulp / Puree And Sweetened Mango Pulp / Puree(Retort Processed),N/A,available,3,available,8
-536,Thermally Processed Tomato Puree And Paste(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Tomato Puree And Paste(Retort Processed),N/A,available,2,available,8
-537,Thermally Processed Vegetable Soups(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Vegetable Soups(Retort Processed),N/A,available,1,available,8
-538,Thermally Processed Vegetables(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Vegetables(Retort Processed),N/A,available,5,available,8
-539,Vegetable Juices (Thermally Processed),FRUIT & VEGETABLE PRODUCTS,Vegetable Juices (Thermally Processed),N/A,not_specified,0,available,10
-540,Vegetable Juices(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Vegetable Juices(Retort Processed),N/A,not_specified,0,available,8
-541,Thermally Processed Fruit Salad/Cocktail/Mix(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Salad/Cocktail/Mix(Retort Processed),N/A,available,8,available,8
-542,Multigrain Flour (Atta),CEREALS AND CEREAL PRODUCTS,Multigrain Flour (Atta),N/A,available,9,not_specified,0
-543,Mixed Millet Flour,CEREALS AND CEREAL PRODUCTS,Mixed Millet Flour,N/A,available,7,not_specified,0
-544,Sugar Boiled Confectionery,SWEETS & CONFECTIONERY,Sugar Boiled Confectionery,N/A,available,7,not_specified,0
-545,Infant Formula,INFANT MILK SUBSTITUTE,Infant Formula,N/A,available,12,available,10
-546,Milk Cereal Based Complementary Food,INFANT FOOD,Milk Cereal Based Complementary Food,N/A,available,11,available,10
-547,Processed Cereal Based Complementary Food,INFANT FOOD,Processed Cereal Based Complementary Food,N/A,available,9,available,10
-548,Follow-Up Formula,INFANT FOOD,Follow-Up Formula,N/A,available,7,available,10
-550,Preterm Infant Milk Substitute,FOOD FOR SPECIAL MEDICAL PURPOSE INTENDED FOR INFANTS,Preterm Infant Milk Substitute,N/A,available,8,available,10
-551,Lactose Free Infant Milk Substitutes,FOOD FOR SPECIAL MEDICAL PURPOSE INTENDED FOR INFANTS,Lactose Free Infant Milk Substitutes,N/A,available,2,available,10
-552,Hypoallergenic Infant Milk Substitutes,FOOD FOR SPECIAL MEDICAL PURPOSE INTENDED FOR INFANTS,Hypoallergenic Infant Milk Substitutes,N/A,available,2,available,10
-553,Food For Special Medical Purpose Intended For - Infants,FOOD FOR SPECIAL MEDICAL PURPOSE INTENDED FOR INFANTS,Food For Special Medical Purpose Intended For - Infants,N/A,not_specified,0,available,10
-555,Moringa Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Moringa Oil,available,13,not_specified,0
-556,Imported Safflower Seed Oil And Safflower Seed Oil (High Oleic Acid – Imported Or Domestic),"FATS, OILS AND FAT EMULSIONS",Oils,Imported Safflower Seed Oil And Safflower Seed Oil (High Oleic Acid – Imported Or Domestic),available,21,not_specified,0
-558,Biscuit,CEREALS AND CEREAL PRODUCTS,Bakery Products,Biscuit,available,2,available,4
-559,Bread,CEREALS AND CEREAL PRODUCTS,Bakery Products,Bread,available,2,available,4
-561,"Others — Solvent Extracted Crude Vegetable Oils (FATS, OILS AND FAT EMULSIONS)","FATS, OILS AND FAT EMULSIONS",Solvent Extracted Crude Vegetable Oils,Others,available,192,not_specified,0
-562,Triticale,CEREALS AND CEREAL PRODUCTS,Food Grains,Triticale,available,6,not_specified,0
-563,Papad,CEREALS AND CEREAL PRODUCTS,Papad,N/A,available,4,not_specified,0
-564,Millets,CEREALS AND CEREAL PRODUCTS,Food Grains,Millets,available,8,not_specified,0
-565,Rice Flour For Preparation Of Fortified Rice Kernel (Frk),CEREALS AND CEREAL PRODUCTS,Food Grains,Rice Flour For Preparation Of Fortified Rice Kernel (Frk),available,7,not_specified,0
-566,Fermented Soybean Curd,CEREALS AND CEREAL PRODUCTS,Fermented Soybean Curd,N/A,available,8,not_specified,0
-567,Dairy Permeate Powders,DAIRY PRODUCTS AND ANALOGUES,Dairy Permeate Powders,N/A,available,6,available,10
-568,Food For Infants Based On Traditional Food Ingredients,INFANT FOOD,Food For Infants Based On Traditional Food Ingredients,N/A,not_specified,0,available,10
-569,Foods For Infants With Inborn Errors Of Metabolism (Iem),FOOD FOR SPECIAL MEDICAL PURPOSE INTENDED FOR INFANTS,Foods For Infants With Inborn Errors Of Metabolism (Iem),N/A,not_specified,0,available,10
-570,Instant Tea In Solid Form,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Tea,Instant Tea In Solid Form,available,4,available,3
-571,Non-Carbonated Water Based Beverages( Non- Alcoholic),"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Beverages Non-Alcoholic,Non-Carbonated Water Based Beverages( Non- Alcoholic),available,10,available,3
-572,Drinking Water (Purified),"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Drinking Water (Purified),N/A,available,24,available,5
-573,Flavored Beer,DRAUGHT BEER,Flavored Beer,N/A,available,10,available,4
-574,Vitamin-Mineral Premix For Preparation Of Fortified Rice Kernel (Frk),CEREALS AND CEREAL PRODUCTS,Food Grains,Vitamin-Mineral Premix For Preparation Of Fortified Rice Kernel (Frk),available,4,not_specified,0
-575,Fortified Rice Kernel,CEREALS AND CEREAL PRODUCTS,Food Grains,Fortified Rice Kernel,available,10,not_specified,0
-576,Basmati Rice,CEREALS AND CEREAL PRODUCTS,Food Grains,Basmati Rice,available,76,not_specified,0
-577,Blended Rice,CEREALS AND CEREAL PRODUCTS,Food Grains,Blended Rice,not_specified,0,not_specified,0
-578,Others — Milk And Milk Products (DAIRY PRODUCTS AND ANALOGUES),DAIRY PRODUCTS AND ANALOGUES,Milk And Milk Products,Others,available,1,not_specified,0
-579,Decaffeinated Roasted And Ground Coffee-Chicory Mixture,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee - Chicory Mixture,Decaffeinated Roasted And Ground Coffee-Chicory Mixture,available,5,not_specified,0
-580,Decaffeinated Instant Coffee-Chicory Mixture,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee - Chicory Mixture,Decaffeinated Instant Coffee-Chicory Mixture,available,6,not_specified,0
-581,FOOD FOR SPECIAL DIETARY USE (FSDU),FOOD FOR SPECIAL DIETARY USE (FSDU),N/A,N/A,not_specified,0,not_specified,0
-582,PREBIOTIC FOOD AND PROBIOTIC FOOD (PRE-PRO),PREBIOTIC FOOD AND PROBIOTIC FOOD (PRE-PRO),N/A,N/A,not_specified,0,not_specified,0
+id,name,category,subcategory,specific_subcategory,quality_parameter_status,quality_parameter_count,microbiological_requirement_status,microbiological_requirement_count,food_additive_status,fatty_acid_composition_status,fatty_acid_composition_count,pesticide_residue_status,pesticide_residue_requirement_count,heavy_metal_status,heavy_metal_requirement_count,antibiotic_veterinary_drug_status,antibiotic_veterinary_drug_requirement_count,contaminant_status,contaminant_requirement_count
+33,Others — Pearl Barley (Jau) (CEREALS AND CEREAL PRODUCTS),CEREALS AND CEREAL PRODUCTS,Pearl Barley (Jau),Others,available,4,not_specified,0,available,not_specified,0,available,37,available,7,not_specified,0,available,3
+34,Coconut Oil (Naryal Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Coconut Oil (Naryal Ka Tel),available,17,not_specified,0,available,available,21,available,1,available,7,not_specified,0,available,2
+35,Pearl Barley (Jau),CEREALS AND CEREAL PRODUCTS,Pearl Barley (Jau),N/A,available,4,not_specified,0,available,not_specified,0,available,18,available,7,not_specified,0,available,2
+36,Food Grains,CEREALS AND CEREAL PRODUCTS,Food Grains,Food Grains,not_specified,0,not_specified,0,available,not_specified,0,available,19,available,7,not_specified,0,available,2
+37,Wheat,CEREALS AND CEREAL PRODUCTS,Food Grains,Wheat,available,8,not_specified,0,available,not_specified,0,available,53,available,7,not_specified,0,available,4
+38,Maize,CEREALS AND CEREAL PRODUCTS,Food Grains,Maize,available,7,not_specified,0,available,not_specified,0,available,34,available,7,not_specified,0,available,2
+40,Any Other Foodgrains Not Specified,CEREALS AND CEREAL PRODUCTS,Food Grains,Any Other Foodgrains Not Specified,available,15,not_specified,0,available,not_specified,0,available,20,available,7,not_specified,0,available,2
+41,Honey,SWEETENING AGENTS INCLUDING HONEY,Honey And It’S By Products:,Honey,available,25,not_specified,0,not_specified,not_specified,0,not_specified,0,available,7,available,12,not_specified,0
+42,Groundnut Oil (Moongh-Phali-Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Groundnut Oil (Moongh-Phali-Ka Tel),available,19,not_specified,0,available,available,21,available,15,available,7,not_specified,0,available,2
+43,Flaxseed Or Linseed Oil (Tisi Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Flaxseed Or Linseed Oil (Tisi Ka Tel),available,18,not_specified,0,available,not_specified,0,available,1,available,7,not_specified,0,available,2
+44,Mahua Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Mahua Oil,available,18,not_specified,0,available,not_specified,0,available,1,available,7,not_specified,0,available,2
+45,Taramira Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Taramira Oil,available,18,not_specified,0,available,not_specified,0,available,1,available,7,not_specified,0,available,2
+46,Soybean,CEREALS AND CEREAL PRODUCTS,Soybean,N/A,available,9,not_specified,0,available,not_specified,0,available,57,available,7,not_specified,0,available,2
+47,Rapeseed Or Mustard Oil-Low Erucic Acid,"FATS, OILS AND FAT EMULSIONS",Oils,Rapeseed Or Mustard Oil-Low Erucic Acid,available,21,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+48,Rice,CEREALS AND CEREAL PRODUCTS,Food Grains,Rice,available,40,not_specified,0,available,not_specified,0,available,97,available,7,not_specified,0,available,2
+49,Soy Protein Products,CEREALS AND CEREAL PRODUCTS,Soy Protein Products,N/A,available,12,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+50,Rapeseed Oil (Toria Oil) Or Mustard Oil (Sarson Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Rapeseed Oil (Toria Oil) Or Mustard Oil (Sarson Ka Tel),available,20,not_specified,0,available,available,21,available,6,available,7,not_specified,0,available,2
+51,Olive Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil,available,25,not_specified,0,available,available,21,available,1,available,7,not_specified,0,available,2
+52,Poppy Seed Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Poppy Seed Oil,available,18,not_specified,0,available,not_specified,0,available,2,available,7,not_specified,0,available,2
+53,Til Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Til Oil,available,24,not_specified,0,available,not_specified,0,available,1,available,7,not_specified,0,available,2
+54,Safflower Seed Oil (Barrey Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Safflower Seed Oil (Barrey Ka Tel),available,18,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+55,Chia Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Chia Oil,available,14,not_specified,0,available,available,21,available,1,available,7,not_specified,0,available,2
+56,Atta,CEREALS AND CEREAL PRODUCTS,Wheat Flour (Atta) And Resultant Wheat Flour (Resultant Atta),Atta,available,8,not_specified,0,available,not_specified,0,available,19,available,7,not_specified,0,available,2
+57,Palm Kernel Olein,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Kernel Olein,available,18,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+58,Plantation White Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Plantation White Sugar,available,2,not_specified,0,available,not_specified,0,not_specified,0,available,1,not_specified,0,not_specified,0
+59,Palm Kernel Stearin,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Kernel Stearin,available,18,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+60,Palm Stearin,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Stearin,available,18,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+61,Palm Kernel Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Kernel Oil,available,18,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+62,Refined Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Refined Sugar,available,2,not_specified,0,not_specified,not_specified,0,not_specified,0,available,2,not_specified,0,not_specified,0
+63,Sun Flower Seed Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Sun Flower Seed Oil,available,19,not_specified,0,available,available,21,available,3,available,7,not_specified,0,available,2
+64,Sunflower Seed Oil-High Oleic Acid,"FATS, OILS AND FAT EMULSIONS",Oils,Sunflower Seed Oil-High Oleic Acid,available,18,not_specified,0,available,available,21,available,3,available,7,not_specified,0,available,2
+65,Niger Seed Oil (Sargiya Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Niger Seed Oil (Sargiya Ka Tel),available,19,not_specified,0,available,not_specified,0,available,1,available,7,not_specified,0,available,2
+66,Soyabean Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Soyabean Oil,available,19,not_specified,0,available,available,21,available,20,available,7,not_specified,0,available,2
+67,Protein Rich Wheat Flour (Protein Prachur Atta),CEREALS AND CEREAL PRODUCTS,Wheat Flour (Atta) And Resultant Wheat Flour (Resultant Atta),Protein Rich Wheat Flour (Protein Prachur Atta),available,8,not_specified,0,available,not_specified,0,available,19,available,7,not_specified,0,available,2
+68,Maida (Refined Wheat Flour),CEREALS AND CEREAL PRODUCTS,Maida,Maida (Refined Wheat Flour),available,7,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+69,Protein Rich Refined Wheat Flour (Protein Prachur Maida),CEREALS AND CEREAL PRODUCTS,Maida,Protein Rich Refined Wheat Flour (Protein Prachur Maida),available,8,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+70,Durum Wheat Maida,CEREALS AND CEREAL PRODUCTS,Maida,Durum Wheat Maida,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+71,Maize (Corn) Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Maize (Corn) Oil,available,17,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+72,Refined Vegetable Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Refined Vegetable Oil,available,16,not_specified,0,available,not_specified,0,available,2,available,7,not_specified,0,available,2
+73,Almond Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Almond Oil,available,15,not_specified,0,available,not_specified,0,available,1,available,7,not_specified,0,available,2
+74,Water-Melon Seed Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Water-Melon Seed Oil,available,22,not_specified,0,available,not_specified,0,available,2,available,7,not_specified,0,available,2
+75,Palm Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Oil,available,20,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+76,Palmolein,"FATS, OILS AND FAT EMULSIONS",Oils,Palmolein,available,19,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+77,Rice Bran Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Rice Bran Oil,available,23,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+78,Multi-Source Edible Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Multi-Source Edible Oil,available,27,not_specified,0,available,not_specified,0,available,2,available,7,not_specified,0,available,2
+79,Interesterified Vegetable Fat/Oil (2.2.2),"FATS, OILS AND FAT EMULSIONS",Interesterified Vegetable Fat/Oil (2.2.2),N/A,available,21,not_specified,0,available,not_specified,0,not_specified,0,available,8,not_specified,0,available,2
+80,Bura Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Bura Sugar,available,2,not_specified,0,available,not_specified,0,not_specified,0,available,1,not_specified,0,not_specified,0
+81,Cube Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Cube Sugar,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,1,not_specified,0,not_specified,0
+82,Icing Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Icing Sugar,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,1,not_specified,0,not_specified,0
+83,Misri,SWEETENING AGENTS INCLUDING HONEY,Misri,N/A,available,2,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+84,Gur Or Jaggery,SWEETENING AGENTS INCLUDING HONEY,Gur Or Jaggery,Gur Or Jaggery,available,6,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+85,Tea,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Tea,Tea,available,7,available,3,available,not_specified,0,available,33,available,2,not_specified,0,available,2
+86,Chicory,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Chicory,N/A,available,3,available,3,available,not_specified,0,not_specified,0,available,2,not_specified,0,not_specified,0
+87,Bees Wax,SWEETENING AGENTS INCLUDING HONEY,Honey And It’S By Products:,Bees Wax,available,12,not_specified,0,not_specified,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+94,Soluble Coffee Powder,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee,Soluble Coffee Powder,available,5,available,3,available,not_specified,0,available,8,available,1,not_specified,0,available,2
+95,Decaffeinated Soluble Coffee Powder,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee,Decaffeinated Soluble Coffee Powder,available,5,available,3,available,not_specified,0,available,8,available,1,not_specified,0,available,2
+96,Coffee - Chicory Mixture,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee - Chicory Mixture,Coffee - Chicory Mixture,available,5,available,3,available,not_specified,0,available,7,available,7,not_specified,0,not_specified,0
+97,Decaffeinated Roasted And Ground Coffee,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee,Decaffeinated Roasted And Ground Coffee,available,7,available,3,available,not_specified,0,available,8,available,2,not_specified,0,available,2
+98,Coffee (Green Raw Or Unroasted),"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee,Coffee (Green Raw Or Unroasted),not_specified,0,available,3,available,not_specified,0,available,8,available,1,not_specified,0,available,2
+99,Kangra Tea,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Tea,Kangra Tea,available,7,available,3,available,not_specified,0,available,33,available,2,not_specified,0,available,2
+100,Green Tea,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Tea,Green Tea,available,7,available,3,available,not_specified,0,available,3,not_specified,0,not_specified,0,available,1
+101,"Others — Mineral Water (BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED))","BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Mineral Water,Others,available,27,available,9,available,not_specified,0,narrative,0,available,6,not_specified,0,not_specified,0
+102,Royal Jelly,SWEETENING AGENTS INCLUDING HONEY,Honey And It’S By Products:,Royal Jelly,available,14,not_specified,0,not_specified,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+103,Instant Coffee - Chicory Mixture,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee - Chicory Mixture,Instant Coffee - Chicory Mixture,available,6,available,3,available,not_specified,0,available,7,available,8,not_specified,0,not_specified,0
+105,Carbonated Water,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Beverages Non-Alcoholic,Carbonated Water,available,9,available,3,available,not_specified,0,available,2,available,7,not_specified,0,available,2
+106,Others — Lager (BEER),BEER,Lager,Others,available,5,not_specified,0,available,not_specified,0,not_specified,0,available,1,not_specified,0,available,4
+107,Caffeinated Beverage,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Beverages Non-Alcoholic,Caffeinated Beverage,available,1,not_specified,0,available,not_specified,0,available,2,available,3,not_specified,0,available,2
+109,Wheat Beer,BEER,Ale,Wheat Beer,available,5,available,4,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,4
+110,Single Malt Or Single Grain Whisky,WHISKY OR WHISKEY,Malt Or Grain Whisky,Single Malt Or Single Grain Whisky,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,5,not_specified,0,available,4
+111,"Others — Packaged Drinking Water (Other Than Mineral Water) (BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED))","BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Packaged Drinking Water (Other Than Mineral Water),Others,available,27,available,9,not_specified,not_specified,0,narrative,0,available,9,not_specified,0,not_specified,0
+112,Blended Malt Whisky Or Blended Grain Whisky,WHISKY OR WHISKEY,Malt Or Grain Whisky,Blended Malt Whisky Or Blended Grain Whisky,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,5,not_specified,0,available,4
+113,Plain Country Liquor,COUNTRY LIQUORS,Plain Country Liquor,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,4
+114,Blended Country Liquor,COUNTRY LIQUORS,Blended Country Liquor,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,4
+115,LIQUEUR OR CORDIAL OR APERTIFS,LIQUEUR OR CORDIAL OR APERTIFS,N/A,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,5,not_specified,0,available,4
+116,GIN,GIN,N/A,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,5,not_specified,0,available,4
+117,RUM,RUM,N/A,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,5,not_specified,0,available,4
+119,Grape Brandy,BRANDY,Grape Brandy,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,5,not_specified,0,available,4
+120,Blended Brandy,BRANDY,Blended Brandy,N/A,available,8,available,4,available,not_specified,0,not_specified,0,available,5,not_specified,0,available,4
+121,Indian Brandy,BRANDY,Indian Brandy,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,5,not_specified,0,available,4
+122,Craft Beer,DRAUGHT BEER,Craft Beer,N/A,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,4
+123,VODKA,VODKA,N/A,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,5,not_specified,0,available,4
+124,POT-STILL DISTILLED SPIRIT,POT-STILL DISTILLED SPIRIT,N/A,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,4
+133,Thermally Processed Fruits,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruits,Thermally Processed Fruits,available,2,available,10,available,not_specified,0,not_specified,0,available,5,not_specified,0,not_specified,0
+134,Whole Maize (Corn) Flour,CEREALS AND CEREAL PRODUCTS,Whole Maize (Corn) Flour,N/A,available,5,not_specified,0,available,not_specified,0,available,19,available,7,not_specified,0,available,2
+135,Cider,WINE,Wine From Fruits Other Than Grapes,Cider,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,5
+136,Perry,WINE,Wine From Fruits Other Than Grapes,Perry,available,9,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,5
+137,Sherry,WINE,Fortified Wine,Sherry,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,5
+138,Aromatized Wine,WINE,Fortified Wine,Aromatized Wine,available,9,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,5
+139,Red Wine,WINE,Table Wine,Red Wine,available,9,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,8
+140,Cane Jaggery Or Cane Gur,SWEETENING AGENTS INCLUDING HONEY,Gur Or Jaggery,Cane Jaggery Or Cane Gur,available,8,not_specified,0,not_specified,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+141,White Wine,WINE,Table Wine,White Wine,available,9,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,7
+144,Dextrose,SWEETENING AGENTS INCLUDING HONEY,Dextrose,N/A,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,1,not_specified,0,not_specified,0
+146,Golden Syrup,SWEETENING AGENTS INCLUDING HONEY,Golden Syrup,N/A,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,1,not_specified,0,not_specified,0
+149,Dried Glucose Syrup,SWEETENING AGENTS INCLUDING HONEY,Dried Glucose Syrup,N/A,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,1,not_specified,0,not_specified,0
+153,Others — BEER,BEER,N/A,Others,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,4
+154,Sodium Saccharin (Food Grade),SWEETENING AGENTS INCLUDING HONEY,Sodium Saccharin (Food Grade),N/A,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,2,not_specified,0,not_specified,0
+155,Frozen Shrimp,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Shrimp,not_specified,0,available,4,available,not_specified,0,available,2,available,8,available,33,available,2
+156,Aspartyl Phenyl Alanine Methyl Ester (Aspertame),SWEETENING AGENTS INCLUDING HONEY,Aspartyl Phenyl Alanine Methyl Ester (Aspertame),N/A,available,4,not_specified,0,available,not_specified,0,not_specified,0,available,2,not_specified,0,not_specified,0
+157,Acesulfame Potassium,SWEETENING AGENTS INCLUDING HONEY,Acesulfame Potassium,N/A,available,4,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+158,Wine Based Beverages,WINE,Wine Based Beverages,N/A,available,1,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,5
+159,Sucralose,SWEETENING AGENTS INCLUDING HONEY,Sucralose,N/A,available,4,not_specified,0,available,not_specified,0,not_specified,0,available,2,not_specified,0,not_specified,0
+160,Palm Wine/Toddy,WINE,Wine From Other Agricultural And Plant Sources,Palm Wine/Toddy,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,5
+161,Calcium Saccharin (Food Grade),SWEETENING AGENTS INCLUDING HONEY,Calcium Saccharin (Food Grade),N/A,available,5,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+162,Bamboo Wine,WINE,Wine From Other Agricultural And Plant Sources,Bamboo Wine,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,5
+163,Wheat Protein Products Including Wheat Gluten,CEREALS AND CEREAL PRODUCTS,Wheat Protein Products Including Wheat Gluten,N/A,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+164,Frozen Lobsters,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Lobsters,not_specified,0,available,8,available,not_specified,0,available,2,available,8,available,28,available,2
+166,Thermally Processed Fruit Salad/Cocktail/Mix,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Salad/Cocktail/Mix,N/A,available,8,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+167,Edible Common Salt,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Edible Common Salt,Edible Common Salt,available,2,not_specified,0,available,not_specified,0,not_specified,0,available,3,not_specified,0,not_specified,0
+168,Iron Fortified Iodized Salt (Double Fortified Salt),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Edible Common Salt,Iron Fortified Iodized Salt (Double Fortified Salt),available,8,not_specified,0,available,not_specified,0,not_specified,0,available,5,not_specified,0,not_specified,0
+169,Frozen Squid And Parts Of Squid,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Squid And Parts Of Squid,not_specified,0,available,4,available,not_specified,0,available,2,available,8,available,28,available,1
+170,Frozen Finfish,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Finfish,not_specified,0,available,4,available,not_specified,0,available,2,available,8,available,28,available,4
+171,Cinnamon (Dalchini) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cinnamon (Dalchini),Cinnamon (Dalchini) Whole,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+172,Cinnamon (Dalchini) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cinnamon (Dalchini),Cinnamon (Dalchini) Powder,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+173,Frozen Fish Fillets,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Fish Fillets,not_specified,0,available,4,available,not_specified,0,available,2,available,8,available,28,available,4
+174,Salt Substitutes,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Edible Common Salt,Salt Substitutes,available,4,not_specified,0,available,not_specified,0,not_specified,0,available,5,not_specified,0,not_specified,0
+175,Cassia (Taj) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cassia (Taj),Cassia (Taj) Whole,available,5,not_specified,0,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+176,Cassia (Taj) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cassia (Taj),Cassia (Taj) Powder,available,4,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+177,Cloves (Laung) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cloves (Laung),Cloves (Laung) Whole,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+178,Coriander (Dhania) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Coriander (Dhania),Coriander (Dhania) Whole,available,8,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+179,Coriander (Dhania) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Coriander (Dhania),Coriander (Dhania) Powder,available,4,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+180,Cumin (Safed Zeera) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Cumin (Zeera, Kalonji)",Cumin (Safed Zeera) Whole,available,13,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+181,Cumin (Safed Zeera) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Cumin (Zeera, Kalonji)",Cumin (Safed Zeera) Powder,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+182,Cumin Black (Kalonji) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Cumin (Zeera, Kalonji)",Cumin Black (Kalonji) Whole,available,9,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+183,Cumin Black (Kalonji) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Cumin (Zeera, Kalonji)",Cumin Black (Kalonji) Powder,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+184,Cloves (Laung) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cloves (Laung),Cloves (Laung) Powder,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+186,Avocado Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Avocado Oil,available,17,not_specified,0,available,available,21,available,1,available,7,not_specified,0,available,2
+187,Potassium Iodate,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Edible Common Salt,Potassium Iodate,available,11,not_specified,0,not_specified,not_specified,0,not_specified,0,available,2,not_specified,0,not_specified,0
+188,Dried Thyme,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Thyme,N/A,available,11,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+189,Fennel (Saunf) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Fennel (Saunf),Fennel (Saunf) Whole,available,8,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+190,Fennel (Saunf) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Fennel (Saunf),Fennel (Saunf) Powder,available,4,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+191,Fenugreek (Methi) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Fenugreek (Methi),Fenugreek (Methi) Whole,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+192,Fenugreek (Methi) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Fenugreek (Methi),Fenugreek (Methi) Powder,available,4,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+193,Palm Superolein,"FATS, OILS AND FAT EMULSIONS",Oils,Palm Superolein,available,17,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+194,Dried Rosemary,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Rosemary,N/A,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+195,Dried Mint,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Mint,N/A,available,6,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+196,"Dried Ginger (Sonth, Dried Adrak)] Whole","SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Dried Ginger (Sonth, Dried Adrak)","Dried Ginger (Sonth, Dried Adrak)] Whole",available,8,not_specified,0,available,not_specified,0,not_specified,0,available,2,not_specified,0,not_specified,0
+197,Dried Laurel Or Dried Bay Leaf Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Laurel Or Dried Bay Leaf,Dried Laurel Or Dried Bay Leaf Whole,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+198,Dried Laurel Or Dried Bay Leaf Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Laurel Or Dried Bay Leaf,Dried Laurel Or Dried Bay Leaf Powder,available,4,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+199,Pimento Or Allspice Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pimento Or All Spice,Pimento Or Allspice Whole,available,6,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+200,Pimento Or Allspice Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pimento Or All Spice,Pimento Or Allspice Powder,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+201,Dried Oregano Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Oregano,Dried Oregano Whole,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+202,"Dried Ginger (Sonth, Dried Adrak)] Powder","SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Dried Ginger (Sonth, Dried Adrak)","Dried Ginger (Sonth, Dried Adrak)] Powder",available,8,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+203,Dried Oregano Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Oregano,Dried Oregano Powder,available,3,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+204,Star Anise,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Star Anise,N/A,available,6,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+205,Tejpat,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Tejpat,N/A,available,8,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+206,Spice Oleoresins,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Spice Oleoresins,N/A,not_specified,0,not_specified,0,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+207,Salted Fish/Dried Salted Fish,FISH AND FISH PRODUCTS,Fish And Fish Products,Salted Fish/Dried Salted Fish,available,3,available,4,available,not_specified,0,available,2,available,8,available,30,available,3
+208,Durum Wheat Semolina And Whole Durum Wheat Semolina,CEREALS AND CEREAL PRODUCTS,Durum Wheat Semolina And Whole Durum Wheat Semolina,N/A,available,14,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+209,Seasoning,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Seasoning,N/A,available,2,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+210,Canned Fishery Products,FISH AND FISH PRODUCTS,Fish And Fish Products,Canned Fishery Products,available,7,available,2,available,not_specified,0,available,2,available,39,available,33,available,13
+211,Degermed Maize (Corn) Meal And Maize (Corn) Grits,CEREALS AND CEREAL PRODUCTS,Degermed Maize (Corn) Meal And Maize (Corn) Grits,N/A,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+212,Frozen Cephalopods,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Cephalopods,not_specified,0,available,4,available,not_specified,0,available,2,available,8,available,30,available,2
+213,Asafoetida (Hing Or Hingra),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Asafoetida (Hing Or Hingra),N/A,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+214,Mace (Jaipatri) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Mace (Jaipatri),Mace (Jaipatri) Whole,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+215,Mace (Jaipatri) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Mace (Jaipatri),Mace (Jaipatri) Powder,available,6,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+216,"Mustard (Rai, Sarson) Whole","SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Mustard (Rai, Sarson)","Mustard (Rai, Sarson) Whole",available,11,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+217,"Mustard (Rai, Sarson) Powder","SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS","Mustard (Rai, Sarson)","Mustard (Rai, Sarson) Powder",available,8,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+218,Dehydrated Onion (Sukha Pyaj),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dehydrated Onion (Sukha Pyaj),N/A,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+219,Nutmeg (Jaiphal) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Nutmeg (Jaiphal),Nutmeg (Jaiphal) Whole,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,not_specified,0
+220,Celery,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Celery,N/A,available,2,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+221,Dried (Dehydrated) Garlic (Lahsun),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Garlic (Lahsun),Dried (Dehydrated) Garlic (Lahsun),available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+222,Pepper White Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper White,Pepper White Whole,available,15,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,narrative,0
+223,Pepper White Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper White,Pepper White Powder,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+224,Pepper Black (Kalimirch) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper Black (Kalimirch),Pepper Black (Kalimirch) Whole,available,14,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+225,Nutmeg (Jaiphal) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Nutmeg (Jaiphal),Nutmeg (Jaiphal) Powder,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+226,Pepper Black (Kali Mirch) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper Black (Kalimirch),Pepper Black (Kali Mirch) Powder,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+227,Light Black Pepper,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper Black (Kalimirch),Light Black Pepper,available,2,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+228,Pinheads,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Pepper Black (Kalimirch),Pinheads,not_specified,0,not_specified,0,not_specified,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+229,Poppy (Khas Khas) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Poppy (Khas Khas),Poppy (Khas Khas) Whole,available,3,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+230,Curry Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Curry Powder,N/A,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+231,Saffron (Kesar),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Saffron (Kesar),Saffron (Kesar),available,11,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+232,Saffron (Kesar) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Saffron (Kesar),Saffron (Kesar) Powder,available,9,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+233,Turmeric (Haldi) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Turmeric (Haldi),Turmeric (Haldi) Whole,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+234,Turmeric (Haldi) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Turmeric (Haldi),Turmeric (Haldi) Powder,available,6,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+235,Aniseed (Saunf) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Aniseed (Saunf),Aniseed (Saunf) Whole,available,8,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+236,Ajowan (Bishops Seed),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Ajowan (Bishops Seed),N/A,available,4,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+237,Dried Mango Slices,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Mango Slices,N/A,available,3,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+238,Dried Mango Powder (Amchur),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Dried Mango Powder (Amchur),N/A,available,5,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+239,Mixed Masala (Whole),"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Mixed Masala,Mixed Masala (Whole),not_specified,0,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+240,Mixed Masala Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Mixed Masala,Mixed Masala Powder,available,4,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+241,Cardamom (Chhoti Elaichi) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Cardamom (Chhoti Elaichi) Whole,available,7,available,7,available,not_specified,0,not_specified,0,available,2,narrative,0,available,2
+242,Cardamom (Chhoti Elaichi) Seeds,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Cardamom (Chhoti Elaichi) Seeds,available,6,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+243,Cardamom (Chhoti Elaichi) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Cardamom (Chhoti Elaichi) Powder,available,4,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+244,Large Cardamom (Badi Elaichi) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Large Cardamom (Badi Elaichi) Whole,available,8,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+245,Large Cardamom (Badi Elaichi) Seeds,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Large Cardamom (Badi Elaichi) Seeds,available,7,not_specified,0,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+246,Large Cardamom (Badi Elaichi) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Cardamom (Elaichi),Large Cardamom (Badi Elaichi) Powder,available,4,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+247,(Siahjira) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Caraway (Siahjira),(Siahjira) Whole,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+248,Caraway Black (Siahjira) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Caraway (Siahjira),Caraway Black (Siahjira) Whole,available,6,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+249,Caraway (Siahjira) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Caraway (Siahjira),Caraway (Siahjira) Powder,available,4,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+250,Smoked Fishery Products,FISH AND FISH PRODUCTS,Fish And Fish Products,Smoked Fishery Products,available,2,available,6,available,not_specified,0,available,2,available,8,available,30,available,5
+251,Chillies And Capsicum (Lal Mirchi) Whole,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Chillies And Capsicum (Lal Mirchi),Chillies And Capsicum (Lal Mirchi) Whole,available,7,available,7,available,not_specified,0,not_specified,0,available,2,not_specified,0,available,2
+252,Chillies And Capsicum (Lal Mirchi) Powder,"SALT, SPICES, CONDIMENTS AND RELATED PRODUCTS",Chillies And Capsicum (Lal Mirchi),Chillies And Capsicum (Lal Mirchi) Powder,available,5,available,7,available,not_specified,0,not_specified,0,available,2,narrative,0,available,2
+253,Ready –To-Eat Finfish Or Shell Fish Curry In Retortable Pouches,FISH AND FISH PRODUCTS,Fish And Fish Products,Ready –To-Eat Finfish Or Shell Fish Curry In Retortable Pouches,available,10,available,2,available,not_specified,0,available,2,available,8,available,33,available,10
+254,Thermally Processed Vegetables,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Vegetables,N/A,available,5,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+255,Canned Tomatoes,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Vegetables,Canned Tomatoes,available,11,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+256,Couscous,CEREALS AND CEREAL PRODUCTS,Couscous,N/A,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+257,Edible Fish Powder,FISH AND FISH PRODUCTS,Fish And Fish Products,Edible Fish Powder,available,7,available,4,not_specified,not_specified,0,available,2,available,8,available,30,available,4
+258,Thermally Processed Curried Vegetables / Ready To Eat Vegetables,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Curried Vegetables / Ready To Eat Vegetables,N/A,not_specified,0,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+259,Thermally Processed Vegetable Soups,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Vegetable Soups,N/A,available,1,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,1
+260,Fish Pickles,FISH AND FISH PRODUCTS,Fish And Fish Products,Fish Pickles,available,4,available,5,available,not_specified,0,available,2,available,8,available,30,available,3
+261,Fruit Juices,FRUIT & VEGETABLE PRODUCTS,Fruit Juices,N/A,available,144,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+262,Frozen Minced Fish Meat,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Minced Fish Meat,available,5,available,6,available,not_specified,0,available,2,available,8,available,30,available,4
+263,Tempe,CEREALS AND CEREAL PRODUCTS,Tempe,N/A,available,5,not_specified,0,not_specified,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+264,Freeze Dried Prawns (Shrimps):,FISH AND FISH PRODUCTS,Fish And Fish Products,Freeze Dried Prawns (Shrimps):,available,8,available,6,not_specified,not_specified,0,available,2,available,8,available,33,available,2
+265,Sardine Oil,FISH AND FISH PRODUCTS,Fish And Fish Products,Sardine Oil,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,3,not_specified,0,not_specified,0
+266,Milk,DAIRY PRODUCTS AND ANALOGUES,Milk,N/A,available,23,available,10,available,not_specified,0,available,54,available,3,available,31,available,1
+267,Flavoured Milk,DAIRY PRODUCTS AND ANALOGUES,Flavoured Milk,N/A,available,2,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+268,Colouring Foods,FRUIT & VEGETABLE PRODUCTS,Colouring Foods,N/A,available,5,not_specified,0,not_specified,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+269,Water Chestnut Flour (Singhare Ka Atta),FRUIT & VEGETABLE PRODUCTS,Water Chestnut Flour (Singhare Ka Atta),N/A,available,5,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+270,Coconut Milk Powder,FRUIT & VEGETABLE PRODUCTS,Coconut Milk Powder,N/A,available,4,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+271,Edible Fungi Products,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,N/A,not_specified,0,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+272,Evaporated Or Concentrated Milk,DAIRY PRODUCTS AND ANALOGUES,Evaporated Or Concentrated Milk,N/A,available,12,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+273,Dried Fungi,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Dried Fungi,available,10,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,1
+274,Fungi Grits & Fungi Powder,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Fungi Grits & Fungi Powder,available,3,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+275,Pickled Fungi,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Pickled Fungi,available,6,available,7,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+276,Fermented Fungi,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Fermented Fungi,available,5,available,7,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+277,Fungi In Olive Oil And Other Vegetable Oils,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Fungi In Olive Oil And Other Vegetable Oils,available,4,available,7,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+278,Quick Frozen Fungi,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Quick Frozen Fungi,available,3,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+279,Sterilized Fungi,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Sterilized Fungi,available,4,available,7,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+280,Fungi Extract And Fungi Concentrate,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Fungi Extract And Fungi Concentrate,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+281,Dried Fungi Concentrate,FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Dried Fungi Concentrate,available,4,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+282,Salted Fungi (Semi-Processed Product),FRUIT & VEGETABLE PRODUCTS,Edible Fungi Products,Salted Fungi (Semi-Processed Product),available,4,available,7,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+283,Sweetened Condensed Milk,DAIRY PRODUCTS AND ANALOGUES,Sweetened Condensed Milk,N/A,available,16,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+284,Gelatin From Fish Processing Waste,FISH AND FISH PRODUCTS,Fish And Fish Products,Gelatin From Fish Processing Waste,available,6,not_specified,0,not_specified,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+285,Khoa,DAIRY PRODUCTS AND ANALOGUES,Khoa,N/A,available,4,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+286,Cream And Malai,DAIRY PRODUCTS AND ANALOGUES,Cream And Malai,N/A,available,2,available,17,available,not_specified,0,available,54,available,3,not_specified,0,not_specified,0
+287,Milk Fat Products,DAIRY PRODUCTS AND ANALOGUES,Milk Fat Products,N/A,available,11,available,2,available,available,12,available,54,available,2,not_specified,0,not_specified,0
+288,Butter,DAIRY PRODUCTS AND ANALOGUES,Butter,N/A,available,16,available,20,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+289,Others — Vegetable Juices (FRUIT & VEGETABLE PRODUCTS),FRUIT & VEGETABLE PRODUCTS,Vegetable Juices,Others,available,1,available,8,available,not_specified,0,not_specified,0,available,9,not_specified,0,not_specified,0
+290,Milk Powders And Cream Powder,DAIRY PRODUCTS AND ANALOGUES,Milk Powders And Cream Powder,N/A,available,7,available,10,available,not_specified,0,available,54,available,2,not_specified,0,available,1
+291,Dairy Whitener,DAIRY PRODUCTS AND ANALOGUES,Dairy Whitener,N/A,available,9,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+292,Semolina (Suji Or Rawa),CEREALS AND CEREAL PRODUCTS,Semolina (Suji Or Rawa),N/A,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+293,Besan,CEREALS AND CEREAL PRODUCTS,Besan,N/A,available,5,not_specified,0,available,not_specified,0,available,18,available,7,not_specified,0,available,2
+294,Unprocessed Whole Raw Pulses,CEREALS AND CEREAL PRODUCTS,Food Grains,Unprocessed Whole Raw Pulses,not_specified,0,not_specified,0,available,not_specified,0,available,19,available,2,not_specified,0,available,2
+295,Whey Powder,DAIRY PRODUCTS AND ANALOGUES,Whey Powder,N/A,available,6,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+296,Fermented Milk Products,DAIRY PRODUCTS AND ANALOGUES,Fermented Milk Products,N/A,available,47,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+297,Pasteurised Crab Meat,FISH AND FISH PRODUCTS,Fish And Fish Products,Pasteurised Crab Meat,available,7,available,6,available,not_specified,0,available,2,available,8,available,30,available,2
+298,Pasteurized Fish Sausage,FISH AND FISH PRODUCTS,Fish And Fish Products,Pasteurized Fish Sausage,available,4,available,6,available,not_specified,0,available,2,available,8,available,30,available,4
+299,Fresh And Quick Frozen Raw Scallop Products,FISH AND FISH PRODUCTS,Fish And Fish Products,Fresh And Quick Frozen Raw Scallop Products,not_specified,0,available,4,available,not_specified,0,available,2,available,8,available,30,available,5
+300,Oats,CEREALS AND CEREAL PRODUCTS,Food Grains,Oats,available,9,not_specified,0,available,not_specified,0,available,19,available,7,not_specified,0,available,2
+301,"Quick Frozen Fish Sticks (Fish Fingers), Fish Portions And Fish Fillets - Breaded Or Battered",FISH AND FISH PRODUCTS,Fish And Fish Products,"Quick Frozen Fish Sticks (Fish Fingers), Fish Portions And Fish Fillets - Breaded Or Battered",available,8,available,7,available,not_specified,0,available,2,available,8,available,30,available,4
+302,Quinoa,CEREALS AND CEREAL PRODUCTS,Food Grains,Quinoa,available,6,not_specified,0,available,not_specified,0,available,19,available,7,not_specified,0,available,2
+303,Cotton Seed Oil (Binola Ka Tel),"FATS, OILS AND FAT EMULSIONS",Oils,Cotton Seed Oil (Binola Ka Tel),available,18,not_specified,0,available,available,21,available,49,available,7,not_specified,0,available,2
+304,Fish Sauce,FISH AND FISH PRODUCTS,Fish And Fish Products,Fish Sauce,available,8,available,5,available,not_specified,0,available,2,available,8,available,30,available,5
+305,Quick Frozen Fried Potatoes,FRUIT & VEGETABLE PRODUCTS,Quick Frozen Fried Potatoes,N/A,available,3,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+306,Sturgeon Caviar,FISH AND FISH PRODUCTS,Fish And Fish Products,Sturgeon Caviar,available,5,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+307,Vegetable Protein Products,FRUIT & VEGETABLE PRODUCTS,Vegetable Protein Products,N/A,available,5,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+308,Harrisa (Red Hot Pepper Paste),FRUIT & VEGETABLE PRODUCTS,Harrisa (Red Hot Pepper Paste),N/A,available,4,available,7,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+309,Fermented Soybean Paste,FRUIT & VEGETABLE PRODUCTS,Fermented Soybean Paste,N/A,available,5,available,7,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+310,Date Paste,FRUIT & VEGETABLE PRODUCTS,Date Paste,N/A,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+311,Arecanuts Or Betelnuts Or Supari,FRUIT & VEGETABLE PRODUCTS,Arecanuts Or Betelnuts Or Supari,N/A,available,4,not_specified,0,available,not_specified,0,available,1,available,7,not_specified,0,available,2
+312,Cocoa Beans,FRUIT & VEGETABLE PRODUCTS,Cocoa Beans,N/A,available,5,not_specified,0,not_specified,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+313,Dried Apricots,FRUIT & VEGETABLE PRODUCTS,Dried Apricots,N/A,available,10,available,8,available,not_specified,0,available,1,available,7,not_specified,0,not_specified,0
+314,Coconut Cream (Non-Dairy),FRUIT & VEGETABLE PRODUCTS,Coconut Cream (Non-Dairy),N/A,available,10,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+315,Coconut Milk (Non-Dairy),FRUIT & VEGETABLE PRODUCTS,Coconut Milk (Non-Dairy),N/A,available,10,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+316,Frozen Clam Meat,FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Clam Meat,not_specified,0,available,4,available,not_specified,0,available,2,available,8,available,30,available,7
+317,Live And Raw Bivalve Molluscs,FISH AND FISH PRODUCTS,Fish And Fish Products,Live And Raw Bivalve Molluscs,not_specified,0,available,5,available,not_specified,0,available,2,available,8,available,30,available,7
+318,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Chilled Beef(c),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Chilled Beef(c),available,4,available,5,not_specified,not_specified,0,available,43,available,7,available,68,available,1
+319,Others — Thermally Processed Tomato Juice (FRUIT & VEGETABLE PRODUCTS),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Tomato Juice,Others,available,9,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+320,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Frozen Beef(d),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Frozen Beef(d),available,4,available,5,not_specified,not_specified,0,available,43,available,7,available,68,available,1
+321,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Chilled Chevon(c),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Chilled Chevon(c),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,53,available,1
+323,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Frozwn Chevon(d),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Frozwn Chevon(d),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,53,available,1
+324,Others — Lozenges (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Lozenges,Others,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+325,Others — Chewing Gum And Bubble Gum (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Chewing Gum And Bubble Gum,Others,available,12,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+326,Others — Chocolate (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Chocolate,Others,available,30,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+327,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Fresh Mutton(b),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Fresh Mutton(b),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,64,available,1
+328,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Fresh Beef(b),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Beef (2.5.2.8) / Fresh Beef(b),available,4,available,5,not_specified,not_specified,0,available,43,available,7,available,68,available,1
+329,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Fresh Chevon(b),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Chevon Or Goat Meat (2.5.2.9) / Fresh Chevon(b),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,53,available,1
+330,Khandsari Sugar,SWEETENING AGENTS INCLUDING HONEY,Sugar,Khandsari Sugar,available,11,not_specified,0,available,not_specified,0,not_specified,0,available,1,not_specified,0,not_specified,0
+331,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Chilled Mutton(c),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Chilled Mutton(c),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,64,available,1
+332,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Frozen Mutton(d),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Mutton Or Sheep Meat (2.5.2.10) / Frozen Mutton(d),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,64,available,1
+333,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Fresh Pork(b),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Fresh Pork(b),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,64,available,1
+334,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Chilled Pork(c),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Chilled Pork(c),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,64,available,1
+335,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Frozen Pork(d),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Pork Or Pig Meat (2.5.2.7) / Frozen Pork(d),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,64,available,1
+336,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Fresh Poultry(b),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Fresh Poultry(b),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,65,available,1
+337,Others — Ice Lollies Or Edible Ices (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Ice Lollies Or Edible Ices,Others,available,1,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+338,Others — Dry Mixtures Of Cocoa And Sugars (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Dry Mixtures Of Cocoa And Sugars,Others,available,20,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+339,Others — Cocoa Powder (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Cocoa Powder,Others,available,15,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+340,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Chilled Poultry(c),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Chilled Poultry(c),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,65,available,1
+341,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Frozen Poultry(d),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Poultry Meat (2.5.2.11) / Frozen Poultry(d),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,65,available,1
+342,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Fresh Rabbit(3),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Fresh Rabbit(3),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,47,available,1
+343,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Chilled Rabbit(4),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Chilled Rabbit(4),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,47,available,1
+344,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Frozen Rabbit(5),MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fresh Or Chilled Or Frozen Rabbit Meat (2.5.2.6) / Frozen Rabbit(5),available,3,available,5,not_specified,not_specified,0,available,43,available,7,available,47,available,1
+345,Fresh Eggs (2.5.3.1) / Fresh Chicken Egg(a),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Chicken Egg(a),available,5,not_specified,0,not_specified,not_specified,0,available,9,available,7,available,31,not_specified,0
+346,Fresh Eggs (2.5.3.1) / Fresh Turkey Egg(b),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Turkey Egg(b),available,5,not_specified,0,not_specified,not_specified,0,available,9,available,7,available,31,not_specified,0
+347,Fresh Eggs (2.5.3.1) / Fresh Guinea Fowl Egg(c),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Guinea Fowl Egg(c),available,5,not_specified,0,not_specified,not_specified,0,available,9,available,7,available,31,not_specified,0
+348,Fresh Eggs (2.5.3.1) / Fresh Quail Egg(d),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Quail Egg(d),available,5,not_specified,0,not_specified,not_specified,0,available,9,available,7,available,31,not_specified,0
+349,Fresh Eggs (2.5.3.1) / Fresh Duck Egg(e),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Duck Egg(e),available,5,not_specified,0,not_specified,not_specified,0,available,9,available,7,available,31,not_specified,0
+350,Fresh Eggs (2.5.3.1) / Fresh Goose Egg(f),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Fresh Eggs (2.5.3.1) / Fresh Goose Egg(f),available,5,not_specified,0,not_specified,not_specified,0,available,9,available,7,available,31,not_specified,0
+351,Egg Powder (2.5.3.3) / Whole Egg Powder(a),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Egg Powder (2.5.3.3) / Whole Egg Powder(a),available,4,available,4,available,not_specified,0,available,9,available,7,available,31,not_specified,0
+352,Egg Powder (2.5.3.3) / Egg Yolk Powder(b),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Egg Powder (2.5.3.3) / Egg Yolk Powder(b),available,4,available,4,available,not_specified,0,available,9,available,7,available,31,not_specified,0
+353,Egg Powder (2.5.3.3) / Egg White Powder(c),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Egg Powder (2.5.3.3) / Egg White Powder(c),available,4,available,4,available,not_specified,0,available,9,available,7,available,31,not_specified,0
+354,Frozen Egg Products (2.5.3.2) / Frozen Egg Albumen(d),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Frozen Egg Products (2.5.3.2) / Frozen Egg Albumen(d),available,8,available,4,available,not_specified,0,available,9,available,7,available,31,not_specified,0
+355,Frozen Egg Products (2.5.3.2) / Frozen Egg Yolk(c),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Frozen Egg Products (2.5.3.2) / Frozen Egg Yolk(c),available,8,available,4,available,not_specified,0,available,9,available,7,available,31,not_specified,0
+356,Others — Cocoa Mass Or Cocoa/Chocolate Liquor And Cocoa Cake (SWEETS & CONFECTIONERY),SWEETS & CONFECTIONERY,Cocoa Mass Or Cocoa/Chocolate Liquor And Cocoa Cake,Others,available,14,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+357,"Ice Cream, Kulfi, Chocolate Ice Cream, Softy Ice-Cream, Lolly And Dried Ice Cream Mix",DAIRY PRODUCTS AND ANALOGUES,"Ice Cream, Kulfi, Chocolate Ice Cream, Softy Ice-Cream, Lolly And Dried Ice Cream Mix",N/A,available,8,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+358,Partially Hydrogenated And Winterised Soyabean Oil,"FATS, OILS AND FAT EMULSIONS",Partially Hydrogenated Soyabean Oil,Partially Hydrogenated And Winterised Soyabean Oil,available,24,not_specified,0,available,not_specified,0,available,20,available,8,not_specified,0,available,2
+359,"Frozen Desserts Or Confections With Added Vegetable Oil/ Fat Or Vegetable Protein, Or Both",DAIRY PRODUCTS AND ANALOGUES,"Frozen Desserts Or Confections With Added Vegetable Oil/ Fat Or Vegetable Protein, Or Both",N/A,available,5,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+360,Frozen Egg Products (2.5.3.2) / Frozen Whole Egg(b),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Frozen Egg Products (2.5.3.2) / Frozen Whole Egg(b),available,8,available,4,available,not_specified,0,available,9,available,7,available,31,not_specified,0
+361,Bajra Flour (Pearl Millet Flour),CEREALS AND CEREAL PRODUCTS,Bajra Flour (Pearl Millet Flour),N/A,available,8,not_specified,0,available,not_specified,0,available,18,available,7,not_specified,0,available,2
+362,Jowar Flour (Sorghum Flour).,CEREALS AND CEREAL PRODUCTS,Jowar Flour (Sorghum Flour).,N/A,available,7,not_specified,0,available,not_specified,0,available,18,available,7,not_specified,0,available,2
+363,Textured Soy Protein (Soy Bari Or Soy Chunks Or Soy Granules),CEREALS AND CEREAL PRODUCTS,Textured Soy Protein (Soy Bari Or Soy Chunks Or Soy Granules),N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+365,Sago Flour,CEREALS AND CEREAL PRODUCTS,Sago Flour,N/A,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,3
+366,Chhana And Paneer,DAIRY PRODUCTS AND ANALOGUES,Chhana And Paneer,N/A,available,6,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+367,FOOD FOR SPECIAL MEDICAL PURPOSE,FOOD FOR SPECIAL MEDICAL PURPOSE,N/A,N/A,available,1,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+368,HEALTH SUPPLEMENTS,HEALTH SUPPLEMENTS,N/A,N/A,not_specified,0,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+369,NUTRACEUTICALS,NUTRACEUTICALS,N/A,N/A,not_specified,0,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+372,Liquid Egg Products (2.5.3.4) / Liquid Whole Egg(b),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Liquid Egg Products (2.5.3.4) / Liquid Whole Egg(b),available,8,available,4,available,not_specified,0,available,9,available,7,available,31,not_specified,0
+375,Liquid Egg Products (2.5.3.4) / Liquid Egg Albumen(d),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Liquid Egg Products (2.5.3.4) / Liquid Egg Albumen(d),available,8,available,4,available,not_specified,0,available,9,available,7,available,31,not_specified,0
+376,Liquid Egg Products (2.5.3.4) / Liquid Egg Yolk(c),MEAT AND MEAT PRODUCTS,Egg And Egg Products,Liquid Egg Products (2.5.3.4) / Liquid Egg Yolk(c),available,8,available,4,available,not_specified,0,available,9,available,7,available,31,not_specified,0
+377,Edible Casein Products,DAIRY PRODUCTS AND ANALOGUES,Edible Casein Products,N/A,available,8,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+378,Vanilla,FRUIT & VEGETABLE PRODUCTS,Vanilla,N/A,available,15,not_specified,0,not_specified,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+379,Pickled Eggs,MEAT AND MEAT PRODUCTS,Egg And Egg Products,Pickled Eggs,available,3,available,4,available,not_specified,0,available,9,available,7,available,31,not_specified,0
+380,Seedless Tamarind,FRUIT & VEGETABLE PRODUCTS,Seedless Tamarind,N/A,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+381,Bean,FRUIT & VEGETABLE PRODUCTS,Bean,N/A,not_specified,0,not_specified,0,not_specified,not_specified,0,not_specified,0,available,7,not_specified,0,available,1
+382,Groundnut Kernel,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Groundnut Kernel,available,2,not_specified,0,not_specified,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+383,Raisins,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Raisins,available,3,available,8,available,not_specified,0,available,3,available,7,not_specified,0,not_specified,0
+384,Pistachio Nuts,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Pistachio Nuts,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+386,Dates,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Dates,available,4,available,8,available,not_specified,0,available,3,available,7,not_specified,0,not_specified,0
+387,Dry Fruits And Nuts,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Dry Fruits And Nuts,available,3,available,8,available,not_specified,0,available,3,available,7,not_specified,0,not_specified,0
+388,Almond Kernels,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Almond Kernels,available,13,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+389,Edible Lactose,DAIRY PRODUCTS AND ANALOGUES,Edible Lactose,N/A,available,5,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+390,Cashew Kernels,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Cashew Kernels,available,12,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+391,Vinegar,FRUIT & VEGETABLE PRODUCTS,Vinegar,N/A,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+392,Grated Desiccated Coconut,FRUIT & VEGETABLE PRODUCTS,Grated Desiccated Coconut,N/A,available,7,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+393,Table Olives,FRUIT & VEGETABLE PRODUCTS,Table Olives,N/A,available,2,available,7,not_specified,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+394,Milk Protein Concentrate,DAIRY PRODUCTS AND ANALOGUES,Milk Protein Concentrate,N/A,available,5,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+395,Whey Protein Concentrate,DAIRY PRODUCTS AND ANALOGUES,Whey Protein Concentrate,N/A,available,4,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+396,Pickles,FRUIT & VEGETABLE PRODUCTS,Pickles,N/A,available,7,available,8,available,not_specified,0,not_specified,0,available,8,not_specified,0,not_specified,0
+397,Mango Chutney,FRUIT & VEGETABLE PRODUCTS,Mango Chutney,N/A,available,5,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+398,Fruits And Vegetable Chutney,FRUIT & VEGETABLE PRODUCTS,Fruits And Vegetable Chutney,N/A,available,7,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+399,Fruit Based Beverage Mix/Powdered Fruit Based Beverage,FRUIT & VEGETABLE PRODUCTS,Fruit Based Beverage Mix/Powdered Fruit Based Beverage,N/A,available,2,available,8,not_specified,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+400,Frozen Curried Vegetables/Ready-To-Eat Vegetables,FRUIT & VEGETABLE PRODUCTS,Frozen Curried Vegetables/Ready-To-Eat Vegetables,N/A,not_specified,0,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+401,Cow Or Buffalo Colostrum And Colostrum Products,DAIRY PRODUCTS AND ANALOGUES,Cow Or Buffalo Colostrum And Colostrum Products,N/A,available,18,not_specified,0,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+402,Cheese And Cheese Products,DAIRY PRODUCTS AND ANALOGUES,Cheese And Cheese Products,N/A,available,10,available,20,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+403,Partially Hydrogenated Soyabean Oil,"FATS, OILS AND FAT EMULSIONS",Partially Hydrogenated Soyabean Oil,Partially Hydrogenated Soyabean Oil,available,24,not_specified,0,available,not_specified,0,available,20,available,8,not_specified,0,available,2
+404,Beef Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Beef Fat,available,2,not_specified,0,available,not_specified,0,available,11,available,7,available,98,not_specified,0
+405,Mutton Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Mutton Fat,available,2,not_specified,0,available,not_specified,0,available,11,available,7,available,92,not_specified,0
+406,Goat Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Goat Fat,available,2,not_specified,0,available,not_specified,0,available,11,available,7,available,83,not_specified,0
+407,Lard,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Lard,available,2,not_specified,0,available,not_specified,0,available,11,available,7,available,93,not_specified,0
+408,Table Margarine,"FATS, OILS AND FAT EMULSIONS",Margarine And Fat Spreads,Table Margarine,available,16,not_specified,0,available,not_specified,0,not_specified,0,available,8,not_specified,0,available,2
+409,Frozen Fruits/Fruit Products,FRUIT & VEGETABLE PRODUCTS,Frozen Fruits/Fruit Products,N/A,not_specified,0,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+410,Dehydrated Fruits,FRUIT & VEGETABLE PRODUCTS,Dehydrated Fruits,N/A,available,1,available,8,available,not_specified,0,available,4,available,7,not_specified,0,not_specified,0
+411,Fruit Cheese,FRUIT & VEGETABLE PRODUCTS,Fruit Cheese,N/A,available,1,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+412,"Jams, Fruit Jellies And Marmalades",FRUIT & VEGETABLE PRODUCTS,"Jams, Fruit Jellies And Marmalades",N/A,available,2,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+413,Carbonated Fruit Beverages Or Fruit Drinks,FRUIT & VEGETABLE PRODUCTS,Carbonated Fruit Beverages Or Fruit Drinks,N/A,available,2,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+414,Soyabean Sauce,FRUIT & VEGETABLE PRODUCTS,Soyabean Sauce,N/A,available,3,available,7,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,1
+415,Culinary Pastes / Fruits And Vegetable Sauces Other Than Tomato Sauce And Soya Sauce,FRUIT & VEGETABLE PRODUCTS,Culinary Pastes / Fruits And Vegetable Sauces Other Than Tomato Sauce And Soya Sauce,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+416,Tomato Ketchup And Tomato Sauce,FRUIT & VEGETABLE PRODUCTS,Tomato Ketchup And Tomato Sauce,N/A,available,2,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+417,"Candied, Crystallised And Glazed Fruit / Vegetable / Rhizome / Fruit Peel",FRUIT & VEGETABLE PRODUCTS,"Candied, Crystallised And Glazed Fruit / Vegetable / Rhizome / Fruit Peel",N/A,available,2,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+418,Murabba,FRUIT & VEGETABLE PRODUCTS,Murabba,N/A,available,2,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+419,Cocoa Butter,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Cocoa Butter,available,13,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+420,Refined Salseed Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Refined Salseed Fat,available,18,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+421,Kokum Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Kokum Fat,available,19,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+422,Mango Kernel Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Mango Kernel Fat,available,18,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+423,Dhupa Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Dhupa Fat,available,19,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+424,Phulwara Fat,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Phulwara Fat,available,19,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+425,Arrowroot,CEREALS AND CEREAL PRODUCTS,Starchy Foods,Arrowroot,available,10,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,3
+426,Expeller Pressed Edible Groundnut Flour,CEREALS AND CEREAL PRODUCTS,Expeller Pressed Flour,Expeller Pressed Edible Groundnut Flour,available,7,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+427,Vanaspati,"FATS, OILS AND FAT EMULSIONS",Hydrogenated Vegetable Oils,Vanaspati,available,15,not_specified,0,available,not_specified,0,not_specified,0,available,8,not_specified,0,available,2
+428,Bakery Shortening,"FATS, OILS AND FAT EMULSIONS",Hydrogenated Vegetable Oils,Bakery Shortening,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,8,not_specified,0,available,2
+429,Wheat Bran,CEREALS AND CEREAL PRODUCTS,Wheat Bran,N/A,available,5,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+430,Non- Fermented Soybean Products,CEREALS AND CEREAL PRODUCTS,Non- Fermented Soybean Products,N/A,available,25,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+431,Cassava Or Tapioca Product (Gari),CEREALS AND CEREAL PRODUCTS,Cassava Or Tapioca Product (Gari),N/A,available,10,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+432,Bakery And Industrial Margarine,"FATS, OILS AND FAT EMULSIONS",Margarine And Fat Spreads,Bakery And Industrial Margarine,available,17,not_specified,0,available,not_specified,0,not_specified,0,available,8,not_specified,0,available,2
+433,Edible Cassava Or Tapioca Flour,CEREALS AND CEREAL PRODUCTS,Edible Cassava Or Tapioca Flour,N/A,available,5,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,3
+434,Roasted Bengal Gram Flour ( Chana Sattu),CEREALS AND CEREAL PRODUCTS,Roasted Bengal Gram Flour ( Chana Sattu),N/A,available,7,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+435,Ragi Flour,CEREALS AND CEREAL PRODUCTS,Ragi Flour,N/A,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+436,Breakfast Cereal,CEREALS AND CEREAL PRODUCTS,Breakfast Cereal,N/A,available,2,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+437,Fat Spread,"FATS, OILS AND FAT EMULSIONS",Margarine And Fat Spreads,Fat Spread,available,16,not_specified,0,available,not_specified,0,not_specified,0,available,8,not_specified,0,available,2
+438,Peanut Butter,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Peanut Butter,available,7,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+439,Shea Butter,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Shea Butter,available,18,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+440,Borneo Tallow/ Illipe Butter,"FATS, OILS AND FAT EMULSIONS",Edible Fats,Borneo Tallow/ Illipe Butter,available,18,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+441,Malted Milk Food,CEREALS AND CEREAL PRODUCTS,Malted And Malt Based Foods,Malted Milk Food,available,30,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+442,Pasta Products,CEREALS AND CEREAL PRODUCTS,Macaroni Products,Pasta Products,available,2,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+443,Durum Wheat,CEREALS AND CEREAL PRODUCTS,Food Grains,Durum Wheat,available,11,not_specified,0,available,not_specified,0,available,53,available,7,not_specified,0,available,4
+446,Pulses,CEREALS AND CEREAL PRODUCTS,Food Grains,Pulses,available,6,not_specified,0,available,not_specified,0,available,19,available,7,not_specified,0,available,2
+448,Chia Seeds,CEREALS AND CEREAL PRODUCTS,Food Grains,Chia Seeds,available,7,not_specified,0,available,not_specified,0,available,19,available,7,not_specified,0,available,2
+449,Maize Starch,CEREALS AND CEREAL PRODUCTS,Maize Starch,N/A,available,8,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+450,Corn Flakes,CEREALS AND CEREAL PRODUCTS,Corn Flakes,N/A,available,4,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+451,Custard Powder,CEREALS AND CEREAL PRODUCTS,Custard Powder,N/A,available,3,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+452,Malt Based Foods (Malt Food),CEREALS AND CEREAL PRODUCTS,Malted And Malt Based Foods,Malt Based Foods (Malt Food),available,12,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+453,Malt Extract,CEREALS AND CEREAL PRODUCTS,Malted And Malt Based Foods,Malt Extract,available,18,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+454,Oat Products,CEREALS AND CEREAL PRODUCTS,Oat Products,N/A,available,12,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+455,Solvent Extract Soya Flour,CEREALS AND CEREAL PRODUCTS,Solvent Extracted Flours,Solvent Extract Soya Flour,available,10,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+456,Solvent Extracted Groundnut Flour,CEREALS AND CEREAL PRODUCTS,Solvent Extracted Flours,Solvent Extracted Groundnut Flour,available,10,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+457,Solvent Extracted Sesame Flour,CEREALS AND CEREAL PRODUCTS,Solvent Extracted Flours,Solvent Extracted Sesame Flour,available,11,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+458,Solvent Extracted Coconut Flour,CEREALS AND CEREAL PRODUCTS,Solvent Extracted Flours,Solvent Extracted Coconut Flour,available,10,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+459,Solvent Extracted Cotton Seed Flour,CEREALS AND CEREAL PRODUCTS,Solvent Extracted Flours,Solvent Extracted Cotton Seed Flour,available,13,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+460,Synthetic Syrup Or Sharbat,FRUIT & VEGETABLE PRODUCTS,Synthetic Syrup Or Sharbat,N/A,available,1,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+461,Synthetic Syrup For Use In Dispensers For Carbonated Water,FRUIT & VEGETABLE PRODUCTS,Synthetic Syrup For Use In Dispensers For Carbonated Water,N/A,available,1,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+462,Ginger Cocktail,FRUIT & VEGETABLE PRODUCTS,Ginger Cocktail,N/A,available,1,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+463,"Squashes, Crushes, Fruit Syrups/Fruit Sharbats And Barley Water",FRUIT & VEGETABLE PRODUCTS,"Squashes, Crushes, Fruit Syrups/Fruit Sharbats And Barley Water",N/A,available,15,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+464,"Fruit/Vegetable, Cereal Flakes",FRUIT & VEGETABLE PRODUCTS,"Fruit/Vegetable, Cereal Flakes",N/A,available,3,available,8,not_specified,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+465,Fruit Bar/ Toffee,FRUIT & VEGETABLE PRODUCTS,Fruit Bar/ Toffee,N/A,available,3,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+466,Tamarind Pulp/Puree And Concentrate,FRUIT & VEGETABLE PRODUCTS,Tamarind Pulp/Puree And Concentrate,N/A,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+467,Concentrated Fruit Vegetable Juice /Pulp / Puree With Preservatives For Industrial Use Only,FRUIT & VEGETABLE PRODUCTS,Concentrated Fruit Vegetable Juice /Pulp / Puree With Preservatives For Industrial Use Only,N/A,available,72,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+468,Fruit/Vegetable Juice / Pulp/ Puree With Preservatives For Industrial Use Only,FRUIT & VEGETABLE PRODUCTS,Fruit/Vegetable Juice / Pulp/ Puree With Preservatives For Industrial Use Only,N/A,not_specified,0,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+469,Soup Powders,FRUIT & VEGETABLE PRODUCTS,Soup Powders,N/A,available,2,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+470,FENNY OR FENI,FENNY OR FENI,N/A,N/A,available,16,not_specified,0,available,not_specified,0,not_specified,0,available,4,not_specified,0,not_specified,0
+471,Instant Noodle (Not Applied To Noodle Seasoning),CEREALS AND CEREAL PRODUCTS,Macaroni Products,Instant Noodle (Not Applied To Noodle Seasoning),available,6,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+474,Thermally Processed Tomato Puree And Paste,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Tomato Puree And Paste,N/A,available,2,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+475,Thermally Processed Concentrated Fruit / Vegetable Juice Pulp/ Puree,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Concentrated Fruit / Vegetable Juice Pulp/ Puree,N/A,available,72,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+476,Thermally Processed Fruit Pulp / Puree And Sweetened Fruit Pulp / Puree Other Than Mango,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Pulp / Puree And Sweetened Fruit Pulp / Puree Other Than Mango,N/A,available,2,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+477,Thermally Processed Mango Pulp / Puree And Sweetened Mango Pulp / Puree,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Mango Pulp / Puree And Sweetened Mango Pulp / Puree,N/A,available,3,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+478,Thermally Processed Fruit Beverages / Fruit Drink/ Ready To Serve Fruit Beverages,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Beverages / Fruit Drink/ Ready To Serve Fruit Beverages,N/A,available,2,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+479,Frozen Vegetables,FRUIT & VEGETABLE PRODUCTS,Frozen Vegetables,N/A,not_specified,0,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+480,Dehydrated Vegetables,FRUIT & VEGETABLE PRODUCTS,Dehydrated Vegetables,N/A,available,60,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+481,Semi Sparkling Or Crackling,WINE,Wine Based On Carbon Dioxide Content,Semi Sparkling Or Crackling,available,10,not_specified,0,not_specified,not_specified,0,not_specified,0,available,4,not_specified,0,available,1
+482,Sparkling,WINE,Wine Based On Carbon Dioxide Content,Sparkling,available,9,not_specified,0,not_specified,not_specified,0,not_specified,0,available,4,not_specified,0,available,1
+483,Carbonated Wine,WINE,Wine Based On Carbon Dioxide Content,Carbonated Wine,available,9,not_specified,0,not_specified,not_specified,0,not_specified,0,available,4,not_specified,0,available,1
+484,Formulated Supplements For Children,CEREALS AND CEREAL PRODUCTS,Malted And Malt Based Foods,Formulated Supplements For Children,available,5,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+485,Frozen Beans,FRUIT & VEGETABLE PRODUCTS,Frozen Vegetables,Frozen Beans,available,17,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+486,Frozen Cauliflower,FRUIT & VEGETABLE PRODUCTS,Frozen Vegetables,Frozen Cauliflower,available,50,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+487,Frozen Peas,FRUIT & VEGETABLE PRODUCTS,Frozen Vegetables,Frozen Peas,available,5,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+488,Frozen Spinach,FRUIT & VEGETABLE PRODUCTS,Frozen Vegetables,Frozen Spinach,available,37,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+489,Walnut Kernels,FRUIT & VEGETABLE PRODUCTS,Nuts And Raisins,Walnut Kernels,available,6,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+490,Thermally Processed Tomato Juice,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Tomato Juice,N/A,available,8,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+491,Vegetable Juices,FRUIT & VEGETABLE PRODUCTS,Vegetable Juices,N/A,not_specified,0,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+492,Canned Chestnuts And Canned Chestnut Puree,FRUIT & VEGETABLE PRODUCTS,Canned Chestnuts And Canned Chestnut Puree,N/A,available,17,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+493,Thermally Processed Fruit Nectars,FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Nectars,N/A,available,24,available,10,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+494,Canned Or Retort Pouch Meat Products,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Canned Or Retort Pouch Meat Products,not_specified,0,available,7,available,not_specified,0,available,56,available,7,available,102,available,1
+495,Yellow Pea Powder,CEREALS AND CEREAL PRODUCTS,Yellow Pea Powder,N/A,available,5,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+496,Comminuted Or Restructured Meat Products,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Comminuted Or Restructured Meat Products,available,14,available,10,available,not_specified,0,available,43,available,7,available,102,available,1
+497,"Cured Or Pickled And Cooked Or Smoked Meat Products, Or Both",MEAT AND MEAT PRODUCTS,Meat And Meat Products,"Cured Or Pickled And Cooked Or Smoked Meat Products, Or Both",not_specified,0,available,15,available,not_specified,0,available,43,available,7,available,102,available,1
+498,Animal Casings,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Animal Casings,not_specified,0,not_specified,0,available,not_specified,0,available,43,available,7,available,102,available,1
+499,Dried Or Dehydrated Meat Products,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Dried Or Dehydrated Meat Products,not_specified,0,available,14,available,not_specified,0,available,43,available,7,available,102,available,1
+500,Cooked Or Semi-Cooked Meat Products.,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Cooked Or Semi-Cooked Meat Products.,not_specified,0,available,11,available,not_specified,0,available,43,available,7,available,102,available,1
+501,Marinated Meat Products,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Marinated Meat Products,not_specified,0,available,5,available,not_specified,0,available,43,available,7,available,102,available,1
+502,Fermented Meat Products,MEAT AND MEAT PRODUCTS,Meat And Meat Products,Fermented Meat Products,not_specified,0,available,5,available,not_specified,0,available,43,available,7,available,102,available,1
+503,Virgin Coconut Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Virgin Coconut Oil,available,17,not_specified,0,available,not_specified,0,available,1,available,7,not_specified,0,available,2
+504,Olive Oil (2.2.1.8) / Refined Olive Oil(i),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Refined Olive Oil(i),available,25,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+505,Olive Oil (2.2.1.8) / Extra Virgin Olive Oil(Iii),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Extra Virgin Olive Oil(Iii),available,25,not_specified,0,available,available,21,available,1,available,7,not_specified,0,available,2
+506,Canned Fishery Products (2.6.1.8) / Canned Finfish(i),FISH AND FISH PRODUCTS,Fish And Fish Products,Canned Fishery Products (2.6.1.8) / Canned Finfish(i),available,36,available,2,available,not_specified,0,available,2,available,8,available,30,available,4
+507,Canned Fishery Products (2.6.1.8) / Canned Crustaceans(Ii),FISH AND FISH PRODUCTS,Fish And Fish Products,Canned Fishery Products (2.6.1.8) / Canned Crustaceans(Ii),available,12,available,2,available,not_specified,0,available,2,available,8,available,33,available,2
+508,Olive Oil (2.2.1.8) / Virgin Olive Oil(Iv),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Virgin Olive Oil(Iv),available,25,not_specified,0,available,available,21,available,1,available,7,not_specified,0,available,2
+509,Canned Fishery Products (2.6.1.8) / Canned Molluscs(Iii),FISH AND FISH PRODUCTS,Fish And Fish Products,Canned Fishery Products (2.6.1.8) / Canned Molluscs(Iii),available,14,available,2,available,not_specified,0,available,2,available,8,available,30,available,8
+510,Frozen Shrimp (2.6.1.1) / Raw Frozen Shrimp(i),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Shrimp (2.6.1.1) / Raw Frozen Shrimp(i),not_specified,0,available,4,available,not_specified,0,available,2,available,8,available,33,available,2
+511,Frozen Shrimp (2.6.1.1) / Cooked Frozen Shrimp(Ii),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Shrimp (2.6.1.1) / Cooked Frozen Shrimp(Ii),not_specified,0,available,6,available,not_specified,0,available,2,available,8,available,33,available,2
+512,Frozen Lobsters (2.6.1.2) / Raw Frozen Lobster(i),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Lobsters (2.6.1.2) / Raw Frozen Lobster(i),not_specified,0,available,4,available,not_specified,0,available,2,available,8,available,28,available,2
+513,Frozen Lobsters (2.6.1.2) / Cooked Frozen Lobster(Ii),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Lobsters (2.6.1.2) / Cooked Frozen Lobster(Ii),not_specified,0,available,6,available,not_specified,0,available,2,available,8,available,28,available,2
+514,Frozen Clam Meat (2.6.1.17) / Raw Frozen Clam Meat (Rfcm)(I),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Clam Meat (2.6.1.17) / Raw Frozen Clam Meat (Rfcm)(I),available,4,available,4,available,not_specified,0,available,2,available,8,available,30,available,7
+515,Frozen Clam Meat (2.6.1.17) / Cooked Frozen Clam Meat (Cfcm)(Ii),FISH AND FISH PRODUCTS,Fish And Fish Products,Frozen Clam Meat (2.6.1.17) / Cooked Frozen Clam Meat (Cfcm)(Ii),available,4,available,6,available,not_specified,0,available,2,available,8,available,30,available,7
+516,Live And Raw Bivalve Molluscs (2.6.1.18) / Live Bivalve Molluscs(1),FISH AND FISH PRODUCTS,Fish And Fish Products,Live And Raw Bivalve Molluscs (2.6.1.18) / Live Bivalve Molluscs(1),available,2,available,1,available,not_specified,0,available,2,available,8,available,30,available,7
+517,Live And Raw Bivalve Molluscs (2.6.1.18) / Raw Bivalve Molluscs(2),FISH AND FISH PRODUCTS,Fish And Fish Products,Live And Raw Bivalve Molluscs (2.6.1.18) / Raw Bivalve Molluscs(2),available,4,available,4,available,not_specified,0,available,2,available,7,available,30,available,6
+518,Olive Oil (2.2.1.8) / Ordinary Virgin Olive Oil(v),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Ordinary Virgin Olive Oil(v),available,25,not_specified,0,available,available,21,available,1,available,7,not_specified,0,available,2
+519,Olive Oil (2.2.1.8) / Refined Olive-Pomace Oil(Vi),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Refined Olive-Pomace Oil(Vi),available,25,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+520,Olive Oil (2.2.1.8) / Olive-Pomace Oil(Vii),"FATS, OILS AND FAT EMULSIONS",Oils,Olive Oil (2.2.1.8) / Olive-Pomace Oil(Vii),available,25,not_specified,0,available,available,21,available,1,available,7,not_specified,0,available,2
+521,Grapeseed Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Grapeseed Oil,available,16,not_specified,0,available,available,21,available,1,available,7,not_specified,0,available,2
+522,Stout And Porter,BEER,Ale,Stout And Porter,available,5,available,4,available,not_specified,0,not_specified,0,available,3,not_specified,0,available,4
+524,"Processed Nuts, Including Coated Nuts And Nut Mixtures",READY-TO-EAT SAVORIES,"Processed Nuts, Including Coated Nuts And Nut Mixtures",N/A,not_specified,0,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,4
+525,"Snacks - Potato, Cereal, Flour Or Starch Based (From Roots And Tubers, Pulses And Legumes)",READY-TO-EAT SAVORIES,"Snacks - Potato, Cereal, Flour Or Starch Based (From Roots And Tubers, Pulses And Legumes)",N/A,not_specified,0,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+526,Snacks - Fish Based,READY-TO-EAT SAVORIES,Snacks - Fish Based,N/A,not_specified,0,available,6,available,not_specified,0,available,2,available,7,available,4,available,1
+528,Others — Fruit Juices - Thermally Processed Fruit Juices (FRUIT & VEGETABLE PRODUCTS),FRUIT & VEGETABLE PRODUCTS,Fruit Juices - Thermally Processed Fruit Juices,Others,available,144,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+529,Fruit Juices - Thermally Processed Fruit Juices (Retort Processed),FRUIT & VEGETABLE PRODUCTS,Fruit Juices - Thermally Processed Fruit Juices (Retort Processed),N/A,available,144,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+530,Thermally Processed Concentrated Fruit / Vegetable Juice Pulp/ Puree (Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Concentrated Fruit / Vegetable Juice Pulp/ Puree (Retort Processed),N/A,available,144,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+531,Thermally Processed Fruit Beverages / Fruit Drink/ Ready To Serve Fruit Beverages (Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Beverages / Fruit Drink/ Ready To Serve Fruit Beverages (Retort Processed),N/A,available,2,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+532,Thermally Processed Fruit Nectars(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Nectars(Retort Processed),N/A,available,24,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+533,Thermally Processed Fruit Pulp / Puree And Sweetened Fruit Pulp / Puree Other Than Mango(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Pulp / Puree And Sweetened Fruit Pulp / Puree Other Than Mango(Retort Processed),N/A,available,2,available,7,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+534,Thermally Processed Fruits(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruits(Retort Processed),N/A,available,2,available,8,available,not_specified,0,not_specified,0,available,5,not_specified,0,not_specified,0
+535,Thermally Processed Mango Pulp / Puree And Sweetened Mango Pulp / Puree(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Mango Pulp / Puree And Sweetened Mango Pulp / Puree(Retort Processed),N/A,available,3,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+536,Thermally Processed Tomato Puree And Paste(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Tomato Puree And Paste(Retort Processed),N/A,available,2,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+537,Thermally Processed Vegetable Soups(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Vegetable Soups(Retort Processed),N/A,available,1,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,1
+538,Thermally Processed Vegetables(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Vegetables(Retort Processed),N/A,available,5,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+539,Vegetable Juices (Thermally Processed),FRUIT & VEGETABLE PRODUCTS,Vegetable Juices (Thermally Processed),N/A,not_specified,0,available,10,available,not_specified,0,not_specified,0,available,9,not_specified,0,not_specified,0
+540,Vegetable Juices(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Vegetable Juices(Retort Processed),N/A,not_specified,0,available,8,available,not_specified,0,not_specified,0,available,9,not_specified,0,not_specified,0
+541,Thermally Processed Fruit Salad/Cocktail/Mix(Retort Processed),FRUIT & VEGETABLE PRODUCTS,Thermally Processed Fruit Salad/Cocktail/Mix(Retort Processed),N/A,available,8,available,8,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+542,Multigrain Flour (Atta),CEREALS AND CEREAL PRODUCTS,Multigrain Flour (Atta),N/A,available,9,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+543,Mixed Millet Flour,CEREALS AND CEREAL PRODUCTS,Mixed Millet Flour,N/A,available,7,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+544,Sugar Boiled Confectionery,SWEETS & CONFECTIONERY,Sugar Boiled Confectionery,N/A,available,7,not_specified,0,available,not_specified,0,not_specified,0,available,7,not_specified,0,not_specified,0
+545,Infant Formula,INFANT MILK SUBSTITUTE,Infant Formula,N/A,available,12,available,10,available,not_specified,0,not_specified,0,available,6,not_specified,0,not_specified,0
+546,Milk Cereal Based Complementary Food,INFANT FOOD,Milk Cereal Based Complementary Food,N/A,available,11,available,10,available,not_specified,0,not_specified,0,available,5,not_specified,0,not_specified,0
+547,Processed Cereal Based Complementary Food,INFANT FOOD,Processed Cereal Based Complementary Food,N/A,available,9,available,10,available,not_specified,0,not_specified,0,available,6,not_specified,0,not_specified,0
+548,Follow-Up Formula,INFANT FOOD,Follow-Up Formula,N/A,available,7,available,10,available,not_specified,0,not_specified,0,available,6,not_specified,0,not_specified,0
+550,Preterm Infant Milk Substitute,FOOD FOR SPECIAL MEDICAL PURPOSE INTENDED FOR INFANTS,Preterm Infant Milk Substitute,N/A,available,8,available,10,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+551,Lactose Free Infant Milk Substitutes,FOOD FOR SPECIAL MEDICAL PURPOSE INTENDED FOR INFANTS,Lactose Free Infant Milk Substitutes,N/A,available,2,available,10,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+552,Hypoallergenic Infant Milk Substitutes,FOOD FOR SPECIAL MEDICAL PURPOSE INTENDED FOR INFANTS,Hypoallergenic Infant Milk Substitutes,N/A,available,2,available,10,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+553,Food For Special Medical Purpose Intended For - Infants,FOOD FOR SPECIAL MEDICAL PURPOSE INTENDED FOR INFANTS,Food For Special Medical Purpose Intended For - Infants,N/A,not_specified,0,available,10,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+555,Moringa Oil,"FATS, OILS AND FAT EMULSIONS",Oils,Moringa Oil,available,13,not_specified,0,available,available,22,available,1,available,7,not_specified,0,available,2
+556,Imported Safflower Seed Oil And Safflower Seed Oil (High Oleic Acid – Imported Or Domestic),"FATS, OILS AND FAT EMULSIONS",Oils,Imported Safflower Seed Oil And Safflower Seed Oil (High Oleic Acid – Imported Or Domestic),available,21,not_specified,0,available,available,21,available,2,available,7,not_specified,0,available,2
+558,Biscuit,CEREALS AND CEREAL PRODUCTS,Bakery Products,Biscuit,available,2,available,4,available,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+559,Bread,CEREALS AND CEREAL PRODUCTS,Bakery Products,Bread,available,2,available,4,available,not_specified,0,not_specified,0,available,6,not_specified,0,available,2
+561,"Others — Solvent Extracted Crude Vegetable Oils (FATS, OILS AND FAT EMULSIONS)","FATS, OILS AND FAT EMULSIONS",Solvent Extracted Crude Vegetable Oils,Others,available,192,not_specified,0,not_specified,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+562,Triticale,CEREALS AND CEREAL PRODUCTS,Food Grains,Triticale,available,6,not_specified,0,not_specified,not_specified,0,available,19,available,7,not_specified,0,available,2
+563,Papad,CEREALS AND CEREAL PRODUCTS,Papad,N/A,available,4,not_specified,0,not_specified,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+564,Millets,CEREALS AND CEREAL PRODUCTS,Food Grains,Millets,available,8,not_specified,0,available,not_specified,0,available,20,available,7,not_specified,0,available,2
+565,Rice Flour For Preparation Of Fortified Rice Kernel (Frk),CEREALS AND CEREAL PRODUCTS,Food Grains,Rice Flour For Preparation Of Fortified Rice Kernel (Frk),available,7,not_specified,0,available,not_specified,0,available,98,available,7,not_specified,0,available,2
+566,Fermented Soybean Curd,CEREALS AND CEREAL PRODUCTS,Fermented Soybean Curd,N/A,available,8,not_specified,0,not_specified,not_specified,0,not_specified,0,available,7,not_specified,0,available,2
+567,Dairy Permeate Powders,DAIRY PRODUCTS AND ANALOGUES,Dairy Permeate Powders,N/A,available,6,available,10,available,not_specified,0,available,54,available,2,not_specified,0,not_specified,0
+568,Food For Infants Based On Traditional Food Ingredients,INFANT FOOD,Food For Infants Based On Traditional Food Ingredients,N/A,not_specified,0,available,10,available,not_specified,0,not_specified,0,available,6,not_specified,0,not_specified,0
+569,Foods For Infants With Inborn Errors Of Metabolism (Iem),FOOD FOR SPECIAL MEDICAL PURPOSE INTENDED FOR INFANTS,Foods For Infants With Inborn Errors Of Metabolism (Iem),N/A,not_specified,0,available,10,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+570,Instant Tea In Solid Form,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Tea,Instant Tea In Solid Form,available,4,available,3,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+571,Non-Carbonated Water Based Beverages( Non- Alcoholic),"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Beverages Non-Alcoholic,Non-Carbonated Water Based Beverages( Non- Alcoholic),available,10,available,3,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,available,1
+572,Drinking Water (Purified),"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Drinking Water (Purified),N/A,available,24,available,5,not_specified,not_specified,0,available,13,available,7,not_specified,0,available,1
+573,Flavored Beer,DRAUGHT BEER,Flavored Beer,N/A,available,10,available,4,available,not_specified,0,not_specified,0,available,4,not_specified,0,available,4
+574,Vitamin-Mineral Premix For Preparation Of Fortified Rice Kernel (Frk),CEREALS AND CEREAL PRODUCTS,Food Grains,Vitamin-Mineral Premix For Preparation Of Fortified Rice Kernel (Frk),available,4,not_specified,0,available,not_specified,0,available,98,available,7,not_specified,0,available,2
+575,Fortified Rice Kernel,CEREALS AND CEREAL PRODUCTS,Food Grains,Fortified Rice Kernel,available,10,not_specified,0,available,not_specified,0,available,98,available,7,not_specified,0,available,2
+576,Basmati Rice,CEREALS AND CEREAL PRODUCTS,Food Grains,Basmati Rice,available,76,not_specified,0,available,not_specified,0,available,97,available,7,not_specified,0,available,2
+577,Blended Rice,CEREALS AND CEREAL PRODUCTS,Food Grains,Blended Rice,not_specified,0,not_specified,0,available,not_specified,0,available,97,available,7,not_specified,0,available,2
+578,Others — Milk And Milk Products (DAIRY PRODUCTS AND ANALOGUES),DAIRY PRODUCTS AND ANALOGUES,Milk And Milk Products,Others,available,1,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+579,Decaffeinated Roasted And Ground Coffee-Chicory Mixture,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee - Chicory Mixture,Decaffeinated Roasted And Ground Coffee-Chicory Mixture,available,5,not_specified,0,available,not_specified,0,available,7,available,7,not_specified,0,not_specified,0
+580,Decaffeinated Instant Coffee-Chicory Mixture,"BEVERAGES, (OTHER THAN DAIRY AND FRUITS & VEGETABLES BASED)",Coffee - Chicory Mixture,Decaffeinated Instant Coffee-Chicory Mixture,available,6,not_specified,0,available,not_specified,0,available,7,available,2,not_specified,0,not_specified,0
+581,FOOD FOR SPECIAL DIETARY USE (FSDU),FOOD FOR SPECIAL DIETARY USE (FSDU),N/A,N/A,not_specified,0,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
+582,PREBIOTIC FOOD AND PROBIOTIC FOOD (PRE-PRO),PREBIOTIC FOOD AND PROBIOTIC FOOD (PRE-PRO),N/A,N/A,not_specified,0,not_specified,0,available,not_specified,0,not_specified,0,not_specified,0,not_specified,0,not_specified,0
