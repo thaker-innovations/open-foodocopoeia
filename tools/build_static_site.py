@@ -171,7 +171,7 @@ def product_page(product: dict) -> str:
     <section><div class="section-head"><h2>Microbiological requirements</h2><p>Sampling plans and hygiene or safety limits.</p></div>{microbiological_table(product)}</section>
     {regulatory_sections(product)}
     <section class="provenance"><div class="prov"><label>Retrieved</label><div>{text(provenance.get("retrieved_at") or "Not recorded")}</div></div><div class="prov"><label>Source fingerprint</label><div>{text(provenance.get("source_sha256") or "Not recorded")}</div></div></section>
-    <div class="actions"><a class="button" href="/api/v1/products/{product_id}">View JSON</a><a class="button secondary" href="/downloads/latest/quality-parameters.csv">Download quality parameters</a><a class="button secondary" href="/downloads/latest/microbiological-requirements.csv">Download microbiological requirements</a></div>
+    <div class="actions"><a class="button" href="/api/v1/products/{product_id}">View JSON</a></div>
   </article></main>
   <footer class="notice"><p>{text(DISCLAIMER)}</p></footer>
 </body>
