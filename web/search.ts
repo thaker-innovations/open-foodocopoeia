@@ -15,7 +15,7 @@ function element(tag: string, text?: string, className?: string): HTMLElement {
 
 function renderResult(result: SearchResult, query: string): HTMLElement {
   const link = element("a", undefined, "result") as HTMLAnchorElement;
-  link.href = `/product/?id=${encodeURIComponent(result.id)}&q=${encodeURIComponent(query)}`;
+  link.href = `/products/${encodeURIComponent(result.id)}/`;
   link.append(element("span", `#${result.id}`, "result-id"));
   const description = element("span");
   description.append(element("strong", result.name), element("small", result.category ?? ""));

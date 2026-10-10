@@ -25,6 +25,10 @@ export default {
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
     if (request.method !== "GET") return json({ error: "method_not_allowed" }, 405);
     const url = new URL(request.url);
+    if (url.pathname === "/product/") {
+      const identity = url.searchParams.get("id");
+      if (identity && /^\d+$/.test(identity)) return Response.redirect(new URL(`/products/${identity}/`, url), 301);
+    }
     if (url.pathname === "/api/v1/meta") return staticJson(env, request, "/data/manifest.json");
     if (url.pathname === "/api/v1/search") {
       const query = url.searchParams.get("q") ?? "";

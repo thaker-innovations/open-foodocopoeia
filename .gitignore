@@ -7,3 +7,6 @@ captures/
 work/
 coverage/
 public/search.js
+public/products/
+public/sitemap.xml
+public/robots.txt

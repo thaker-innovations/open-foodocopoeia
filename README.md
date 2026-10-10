@@ -30,8 +30,10 @@ provides the same behavior through the public API.
 - 47 products where the source gives no structured quality parameters
 
 The API uses a Cloudflare Worker and static assets—no database or paid hosting.
-See [API documentation](docs/api.md), [methodology](docs/methodology.md), and the
-[data notice](DATA-NOTICE.md).
+Every product also has a crawlable static page under `/products/{id}/`; the
+custom subdomain publishes `sitemap.xml` and `robots.txt`. See [API
+documentation](docs/api.md), [methodology](docs/methodology.md), and the [data
+notice](DATA-NOTICE.md).
 
 ## Local development
 
@@ -50,9 +52,10 @@ and checksums to GitHub Releases.
 
 - `scraper/` — respectful ASP.NET capture and deterministic normalization
 - `overrides/` — reviewed resolutions for source tables too irregular to infer
-- `tools/` — reproducible public artifact builder
+- `tools/` — reproducible dataset and static-site builders
 - `worker/` — API and ranked search
-- `public/` — immutable snapshots and static downloads
+- `web/` — browser MiniSearch entrypoint
+- `public/` — immutable snapshots, static downloads, and generated site assets
 
 Software is MIT licensed. See [DATA-NOTICE.md](DATA-NOTICE.md) for the separate
 data/source notice.
