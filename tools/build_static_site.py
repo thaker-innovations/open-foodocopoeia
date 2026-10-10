@@ -90,24 +90,27 @@ def coded_requirement_section(product: dict, key: str, title: str) -> str:
     if status == "not_specified":
         return ""
     rows = product.get(f"{key}_requirements", [])
+    method = product.get(f"{key}_test_method_text")
+    method_is_specified = bool(method and str(method).strip().upper() not in {"NS", "N/A", "NA", "-", "."})
     body = "".join(
         "<tr>"
         f'<td>{text(row.get("raw_code"))}</td>'
         f'<td>{text(row.get("analyte_or_requirement") or "—")}</td>'
         f'<td>{text(row.get("limit_text") or "—")}</td>'
+        f'<td>{text(row.get("test_method") or ("Section-level methods below" if method_is_specified else "Not specified by source"))}</td>'
         "</tr>" for row in rows
     )
     table = (
         '<div class="table-wrap"><table class="coded-table"><thead><tr><th>Source code</th>'
-        '<th>Analyte or requirement</th><th>Limit as published</th></tr></thead>'
+        '<th>Analyte or requirement</th><th>Limit as published</th><th>Test method</th></tr></thead>'
         f'<tbody>{body}</tbody></table></div>' if rows else ""
     )
     raw = product.get(f"{key}_text")
-    method = product.get(f"{key}_test_method_text")
     source = f'<details class="method-note"><summary>Source section text</summary><p>{text(raw)}</p></details>' if raw else ""
-    methods = f'<details class="method-note"><summary>Test methods as published</summary><p>{text(method)}</p></details>' if method else ""
+    published_method = text(method) if method_is_specified else "Not specified by the source."
+    methods = f'<div class="published-methods"><strong>Test methods as published</strong><p>{published_method}</p></div>'
     count = f"{len(rows)} coded requirements" if rows else "Narrative requirement"
-    return f'<section><div class="section-head"><h2>{text(title)}</h2><p>{count}</p></div>{table}{source}{methods}</section>'
+    return f'<section><div class="section-head"><h2>{text(title)}</h2><p>{count}</p></div>{methods}{table}{source}</section>'
 
 
 def fatty_acid_section(product: dict) -> str:
